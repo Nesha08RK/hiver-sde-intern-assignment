@@ -1,0 +1,356 @@
+example_id,conversation_root_id,tweet_id,customer_message,context,weak_intent,reviewer_intent,reviewer_notes
+human-train-0001,1260961,1260961,There's still time for it to ship... right? @115821 ... please make sure this ships on time... https://t.co/XiQdIkkhma,"CUSTOMER: There's still time for it to ship... right? @115821 ... please make sure this ships on time... https://t.co/XiQdIkkhma
+AmazonHelp: @414181 There sure is! Some orders ship and deliver within the same day. If it doesn't arrive on Friday, please contact us. ^BE
+CUSTOMER: @AmazonHelp Ok cool! If it doesn't ship i'll make sure to contact you guys.",Delivery and order fulfillment,Customer service escalation and feedback,
+human-train-0002,2474953,2474953,@115850 hey Its been 2 hours since i recharged on amazon pay and the amount isn’t reflecting yet and i need to order..whats the hiccup?,"CUSTOMER: @115850 hey Its been 2 hours since i recharged on amazon pay and the amount isn’t reflecting yet and i need to order..whats the hiccup?
+AmazonHelp: @707558 That's Unusual, Omkar. Please connect to us here: https://t.co/vlvfJr4nN9 and we’ll be glad to help you. ^NK
+CUSTOMER: @AmazonHelp No worries.. i just got that sorted",Delivery and order fulfillment,Delivery and order fulfillment,
+human-train-0003,511662,511662,"@115821 Received a package today that was nothing I ordered.  Being polite, I contacted you to find the correct person.  I was told to keep the package without asking what was in the box.","CUSTOMER: @115821 Received a package today that was nothing I ordered.  Being polite, I contacted you to find the correct person.  I was told to keep the package without asking what was in the box.
+AmazonHelp: @237630 Did we provide a reason for keeping the package? Was the package addressed to you? ^LA
+CUSTOMER: @AmazonHelp I supplied all the information on the label, including the tracking number, the person could not locate the package/order.   The lady consulted with a supervisor then told me to keep the package.
+AmazonHelp: @237630 Are you able to locate a packing slip with an order number on it within the package?    ^FJ
+CUSTOMER: @AmazonHelp No packing slip.   You seem more interested in the package than customer service.",Delivery and order fulfillment,Customer service escalation and feedback,
+human-train-0004,438014,438014,@115821 I have e-mailed twice about an order that was delivered with the wrong items and have not received a responce.,"CUSTOMER: @115821 I have e-mailed twice about an order that was delivered with the wrong items and have not received a responce.
+AmazonHelp: @219057 I'm sorry you haven't received a reply! Please contact us via chat or phone for real-time help: https://t.co/hApLpMlfHN ^WT",Delivery and order fulfillment,"Product condition, item accuracy, and seller issues",
+human-train-0005,1622631,1622631,Yet another delivery failure by @115821.  Waiting around in vain for a premium delivery. The Prime promise is so often broken. Such a shame,"CUSTOMER: Yet another delivery failure by @115821.  Waiting around in vain for a premium delivery. The Prime promise is so often broken. Such a shame
+AmazonHelp: @497125 We don't want to disappoint you, Aph. Have we missed the estimated delivery date provided at checkout/in your e-mail? ^FD",Delivery and order fulfillment,"Digital products, devices, and apps",
+human-train-0006,2677864,2677864,"@115821 Hi, USPS lost my last order- can I get a refund or have it re-shipped?","CUSTOMER: @115821 Hi, USPS lost my last order- can I get a refund or have it re-shipped?
+AmazonHelp: @636008 We'd love to look into available options with you! Please reach us via phone/chat here: https://t.co/hApLpMlfHN ^KP",Delivery and order fulfillment,Prime membership and benefits,
+human-train-0007,1393943,1393943,"@115850 package to be delivered today, called no of amzagent who said he is on leave and no regard for customer. Package untraceable","CUSTOMER: @115850 package to be delivered today, called no of amzagent who said he is on leave and no regard for customer. Package untraceable
+AmazonHelp: @444182 I'm sorry about the situation. Kindly connect with us here: https://t.co/rS49hgaADF we'll check this for you. ^PJ",Delivery and order fulfillment,"Returns, refunds, and charges",
+human-train-0008,2776364,2776364,@118919 Order ID: 406-6562388-3825941  your delivery person refused to deliver at my PLACE yesterday and today also same thing. Even after multiple complaints to ur customer care. No action Taken. DISAPPOINTED WITH YOUR SERVICE THIS TIME.,"CUSTOMER: @118919 Order ID: 406-6562388-3825941  your delivery person refused to deliver at my PLACE yesterday and today also same thing. Even after multiple complaints to ur customer care. No action Taken. DISAPPOINTED WITH YOUR SERVICE THIS TIME.
+AmazonHelp: @775760 We would like to help you. Please share your details with us here: https://t.co/GIJyeYqKE0. We'll get in touch shortly. Please don't provide your order details as we consider it personal information. Our twitter page is visible to public.^CB",Delivery and order fulfillment,"Pricing, offers, and product availability",
+human-train-0009,286332,286332,"Hey @AmazonHelp, placed an order on 3rd for Prime delivery - still not arrived! Birthday present for today. What can you do?","CUSTOMER: Hey @AmazonHelp, placed an order on 3rd for Prime delivery - still not arrived! Birthday present for today. What can you do?
+AmazonHelp: @184213 We're here to help, Kim! Have you checked the delivery date of your order? You can find this here: https://t.co/aaDyEz1VgE ^VB
+CUSTOMER: @AmazonHelp I have indeed. It says 4-6 oct, but it's not turned up and the delivery address is to a business which has closed for the day :(
+AmazonHelp: @184213 I know this is frustrating! The courier has until 21:00 to deliver the item. We ask that you wait until then. Keep us posted! ^AL
+CUSTOMER: @AmazonHelp Understood, but the building is closed for the day so there won't be anybody to deliver to!
+AmazonHelp: @184213 We'd like to look into available options with you. Please reach us via phone/chat here: https://t.co/JzP7hlA23B ^KP",Delivery and order fulfillment,"Pricing, offers, and product availability",
+human-train-0010,1228670,1228670,Maybe I'm not the best at math but Amazon Prime 2 day shipping takes 7days? @AmazonHelp https://t.co/XAkKzLLGz1,"CUSTOMER: Maybe I'm not the best at math but Amazon Prime 2 day shipping takes 7days? @AmazonHelp https://t.co/XAkKzLLGz1
+AmazonHelp: @408247 Two-Day Shipping refers to transit time, in business days. You can learn more on shipping, here: https://t.co/GJXDyPCYlJ ^AG
+CUSTOMER: @AmazonHelp Two business days=Friday. It says 1 day shipping=Monday. Today is Wednesday. 1-day should arrive tomorrow &amp; 2 day should arrive Friday.
+AmazonHelp: @408247 Some items may not be avail to ship right away. We aim to deliver by the date provided at checkout. Please keep us posted. ^JM
+CUSTOMER: @AmazonHelp They are in stock. Just another Amazon bait &amp; switch. I'm going to pick 1 day shipping so I get it Monday. Feel free to refund me the $5.99.
+CUSTOMER: @AmazonHelp And this one says 2 biz days is the 31st when it really is Friday the 27th. #AmazonMath https://t.co/Fsz6ikAQqy",Delivery and order fulfillment,Account access and security,
+human-train-0011,419894,419894,And the 'customer service' email I got was dreadful. Do you have a head office I can contact @115830 ?,"CUSTOMER: And the 'customer service' email I got was dreadful. Do you have a head office I can contact @115830 ?
+AmazonHelp: @118232 Hello-Please contact via the below link: https://t.co/JzP7hlA23B and we can transfer your concerns directly. Thank you. ^NV
+CUSTOMER: @AmazonHelp I go through that all the time. So unhelpful. I want to make an official complaint.
+AmazonHelp: @118232 Did you ask them for the head office details when you were onto them at anytime? ^PK
+CUSTOMER: @AmazonHelp I've asked every time I've complained. Never get given it.
+AmazonHelp: @118232 My team would like to personally look into this. Fill out the form here:https://t.co/mh2tyPE9qF and we will reach out! ^SA",Customer service escalation and feedback,Account access and security,
+human-train-0012,458905,458905,@115821 you need better customer service reps.,"CUSTOMER: @115821 you need better customer service reps.
+AmazonHelp: @223983 Please be sure to leave feedback in the survey at the bottom of the e-mail sent after speaking with us. Once completed, these are sent to management for review to help with coaching opportunities. ^EP",Customer service escalation and feedback,Other/Unclear/non-substantive,
+human-train-0013,170899,170899,"@115830 Can someone please DM me about your shocking customer service and crap Black Friday ordering.  You’re on a par with @252 right now, and the whole world knows how shit they are! 🤬😠😤","CUSTOMER: @115830 Can someone please DM me about your shocking customer service and crap Black Friday ordering.  You’re on a par with @252 right now, and the whole world knows how shit they are! 🤬😠😤
+AmazonHelp: @155855 We'd like to help! Please use the link below to DM with us. As a reminder we don't have access to your Amazon account; please refrain from providing personal or account details.  ^AG https://t.co/1XyLaGkcaN
+CUSTOMER: @AmazonHelp Are you able to trace online chats or do I need to screenshot what is happening ? I am beyond fed up with the *help* I’ve got tonight! 😤
+AmazonHelp: @155855 For security, we are unable to view customer account details on Twitter. However, our chats are recorded. Please let us know what's going on. ^BH
+CUSTOMER: @AmazonHelp It is far too long winded to discuss on Twitter. I have got nowhere with live chat. Am fed up with the way I’ve been treated by your customer services tonight 😩😤 What do I do now?
+AmazonHelp: @155855 Understood. Without posting account or order details, can you please tell us about the initial issue you were trying to get resolved when you contacted us? https://t.co/1XyLaGkcaN",Customer service escalation and feedback,Delivery and order fulfillment,
+human-train-0014,1652952,1652952,My father ordered Nokia Mobile through @115821 @AmazonHelp  406-8754407-4666755 Agent(8849797051) this what he got https://t.co/fGpG9w1XK5,"CUSTOMER: My father ordered Nokia Mobile through @115821 @AmazonHelp  406-8754407-4666755 Agent(8849797051) this what he got https://t.co/fGpG9w1XK5
+AmazonHelp: @504628 Also, as this a social medial platform, please don't provide order details. We consider it personal information.^HR
+CUSTOMER: @AmazonHelp If you think it matters then pls take some action..this is no lone case. Reputation matters then dont cheat ppl..trust issues with big brand
+CUSTOMER: @AmazonHelp We stand to lose money you lose #credibility #trust #name if such things dont come out in public there will b more instances @AmazonHelp
+AmazonHelp: @504628 Have you reported this to our support team here: https://t.co/2t6DQoUmNZ ? (2/2)^HR
+CUSTOMER: @AmazonHelp Yes very much but no concrete, assured reply we got
+AmazonHelp: @504628 Let us look into it. Please share your details from the link here: https://t.co/beaaDm0muc to assist you accordingly. ^HR
+AmazonHelp: @504628 I’m sorry about the issue you’re facing with order. Let us look into it. (1/2)^HR",Customer service escalation and feedback,"Product condition, item accuracy, and seller issues",
+human-train-0015,2117726,2117726,@137120 I applied for the post of Area Manager - 552821 a month ago but haven't received any response yet. Request you to review my application.,"CUSTOMER: @137120 I applied for the post of Area Manager - 552821 a month ago but haven't received any response yet. Request you to review my application.
+AmazonHelp: @624151 to the email correspondence for further assistance. Appreciate your understanding. 3/3 ^NK
+AmazonHelp: @624151 not have any information regarding this. Request you to get in touch with the particular team directly or respond 2/3 ^NK
+AmazonHelp: @624151 I get your concern, Sparsh. However, I'd like to inform you that we will provide services to the customers and we will 1/3 ^NK",Customer service escalation and feedback,"Pricing, offers, and product availability",
+human-train-0016,357332,357332,@115850 Hello How to talk to one of your representative. your number 1800 3000 9009 just redirect me to amazon.in,"CUSTOMER: @115850 Hello How to talk to one of your representative. your number 1800 3000 9009 just redirect me to amazon.in
+AmazonHelp: @200854 You can call us here: https://t.co/vlvfJr4nN9 we'll be happy to help. ^SG",Customer service escalation and feedback,"Product condition, item accuracy, and seller issues",
+human-train-0017,1384190,1384190,"Bad experience , not a sense of customer Service or cost saving at all..... @115830 #disappointed","CUSTOMER: Bad experience , not a sense of customer Service or cost saving at all..... @115830 #disappointed
+AmazonHelp: @442124 I'm sorry to hear we've disappointed you! Without posting personal account information, can you tell us more? ^KP
+CUSTOMER: @AmazonHelp Have dm you",Customer service escalation and feedback,"Returns, refunds, and charges",
+human-train-0018,2946977,2946977,Good morning @115833 Whom can a chat with about Agent Neo in Indianapolis? @115821,"CUSTOMER: Good morning @115833 Whom can a chat with about Agent Neo in Indianapolis? @115821
+AmazonHelp: @813949 Hi, we don't have access to any of your details here. Without posting any account details, can you tell us a bit more? ^BZ",Customer service escalation and feedback,Prime membership and benefits,
+human-train-0019,382398,382398,I told so many times to amazon customer care but no response. Really its a worst customer service on Amazon @115850 ❌🚫 https://t.co/IzxSbLuay5,"CUSTOMER: I told so many times to amazon customer care but no response. Really its a worst customer service on Amazon @115850 ❌🚫 https://t.co/IzxSbLuay5
+AmazonHelp: @206653 We can't access your Amazon account over Twitter. Kindly share the same over the secure link we have shared. ^CB
+CUSTOMER: @AmazonHelp Defective product https://t.co/V57dd68EEH
+AmazonHelp: @206653 Rakesh, as mentioned earlier, please share the details via the link provided earlier and we'll reach out to you. ^MS",Customer service escalation and feedback,"Pricing, offers, and product availability",
+human-train-0020,2238672,2238672,I have never experience worse customer service in my entire life than with @115830 @AmazonHelp over the last few days. It seems customer service is just sticking to a script instead of answering questions. #Amazon,"CUSTOMER: I have never experience worse customer service in my entire life than with @115830 @AmazonHelp over the last few days. It seems customer service is just sticking to a script instead of answering questions. #Amazon
+AmazonHelp: @652753 Hi! We want you to have positive engagements with our customer service, I'm sorry that this is not your experience. We can't access your account via Twitter, but maybe we can provide answers. Please explain your issue without giving us sensitive information. ^DA
+CUSTOMER: @AmazonHelp Long story short. Christmas present package delivered in manufacturer’s box with no mention that this would be the case when ordering (as I’ve had in the past). Christmas surprise ruined. Customer service response = we’ll pass this on, sorry about that.
+AmazonHelp: @652753 Oh no! Sorry about that! Can you please link us to the item? We want to make sure this is fixed for other deliveries. You can find some helpful information of Frustration Free Packaging here: https://t.co/7ZPj9yxCzz I hope this helps! ^AD
+CUSTOMER: @AmazonHelp Thanks for confirming my initial frustration with stock responses with a stock response",Customer service escalation and feedback,"Digital products, devices, and apps",
+human-train-0021,466717,466717,Getting more and more frustrated with @115821. Increasing number of things arriving banged up and looking used. Hardly the way Christmas gifts should look.... https://t.co/vuytZhNxBy,"CUSTOMER: Getting more and more frustrated with @115821. Increasing number of things arriving banged up and looking used. Hardly the way Christmas gifts should look.... https://t.co/vuytZhNxBy
+AmazonHelp: @226073 I'm sorry your order arrived that way! Was it shipped to you from Amazon or one of our third party sellers? ^AH
+CUSTOMER: @AmazonHelp It was from Amazon. Thanks for the prompt reply.
+AmazonHelp: @226073 Thank you for that information. Unfortunately, we are not able to view account information in Twitter. Please click here:  https://t.co/hApLpMlfHN so that a team member can assist you on this matter. ^TL","Product condition, item accuracy, and seller issues",Prime membership and benefits,
+human-train-0022,517590,517590,I have well over 1000 @115821 orders — for the first time they sent me the wrong item. @23564 motion sensor instead of the multipurpose sensor,"CUSTOMER: I have well over 1000 @115821 orders — for the first time they sent me the wrong item. @23564 motion sensor instead of the multipurpose sensor
+AmazonHelp: @127329 I'm sorry the wrong item arrived. Please see your available return/replacement options here: https://t.co/SmDNGUOJuG. Let us know if you need any thing else. ^CL
+CUSTOMER: @AmazonHelp Already called in but really surprised — see the mislabeling in other tweet I sent to @23564","Product condition, item accuracy, and seller issues","Pricing, offers, and product availability",
+human-train-0023,1267106,1267106,@115821 I used to get all my packages in 2 Days as a part of Prime but now it’s more like 4. Same for my spouse. No bueno. Also USPS sucks.,"CUSTOMER: @115821 I used to get all my packages in 2 Days as a part of Prime but now it’s more like 4. Same for my spouse. No bueno. Also USPS sucks.
+AmazonHelp: @416671 Oh no! Are you only seeing this trend with USPS? We'd like to help! ^ZW","Product condition, item accuracy, and seller issues","Returns, refunds, and charges",
+human-train-0024,330933,330933,"https://t.co/nnyOBaYuDr
+
+Here is yet another fake seller on @115850 . This menace is on flipkart too. Buyers beware","CUSTOMER: https://t.co/nnyOBaYuDr  Here is yet another fake seller on @115850 . This menace is on flipkart too. Buyers beware
+AmazonHelp: @194789 Sorry you're upset with this seller. Could you let us know the reason? ^HA","Product condition, item accuracy, and seller issues",Account access and security,
+human-train-0025,659405,659405,"hey @117634, why do you CONSTANTLY fail to notice there is something wrong with the phone model called @7689 Liquid Z360s? it KEEPS crashing right after i open it. i tried to report it at your site 4 times already and it's been one month. 😠","CUSTOMER: hey @117634, why do you CONSTANTLY fail to notice there is something wrong with the phone model called @7689 Liquid Z360s? it KEEPS crashing right after i open it. i tried to report it at your site 4 times already and it's been one month. 😠
+AmazonHelp: @277015 Hello, sorry for that, Have you placed the order on Amazon.fr?
+CUSTOMER: @AmazonHelp .....  *facepalm*  it's not the phone itself, it's YOUR app @117634 which it have problem because it's not working on that model.... https://t.co/LUaMpYPhbP
+AmazonHelp: @277015 Ah okey ! Our customer service will help you on the following link :  https://t.co/1thqWtqfOc
+CUSTOMER: @AmazonHelp that will not change at all since i already did this 4 time... and right now it's closed
+AmazonHelp: @277015 Please contact them by email : https://t.co/9tY4PIoHCc ^YL
+CUSTOMER: @AmazonHelp ok i will try this time... but seriously, i'm getting tired of that same problem... but i will try","Product condition, item accuracy, and seller issues","Returns, refunds, and charges",
+human-train-0026,665163,665163,@AmazonHelp I ordered a set of 6 frames and one came broken. Can I just send back one or do I need to send back all 6?,"CUSTOMER: @AmazonHelp I ordered a set of 6 frames and one came broken. Can I just send back one or do I need to send back all 6?
+AmazonHelp: @278529 Oh no! I'm sorry about this! Who was the seller, Amazon or third-party? If unsure, check here: https://t.co/Y5jpI9gRhE ^FR
+CUSTOMER: @AmazonHelp It lists as Fulfilled by Amazon though?
+AmazonHelp: @278529 We can help with that! Since we fulfilled it, you may explore return options here: https://t.co/6GPEbWBJnV ^JE
+CUSTOMER: @AmazonHelp but is there a way to return just the broken one? go figure it was the sixth one I pulled out after the other five already got hung
+AmazonHelp: @278529 If part of a set, the full set would need to be returned. We can see what options are available: https://t.co/WA3MsZccSC ^MB
+CUSTOMER: @AmazonHelp ughhhhh you’re killing me, now I have to take everything off the walls &amp; dig out the original packaging 🙃 but thanks for the help
+CUSTOMER: @AmazonHelp Looks like it was third party","Product condition, item accuracy, and seller issues","Digital products, devices, and apps",
+human-train-0027,1548240,1548240,"Hi @115850, I got this product damaged and open, so went to return it but it isn't eligible for return. Can you help? https://t.co/WixxKWep9l","CUSTOMER: Hi @115850, I got this product damaged and open, so went to return it but it isn't eligible for return. Can you help? https://t.co/WixxKWep9l
+AmazonHelp: @147145 Sorry that you have received damaged product. Please report this to our support team here  https://t.co/vlvfJr4nN9. ^AR","Product condition, item accuracy, and seller issues",Prime membership and benefits,
+human-train-0028,16117,16117,@115850 No speedy respnse frm the seller side..I asked 2 return my money but they are not ready 2 clr my issue i need my query to b solved,"CUSTOMER: @115850 No speedy respnse frm the seller side..I asked 2 return my money but they are not ready 2 clr my issue i need my query to b solved
+AmazonHelp: @119535 time frame has passed and you haven't received any update or if you aren't satisfied with seller's reply then you may file 2/n ^SH
+CUSTOMER: @AmazonHelp Ur customer care didnt provide me a correct answer
+AmazonHelp: @119535 I'm sorry about the experience. Kindly share your details here: https://t.co/beaaDm0muc and we'll check. ^GK
+AmazonHelp: @119535 the A-z guarantee claim. You can know more about A-z guarantee claim here: https://t.co/cly38I8avX 3/3 ^SH
+AmazonHelp: @119535 Sorry to know the seller hasn't responded to your query. Generally, the seller's respond with in 2 business days if this 1/n ^SH","Product condition, item accuracy, and seller issues","Product condition, item accuracy, and seller issues",
+human-train-0029,2294180,2294180,Someone decided to steal my debit card info and open a $107 amazon prime account 🙃,"CUSTOMER: Someone decided to steal my debit card info and open a $107 amazon prime account 🙃
+AmazonHelp: @666191 Oh no! Have you had a chance to speak w/ us about this? If not, please phone us here: https://t.co/hApLpMlfHN ^LB
+CUSTOMER: @AmazonHelp Yes! Getting a full refund, thanks!
+AmazonHelp: @666191 That's great! Thanks for letting us know! Please reach out if you need any additional help 😁 ^KJ","Product condition, item accuracy, and seller issues","Pricing, offers, and product availability",
+human-train-0030,2401805,2401805,just used #amazonprimenow for the 1st time! #amazon is KILLING THE GAME! #mynewfavoritething https://t.co/gYjjwKul9e,"CUSTOMER: just used #amazonprimenow for the 1st time! #amazon is KILLING THE GAME! #mynewfavoritething https://t.co/gYjjwKul9e
+AmazonHelp: @691019 Glad to hear you're enjoying our service! Let us know if we can ever be of assistance for anything! 😁 📦 ^KN","Product condition, item accuracy, and seller issues","Product condition, item accuracy, and seller issues",
+human-train-0031,2414446,2414446,Hi @115821  I’m moving to Ireland from the USA and I want to bring my Alexa.... is there a way I can change my plug to a European outlet or.... not really? Thanks! I love Alexa!,"CUSTOMER: Hi @115821  I’m moving to Ireland from the USA and I want to bring my Alexa.... is there a way I can change my plug to a European outlet or.... not really? Thanks! I love Alexa!
+AmazonHelp: @675721 Great question! We want you to be able to enjoy your Alexa anywhere you go. You do have an option to purchase an adapter. I was able to find one that I think will work for you here: https://t.co/iIi65sC5by. Hope this helps! ^AL","Digital products, devices, and apps",Other/Unclear/non-substantive,
+human-train-0032,2498494,2498494,@AmazonHelp my Alexa isn't responding to the command. I even pressed the botton and nothing happens,"CUSTOMER: @AmazonHelp my Alexa isn't responding to the command. I even pressed the botton and nothing happens
+AmazonHelp: @712914 Oh no! Which type of Alexa device is it? Have you already tried restarting this device? ^BE
+CUSTOMER: @AmazonHelp I called and she had me restart it. It's working again
+AmazonHelp: @712914 I'm so glad we were able to help!! Thanks for letting us know. ^DG","Digital products, devices, and apps","Product condition, item accuracy, and seller issues",
+human-train-0033,2901059,2901059,So I’m trying to watch Vaxxed on Amazon video and it doesn’t let me at all why u do this? @116618 u let me play rudolf all damn morning,"CUSTOMER: So I’m trying to watch Vaxxed on Amazon video and it doesn’t let me at all why u do this? @116618 u let me play rudolf all damn morning
+AmazonHelp: @605959 Oh no! I'm sorry to hear that, Julie. We certainly want you to be able to watch your shows! Are you getting an error message when you try to watch it? ^VF","Digital products, devices, and apps","Product condition, item accuracy, and seller issues",
+human-train-0034,710006,710006,@116935 Is there a way to disable Alexa &amp; go back to searching music by hand? I'm sure she's great but I didnt ask for this.,"CUSTOMER: @116935 Is there a way to disable Alexa &amp; go back to searching music by hand? I'm sure she's great but I didnt ask for this.
+AmazonHelp: @289774 Would you mind telling us more about what's going on? Are you referring to the search feature in our Music app? ^FR
+CUSTOMER: @AmazonHelp Yes I am. Within the last month it changed from a regular search button to Alexa which comes with a terms agreement before you start using
+AmazonHelp: @289774 Thank you for the information! Have you tried uninstalling and re-installing the app? ^AL
+CUSTOMER: @AmazonHelp I'll try that thank You!","Digital products, devices, and apps","Digital products, devices, and apps",
+human-train-0035,2102470,2102470,Dear @115821 I thought video rental was for 30 days?! I got a half of a watch on my last rental...,"CUSTOMER: Dear @115821 I thought video rental was for 30 days?! I got a half of a watch on my last rental...
+AmazonHelp: @271957 For rental videos, you'll typically have a 48 hours viewing period to finish watching once you've started streaming. ^CL
+CUSTOMER: @AmazonHelp Well shucks! I swore it 30 days! I guess that's on me ¯\_(ツ)_/¯","Digital products, devices, and apps","Product condition, item accuracy, and seller issues",
+human-train-0036,2408770,2408770,@115850 @AmazonHelp when will you Launch prime music in india... It's becoming hard to find my fav music on my echo dot through voice or in alexa app😒😒🤦🤦,"CUSTOMER: @115850 @AmazonHelp when will you Launch prime music in india... It's becoming hard to find my fav music on my echo dot through voice or in alexa app😒😒🤦🤦
+AmazonHelp: @119699 Prime music is now available for the customers holding an active prime membership with an echo device. As you already own an echo device, could you please confirm from when did you purchase the device and when it is delivered to you? ^SU
+CUSTOMER: @AmazonHelp Ordered on 7-oct and received in 3-Nov
+AmazonHelp: @119699 Kindly reach out to our team here: https://t.co/vlvfJr4nN9 and we'll check. ^GK","Digital products, devices, and apps","Returns, refunds, and charges",
+human-train-0037,2693918,2693918,@128308 Any ETA when Alexa coming to firestick so that echo and firestick can work together. Thanks,"CUSTOMER: @128308 Any ETA when Alexa coming to firestick so that echo and firestick can work together. Thanks
+AmazonHelp: @757147 Thanks for reaching out to us today. We haven't made any announcement. Please stay tuned for any further update on this. ^SG","Digital products, devices, and apps",Account access and security,
+human-train-0038,1072536,1072536,@AmazonHelp Hey guys.. Cloud Sync never finishes syncing. Issue has persisted for months on and off. Desktop app needs an upgrade. https://t.co/leiUfFz5TW,"CUSTOMER: @AmazonHelp Hey guys.. Cloud Sync never finishes syncing. Issue has persisted for months on and off. Desktop app needs an upgrade. https://t.co/leiUfFz5TW
+AmazonHelp: @367874 Oh no! I'm sorry for the troubles. Let's look into some live troubleshooting here: https://t.co/hApLpMlfHN ^TG
+CUSTOMER: @AmazonHelp Not the help that's needed. If I have to do this every time I get stuck files— there's a problem with your software.
+CUSTOMER: @AmazonHelp It's near impossible to get through to a technically-minded person on the Cloud Drive team. Live support gives me 'log out and in'.
+CUSTOMER: @AmazonHelp With all respect, guys. I've done this with you a few times. I get directed to call, then get the same steps each time. It doesn't work.
+AmazonHelp: @367874 That isn't expected! Please, do provide us details so a member of my team may investigate this: https://t.co/C5w4LnVpI0 ^JE","Digital products, devices, and apps",Prime membership and benefits,
+human-train-0039,1723355,1723355,@AmazonHelp thanks for the warning that my kindle unlimited cheap trial was due to expire👍just been charged £7.99 for something I don’t want,"CUSTOMER: @AmazonHelp thanks for the warning that my kindle unlimited cheap trial was due to expire👍just been charged £7.99 for something I don’t want
+AmazonHelp: @124106 Hey Natalie Sorry to hear you no longer wish to avail of Kindle unlimited. You can cancel here - https://t.co/5Ysnae2pVx ^TP
+CUSTOMER: @AmazonHelp You’s really need to send people reminders for stuff like that 😒
+AmazonHelp: @124106 Thanks for the feedback Natalie. Have you cancelled your subscription? Did you receive an email confirming so? ^TP
+CUSTOMER: @AmazonHelp I’ve cancelled it now, but I haven’t had an email yet 😒 guess I’ll be doing a loooot of reading in the next month
+AmazonHelp: @124106 Hi, please check your spam or junk folders for the cancellation email, we want to be sure this is resolved for you. ^TS
+CUSTOMER: @AmazonHelp Nope no emails
+AmazonHelp: @124106 Please contact us here: https://t.co/JzP7hlA23B so an agent can look into this for you. ^JJ","Digital products, devices, and apps","Pricing, offers, and product availability",
+human-train-0040,256647,256647,My Netflix app on my amazon fire stick keeps closing unexpectedly.  It's driving me insane!! 💀,"CUSTOMER: My Netflix app on my amazon fire stick keeps closing unexpectedly.  It's driving me insane!! 💀
+AmazonHelp: @177033 So for the frustrations w/ the app! Have you tried to uninstall/re-install it? Also, that its fully up to date? ^JZ
+CUSTOMER: @AmazonHelp I'll give that a try, thank you!","Digital products, devices, and apps",Customer service escalation and feedback,
+human-train-0041,2966415,2966415,@115821 all my #prime #packages are arriving after the guaranteed 2 days. #wtf ?? #ishouldcancel #brokenpromises,"CUSTOMER: @115821 all my #prime #packages are arriving after the guaranteed 2 days. #wtf ?? #ishouldcancel #brokenpromises
+AmazonHelp: @818382 I'm sorry to hear your items aren't arriving as expected. Have we missed the delivery date given in your confirmation e-mail here: https://t.co/q0dpvb2v9x? ^KP",Prime membership and benefits,"Digital products, devices, and apps",
+human-train-0042,285106,285106,.@115821 #Prime has been missing that 2-Day “Guarantee” more and more. Second time for me in my last four orders.,"CUSTOMER: .@115821 #Prime has been missing that 2-Day “Guarantee” more and more. Second time for me in my last four orders.
+AmazonHelp: @183922 I'm sorry for any trouble, Tim. Have we been missing the estimated delivery dates given at checkout and in your e-mail? ^FD
+CUSTOMER: @AmazonHelp yes. https://t.co/yk4l77ZrXz
+AmazonHelp: @183922 It's never our intention for this to happen but the new dates may be the earliest it can arrive. ^KP",Prime membership and benefits,Delivery and order fulfillment,
+human-train-0043,1881148,1881148,"I buy something on amazon prime every other day, I need help.","CUSTOMER: I buy something on amazon prime every other day, I need help.
+AmazonHelp: @561410 Thank you for using Amazon Prime!. Please tell us what kind of help do you need? ^CC
+CUSTOMER: @AmazonHelp How do i stop purchasing so many things on your website?
+CUSTOMER: @AmazonHelp @561410 I have been cheated by your company  &amp; I want fair justice as I haven’t been provided the order as promised by Amazon.",Prime membership and benefits,Account access and security,
+human-train-0044,1357698,1357698,@AmazonHelp starting to doubt prime is worth it. The eta of my orders lately all went later then told while ordering,"CUSTOMER: @AmazonHelp starting to doubt prime is worth it. The eta of my orders lately all went later then told while ordering
+AmazonHelp: @436539 I'm sorry for the delay! Is there a current delivery date that we have missed? We'd like to help if we can. ^JF
+CUSTOMER: @AmazonHelp Yeah there is one that was told to arrive Saturday and one today. I doubt today will make it. Both via Hermes in Germany
+AmazonHelp: @436539 Please contact our customer support: https://t.co/IloNPDoh96 Our colleagues will have a look into this. ^SK",Prime membership and benefits,"Product condition, item accuracy, and seller issues",
+human-train-0045,2900991,2900991,"@AmazonHelp Is the HDFC INSTANT DISCOUNT OF ₹1500 offered on purchase of One Plus 5T mobile valid for all the customers holding HDFC CARDS or only Amazon Prime customers holding the HDFC Cards.
+
+Pls revert ASAP.","CUSTOMER: @AmazonHelp Is the HDFC INSTANT DISCOUNT OF ₹1500 offered on purchase of One Plus 5T mobile valid for all the customers holding HDFC CARDS or only Amazon Prime customers holding the HDFC Cards.  Pls revert ASAP.
+AmazonHelp: @774344 The offer is applicable to all the customers who purchase One Plus 5T with HDFC Bank Debit &amp; Credit Cards between November 28 to December 2 2017. Please refer it here: https://t.co/e80meUAKUu and get back to us If you still have any further queries. ^NK
+CUSTOMER: @AmazonHelp Thank You so much. One more thing, is it an Instant Discount i.e. Customer needs to pay net amount after deduction of 1500 Or the CASHBACK will be credited to Amazon pay balance or refunded in bank account in later part of the year or so?
+AmazonHelp: @774344 This promotion is a instant discount. Please refer to the T&amp;C here: https://t.co/xebJ0HEBs1 for more info about this offer. ^SV",Prime membership and benefits,"Pricing, offers, and product availability",
+human-train-0046,544458,544458,@115830 not particularly happy paying a prime membership to be waiting weeks for deliveries. 3 of my parcels say this! https://t.co/vDMbTXAMub,"CUSTOMER: @115830 not particularly happy paying a prime membership to be waiting weeks for deliveries. 3 of my parcels say this! https://t.co/vDMbTXAMub
+AmazonHelp: @246500 Oh no! I'm terribly sorry to see this! Have you had a chance to select the 'Get a Replacement or Refund' option? If not, please do so. If you have any issues with completing this, please reach out to us here: https://t.co/JzP7hlA23B. ^RO",Prime membership and benefits,Account access and security,
+human-train-0047,1399366,1399366,Ce soir je teste pour vous : La livraison Amazon Prime entre 19h et 22h. (TRUE FACT : J'espère juste que le livreur daignera sonner),"CUSTOMER: Ce soir je teste pour vous : La livraison Amazon Prime entre 19h et 22h. (TRUE FACT : J'espère juste que le livreur daignera sonner)
+AmazonHelp: @445387 Bonjour, J'espère que vous allez bientôt recevoir votre colis. ^MD",Prime membership and benefits,Delivery and order fulfillment,
+human-train-0048,2273283,2273283,"@116928 Vuestro servicio de prime es una mierda, hice un pedido el miercoles y estando a sabado aun no me ha llegado..👏🏻","CUSTOMER: @116928 Vuestro servicio de prime es una mierda, hice un pedido el miercoles y estando a sabado aun no me ha llegado..👏🏻
+AmazonHelp: @661267 Hola Sergio, lamentamos el inconveniente. ¿El pedido fue vendido y gestionado por Amazon o por algún vendedor externo? ^MB
+CUSTOMER: @AmazonHelp Si esta todo correcto es vendido y gestionado por amazon
+AmazonHelp: @661267 Entiendo, ¿has contactado con el transportista directamente? ^MB
+CUSTOMER: @AmazonHelp No, pone que esta en reparto desde el miercoles
+AmazonHelp: @661267 Comprendo Sergio, puedes decirnos cual es transportista encargado de la entrega? ^PC",Prime membership and benefits,"Product condition, item accuracy, and seller issues",
+human-train-0049,2113609,2113609,@115830 Prime is an absolute god send when christmas is concerned ! I suggest everyone signs up ! #AmazonPrime,"CUSTOMER: @115830 Prime is an absolute god send when christmas is concerned ! I suggest everyone signs up ! #AmazonPrime
+AmazonHelp: @623195 I personally love purchasing my Christmas presents on Amazon Prime too:) I hope you enjoy your festive shopping Kyle :) ^GA",Prime membership and benefits,Prime membership and benefits,
+human-train-0050,1246828,1246828,"@115821 as a long time prime member, having to deal with #AmazonLogistics is going to make you lose a loyal customer. #goingbackwards","CUSTOMER: @115821 as a long time prime member, having to deal with #AmazonLogistics is going to make you lose a loyal customer. #goingbackwards
+AmazonHelp: @412524 My team would like to make sure this is escalated. Please send us your details here: https://t.co/FTeLVibTbP ^EP",Prime membership and benefits,"Pricing, offers, and product availability",
+human-train-0051,1357701,1357701,#AmazonIndia... for a simple refund I have to follow up 15times and since one month m yet to receive my refund..,"CUSTOMER: #AmazonIndia... for a simple refund I have to follow up 15times and since one month m yet to receive my refund..
+AmazonHelp: @436540 I'm sorry about the refund issues. Please share your details here: https://t.co/GIJyeYqKE0. We'd like to help. ^ VN","Returns, refunds, and charges",Other/Unclear/non-substantive,
+human-train-0052,972248,972248,Thanks @117795 for the $106 charge @2258:30am for a subscription I don't have,"CUSTOMER: Thanks @117795 for the $106 charge @2258:30am for a subscription I don't have
+AmazonHelp: @350626 Hi, you can cancel Prime here: https://t.co/OXjMj8PCsE and you'll be refunded for unused service if eligible. ^JJ","Returns, refunds, and charges",Delivery and order fulfillment,
+human-train-0053,2807301,2807301,@AmazonHelp please help me. I loaded a visa gift card into my payment methods and the site won’t let me make purchases with it. Ideas?,"CUSTOMER: @AmazonHelp please help me. I loaded a visa gift card into my payment methods and the site won’t let me make purchases with it. Ideas?
+AmazonHelp: @782932 Hrm! That is rather strange Ian! When you try to use the card, what error message do you get? Have you checked to make sure you entered in all of the relevant data correctly when you registered the card? ^JD
+CUSTOMER: @AmazonHelp I confirmed the card was activated and removed and added it to amazon wallet twice. Should be fine. I did this last year with no issues.
+AmazonHelp: @782932 Thanks for that information, Ian! What kind of error message are you receiving when you try to place your order? ^AR
+CUSTOMER: @AmazonHelp We're writing to let you know that the payment for your Amazon Gift Card Balance Reload has been declined. The issuing bank may have declined the charge if the name, expiration date, or ZIP Code you entered at https://t.co/BIg9MPdUPB does not exactly match the bank's information.
+AmazonHelp: @782932 Thanks for this, it really helps. Do you know if your prepaid card has enough funds on it to cover possible taxes associated and a $1.00 authorization fee? ^DW
+CUSTOMER: @AmazonHelp It just says processing... and then eventually cancels the order as a ""problem with payment method"" real helpful :)","Returns, refunds, and charges",Customer service escalation and feedback,
+human-train-0054,2211803,2211803,"@115850  ordered a product form your website in 21st. received it on 23, now its 3rd day nd the product has started leaving his color. Please refund my money. Nd for your kind information i won't have the packaging so accept it nd refund my money..","CUSTOMER: @115850  ordered a product form your website in 21st. received it on 23, now its 3rd day nd the product has started leaving his color. Please refund my money. Nd for your kind information i won't have the packaging so accept it nd refund my money..
+AmazonHelp: @443659 My apologies for the experience you've had with the item, Anand. Please reach out to us via: https://t.co/7E254QtTus and we will be happy to have this checked. ^KS","Returns, refunds, and charges","Digital products, devices, and apps",
+human-train-0055,1200320,1200320,"@115821 @115850  Where is my refund? I am going to file FIR against @149473  and @115850 
+Damaged product and lots of confusion","CUSTOMER: @115821 @115850  Where is my refund? I am going to file FIR against @149473  and @115850  Damaged product and lots of confusion
+AmazonHelp: @402030 I understand your  concern is regarding refund. (1/2)^VH
+AmazonHelp: @402030 Kindly contact us here: https://t.co/rS49hgaADF so that we can assist you accordingly. (2/2)^VH","Returns, refunds, and charges","Returns, refunds, and charges",
+human-train-0056,708567,708567,It is so easy to o̶r̶d̶e̶r̶ ̶f̶r̶o̶m̶ return products to @115821.,"CUSTOMER: It is so easy to o̶r̶d̶e̶r̶ ̶f̶r̶o̶m̶ return products to @115821.
+AmazonHelp: @289386 We're here to help! Without posting personal account information, please tell us more about how we can assist. ^FR
+CUSTOMER: @AmazonHelp You’re doing a great job. I was complimenting you on your easy process of returning products.","Returns, refunds, and charges",Account access and security,
+human-train-0057,248620,248620,"@115850
+DearTeam why not Return pickup my product
+What happened
+I want to Return bad product
+Why not picking Product ID-
+4__credit_card__","CUSTOMER: @115850 DearTeam why not Return pickup my product What happened I want to Return bad product Why not picking Product ID- 4__credit_card__
+AmazonHelp: @175067 Don’t provide your order details as it is personal information. Our Twitter page is visible to public.(2/2) ^RS
+CUSTOMER: @AmazonHelp What I do ??? Whatwere . . Why u nit pickup Return telle It's ur team sharmless .... Do u understand Don't give me what I do ??? Fake Amazon
+AmazonHelp: @175067 Please get in touch with our support team using the link provided earlier. ^AG
+CUSTOMER: @AmazonHelp 9821215658  Call.back me
+AmazonHelp: @175067 You may request an immediate call from us by submitting your details here: https://t.co/vlvfJr4nN9. ^HK
+CUSTOMER: @AmazonHelp I'm already updated my details  Kindly find you and revert me
+AmazonHelp: @175067 Thanks for the update. Our team would reach out to you soon. ^VM","Returns, refunds, and charges",Other/Unclear/non-substantive,
+human-train-0058,1656196,1656196,@AmazonHelp will you going to refund my money or not.?,"CUSTOMER: @AmazonHelp will you going to refund my money or not.?
+AmazonHelp: @425388 Hello, we don't have access to your account. Would you tell us more about the situation? What country are you located in? ^AM
+CUSTOMER: @AmazonHelp I am from india..! and your customer care executive was making  my fool for past 2 months.. its been to months since i dint refund my money
+AmazonHelp: @425388 I'm sorry for the trouble. Kindly drop in your details again here: https://t.co/beaaDm0muc &amp; we'll get back with an update. ^EM","Returns, refunds, and charges",Customer service escalation and feedback,
+human-train-0059,873767,873767,@AmazonHelp I started a return but never got a packaging slip. Says my refund won’t be processed until return the item. Any tips?,"CUSTOMER: @AmazonHelp I started a return but never got a packaging slip. Says my refund won’t be processed until return the item. Any tips?
+AmazonHelp: @327443 Sure thing, Jessica! Have you tried checking your email for a return label? Spam &amp; junk folders included! Let us know! ^SA
+CUSTOMER: @AmazonHelp No luck! And when I got to the order I’m unable to print the packing slip there either. Should I cancel the return and try again?
+CUSTOMER: @AmazonHelp Nevermind, @AmazonHelp! Just got an email with the return label. Thanks for the help.","Returns, refunds, and charges","Digital products, devices, and apps",
+human-train-0060,418812,418812,@115850 Am going to file the case against the amazon . already send back ur product still u didnt refund my money .,"CUSTOMER: @115850 Am going to file the case against the amazon . already send back ur product still u didnt refund my money .
+AmazonHelp: @214890 It must be worrisome. Please contact us here: https://t.co/rS49hgaADF so that we can assist you accordingly. ^SC
+CUSTOMER: @AmazonHelp 960071223
+AmazonHelp: @214890 We cannot access your account over Twitter. Please share your details in the link shared earlier. ^HN
+CUSTOMER: @AmazonHelp am tired calling ur customer services they are giving the different excuses everytime n
+AmazonHelp: @214890 I do get your concern, please share your details in the above link and we'll check this for you. ^HN
+CUSTOMER: @AmazonHelp WTF I have return the product back to u and u are not returning my money bloody choor
+AmazonHelp: @214890 Have you shared your details through the secured link as requested? ^HK","Returns, refunds, and charges","Returns, refunds, and charges",
+human-train-0061,2880519,2880519,"@AmazonHelp In item page its showing COD eligible for Red Mi 4 16GB, but on checkout page its showing POD not available. IS THIS A JOKE OR WHAT?!! After waiting one week this is the result. Shame of u Amazon.in 😡 https://t.co/dS9nlYGf1o","CUSTOMER: @AmazonHelp In item page its showing COD eligible for Red Mi 4 16GB, but on checkout page its showing POD not available. IS THIS A JOKE OR WHAT?!! After waiting one week this is the result. Shame of u Amazon.in 😡 https://t.co/dS9nlYGf1o
+AmazonHelp: @799352 I'm sorry to inform you that cash on delivery is not eligible to some selected pin codes. Kindly place the order using another payment method. I'll be sure to pass on your feedback to the concerned team internally. ^AU
+CUSTOMER: @AmazonHelp But it is showing eligible for CASH ON DELIVERY with my pin code only on the item page check the images first carefully!
+AmazonHelp: @799352 The availability of the COD as payment method would depend and differ based on pincodes and courier restriction in your area. You'd be able to view this on the checkout page. However, I'll pass on your feedback internally to the relevant team. ^EM
+CUSTOMER: @AmazonHelp When they are not eligible then they should stop showing that item eligible for COD for our pin code. Need no more help already the sale ended.
+AmazonHelp: @799352 I understand your concern regarding the availability of the COD on your pin code. I've noted your comments and will forward this feedback internally. ^SC","Pricing, offers, and product availability","Digital products, devices, and apps",
+human-train-0062,950247,950247,"@115850  wanna replace my iphone 6 with a new Apple iPhone 6(Space Grey, 64GB) .its not available since a week. wen it will be available?","CUSTOMER: @115850  wanna replace my iphone 6 with a new Apple iPhone 6(Space Grey, 64GB) .its not available since a week. wen it will be available?
+AmazonHelp: @345381 I understand your concern. I will have this feedback forwarded to the concerned team internally. ^MK","Pricing, offers, and product availability",Prime membership and benefits,
+human-train-0063,2930101,2930101,"@AmazonHelp When I sign in, I am being served a higher price than when I am not signed in. How can I make a purchase at the price shown before I sign in? https://t.co/uoDepGocOp","CUSTOMER: @AmazonHelp When I sign in, I am being served a higher price than when I am not signed in. How can I make a purchase at the price shown before I sign in? https://t.co/uoDepGocOp
+AmazonHelp: @810556 Hey, sorry to hear that, contact us here:  https://t.co/hApLpMlfHN we'd like to take a closer look into this please ^AS","Pricing, offers, and product availability","Product condition, item accuracy, and seller issues",
+human-train-0064,345891,345891,"@AmazonHelp Does Amazon Canada offer @2293 keys, or is it just physical copies for PC games?","CUSTOMER: @AmazonHelp Does Amazon Canada offer @2293 keys, or is it just physical copies for PC games?
+AmazonHelp: @198313 We'd like to help, is this in reference to a specific game? Can you link us to the product page? ^AG
+CUSTOMER: @AmazonHelp I am looking for the following game: https://t.co/PcxEP67pEf
+AmazonHelp: @198313 Looking at this title, I'm not seeing any specific support or digital version via Steam is included with the DVD. ^JR","Pricing, offers, and product availability","Returns, refunds, and charges",
+human-train-0065,2950831,2950831,@AmazonHelp Can I get some help here? impossible to get the discount on the new Hearthstone Expansion with the code given by Amazon services https://t.co/gYRyto7l2P,"CUSTOMER: @AmazonHelp Can I get some help here? impossible to get the discount on the new Hearthstone Expansion with the code given by Amazon services https://t.co/gYRyto7l2P
+AmazonHelp: @814866 Hello, i'm sincerely sorry for the inconvenience caused by this incident. Did you report this to our customer service, please? ^ SB","Pricing, offers, and product availability","Returns, refunds, and charges",
+human-train-0066,2863431,2863431,"Hey @115830, do the No Rush rewards ever expire for pantry discount?","CUSTOMER: Hey @115830, do the No Rush rewards ever expire for pantry discount?
+AmazonHelp: @795382 Hi there! Thanks for reaching out. The original email that includes information on how to redeem your rewards will also include information on when your rewards expire. ^LH","Pricing, offers, and product availability",Delivery and order fulfillment,
+human-train-0067,1651538,1651538,"@115850 I'm trying to buy oneplus 5,  buy not getting sony xperia z option in exchange. It was coming till yesterday. Help! https://t.co/tajsbvCQ1P","CUSTOMER: @115850 I'm trying to buy oneplus 5,  buy not getting sony xperia z option in exchange. It was coming till yesterday. Help! https://t.co/tajsbvCQ1P
+AmazonHelp: @504351 Was that screenshot taken yesterday when you could see it? ^HK
+CUSTOMER: @AmazonHelp Yes, I was able to see xperia z option yesterday, can u help is this?
+AmazonHelp: @504351 Exchange options are determined by our buyback partners and may change from time to time. (1/2). ^MO
+AmazonHelp: @504351 Kindly refer the link: https://t.co/Lxmi5Fdk9D for more information. (2/2) ^MO","Pricing, offers, and product availability","Product condition, item accuracy, and seller issues",
+human-train-0068,130747,130747,1/ @115850 Are you guys leaking email ids of user who applied for Amazon BTS offer?My bro got this spam email: http://t.co/6YtfYm0aLN,"CUSTOMER: 1/ @115850 Are you guys leaking email ids of user who applied for Amazon BTS offer?My bro got this spam email: http://t.co/6YtfYm0aLN
+AmazonHelp: @145514 Our customers' security is our utmost important concern &amp; we take all necessary steps to safe guard their info. I assure you. ^AN
+CUSTOMER: @115850 @AmazonHelp ur __email__ seems not working so attaching the proof of mail sent here: #BTSOfferSCAM http://t.co/PFHFyLowFj
+CUSTOMER: @145514 @115850 @AmazonHelp  https://t.co/iVeZgEFtAo","Pricing, offers, and product availability","Product condition, item accuracy, and seller issues",
+human-train-0069,1058078,1058078,"@115833 @115830 why don’t you offer a trade-in program for older Echo devices. Recycle, repurpose, donate to schools etc. Silly not to","CUSTOMER: @115833 @115830 why don’t you offer a trade-in program for older Echo devices. Recycle, repurpose, donate to schools etc. Silly not to
+AmazonHelp: @369814 Hi, thanks for the suggestion! We welcome feedback like yours so that we can continue to improve our services, much appreciated. ^TS","Pricing, offers, and product availability",Prime membership and benefits,
+human-train-0070,379634,379634,"@119625 O am curious to know when @18283 Season 3 will be available in india
+Eagerly waiting finished the early 2 seasons","CUSTOMER: @119625 O am curious to know when @18283 Season 3 will be available in india Eagerly waiting finished the early 2 seasons
+AmazonHelp: @206060 We haven't had an announcement for season 3 yet. Kindly stay tuned to https://t.co/98jNQaanQg for an update. ^SA","Pricing, offers, and product availability",Prime membership and benefits,
+human-train-0071,1146913,1146913,@115850  started scam send fake products to customer it happens with me,"CUSTOMER: @115850  started scam send fake products to customer it happens with me
+AmazonHelp: @389935 Kindly write to us with more info, here: https://t.co/vlvfJr4nN9. (2/2)^YP
+AmazonHelp: @389935 Our apologies if you've been through any hassle. We'd like to understand more about this and assist. (1/2)
+CUSTOMER: @AmazonHelp The Product was in Dubai but they are lying since 15 days and everyone are telling. Lies and no one stand there commitment.
+CUSTOMER: @AmazonHelp But yesterday I got a call from shop world that we received your product in damage condition,
+CUSTOMER: @AmazonHelp I have order smart watch on 24 sep 17 as per estimate delivery was 20th Oct,that was failed. And seller told me u will receive on 30th oct
+AmazonHelp: @389935 here: https://t.co/GIJyeY99fq and I'll get in touch with you. 2/2 ^MK
+AmazonHelp: @389935 I'm extremely sorry for the inconvenience, Harshvardhan. Please share your details 1/2 ^MK",Account access and security,"Returns, refunds, and charges",
+human-train-0072,2664956,2664956,When people say that the don’t have an @115830 account I wonder how they make it through week #amazon #getsmethroughtheweek #lastminutemum,"CUSTOMER: When people say that the don’t have an @115830 account I wonder how they make it through week #amazon #getsmethroughtheweek #lastminutemum
+AmazonHelp: @750874 I totally agree Nicola. Happy shopping! ^KM",Account access and security,Account access and security,
+human-train-0073,2866064,2866064,"Dear @115821 ,
+I️ am currently heartbroken that my account has been deleted. Please restore my account . 😭 
+Sincerely ,
+A loyal customer","CUSTOMER: Dear @115821 , I️ am currently heartbroken that my account has been deleted. Please restore my account . 😭  Sincerely , A loyal customer
+AmazonHelp: @796041 Have you had a chance to reach out to our Customer Service? What information or options were they able to provide you?  If not, you can reach us here: https://t.co/jzvkhdlrK5 ^EA
+CUSTOMER: @AmazonHelp Yes I’ve called and after being put on 30 holds was told they’ll get back to me in 2 or so business days .",Account access and security,"Pricing, offers, and product availability",
+human-train-0074,442868,442868,@AmazonHelp does an item have to be shipped before money is withdrawn from my account,"CUSTOMER: @AmazonHelp does an item have to be shipped before money is withdrawn from my account
+AmazonHelp: @145872 Hi Ryan. We only charge the selected payment method for an order at the moment it's physically preparing to ship. ^DC",Account access and security,Customer service escalation and feedback,
+human-train-0075,1601833,1601833,"@AmazonHelp received an email saying I have changed my password , I haven’t. I now can’t access site. Please help me get a new pw please.","CUSTOMER: @AmazonHelp received an email saying I have changed my password , I haven’t. I now can’t access site. Please help me get a new pw please.
+AmazonHelp: @410949 Hello! Please reach out to our via phone/chat so we can get you assistance in real-time: https://t.co/JzP7hlA23B ^RM",Account access and security,Other/Unclear/non-substantive,
+human-train-0076,954149,954149,@115830 It's been over 55hrs and no help/call back after fraud on my account. 3 people have promised it. They even allowed further fraud.,"CUSTOMER: @115830 It's been over 55hrs and no help/call back after fraud on my account. 3 people have promised it. They even allowed further fraud.
+AmazonHelp: @346398 I'm sorry to hear this! Have you checked your Spam/Junk folders for an e-mail from an Account Specialist? ^GL
+CUSTOMER: @AmazonHelp Yes. Not to mention I have been promised phone calls. Did you warn customers hacks are going on?
+AmazonHelp: @346398 Thanks for the info. We'd like to take a closer look into this. Please send us your details here: https://t.co/mgbgvyzQI2 ^GG
+CUSTOMER: @AmazonHelp My account was put on hold this afternoon asmftwr the girl yesterday failed to do it and more purchases got approved. I can't access that
+AmazonHelp: @346398 There should be a 'skip sign in' option towards the bottom of the page that you can select. ^KP
+CUSTOMER: @AmazonHelp Oh good.....more time to wait for anyone to give me an answer.",Account access and security,Prime membership and benefits,
+human-train-0077,416675,416675,"@AmazonHelp WTFwhy do I keep getting a error with my account saying""there was a problem your password is not correct I havereset the thing 5","CUSTOMER: @AmazonHelp WTFwhy do I keep getting a error with my account saying""there was a problem your password is not correct I havereset the thing 5
+AmazonHelp: @214405 I'm sorry for the log-in issues! Have you received any e-mail in your inbox or spam folders from our Account team? ^WT
+CUSTOMER: @AmazonHelp No not a single one
+AmazonHelp: @214405 Please reach out using the trailing link so this can get looked into: https://t.co/scrFUZKZhj ^DO",Account access and security,"Pricing, offers, and product availability",
+human-train-0078,439714,439714,@115850 it took 200 cases for you people to figure out this scam! I reported this few months back :) #taketweetsseriously https://t.co/ysBrEDvdhb,"CUSTOMER: @115850 it took 200 cases for you people to figure out this scam! I reported this few months back :) #taketweetsseriously https://t.co/ysBrEDvdhb
+AmazonHelp: @219380 Thanks for the heads up. We'll get this reviewed internally. ^SG",Account access and security,"Pricing, offers, and product availability",
+human-train-0079,2887387,2887387,Hey @115821!! Thx for locking me out of my account and reversing all the orders I made on #CyberMonday!!!,"CUSTOMER: Hey @115821!! Thx for locking me out of my account and reversing all the orders I made on #CyberMonday!!!
+AmazonHelp: @347543 I am sorry to hear you have been locked out your account. Have you received any emails from ourselves explaining why this might have happened? Have you had any unauthorised orders made on your account?^SM",Account access and security,"Product condition, item accuracy, and seller issues",
+human-train-0080,2792021,2792021,@115821 I cannot log in despite going through the password change. You have not responded to my email. Problems? #amazon,"CUSTOMER: @115821 I cannot log in despite going through the password change. You have not responded to my email. Problems? #amazon
+AmazonHelp: @779221 I'm sorry you haven't received a reply yet. Please call us at: 1-866-216-1072 so we can help sort this out. ^CO
+CUSTOMER: @AmazonHelp Talked to Patrice in your customer service. No help. 24 hours? Wow! #amazon",Account access and security,"Returns, refunds, and charges",
+human-train-0081,2869552,2869552,"amazon名乗る架空請求?ってやつっぽいのきたんだけどww
+
+絶対関係ないやつ😂😂
+
+一瞬金払ってないかと思ったし
+怖い怖い","CUSTOMER: amazon名乗る架空請求?ってやつっぽいのきたんだけどww  絶対関係ないやつ😂😂  一瞬金払ってないかと思ったし 怖い怖い
+AmazonHelp: @796862 当サイトの名を騙るフィッシングや架空請求詐欺が増えております。そのようなメールに記載されているURLや番号はクリックしないようお気を付けください。Eメールの見分け方については、こちらをご参照ください。https://t.co/r6R7EU9RIb YM",Other/Unclear/non-substantive,"Returns, refunds, and charges",
+human-train-0082,975765,975765,"@AmazonHelp お気遣い感謝いたします(*^^*)
+ありがとうございました。","CUSTOMER: @AmazonHelp お気遣い感謝いたします(*^^*) ありがとうございました。
+AmazonHelp: @351237 とんでもないことでございます。どうぞよろしくお願いいたします。TN",Other/Unclear/non-substantive,Other/Unclear/non-substantive,
+human-train-0083,142000,142000,Amazonから荷物が届いたいいたい痛いからちょ https://t.co/cKcEQeME1p,"CUSTOMER: Amazonから荷物が届いたいいたい痛いからちょ https://t.co/cKcEQeME1p
+AmazonHelp: @148045 （´-`）.｡oO ( 気に入っていただけているようでうれしいです・・・🐱🙏 )HM
+CUSTOMER: @AmazonHelp 開けてすぐ飛び込みましたｗｗありがとございます(●´ω｀●)
+AmazonHelp: @148045 リプライありがとうございます！梱包材に隠れて楽しそうでついお声がけさせていただきました😄　 今後もAmazon(と箱)をご愛顧いただければ幸いです(ノ)･ω･(ヾ)ﾓﾌﾓﾌ HM
+CUSTOMER: @AmazonHelp いつもお世話になっております〜〜うちのモフモフをともに今後もよろしくおねがいします(●´ω｀●)🐾
+AmazonHelp: @148045 ฅ*•ω•*ฅ♡　🙌 HM",Other/Unclear/non-substantive,Prime membership and benefits,
+human-train-0084,1442568,1442568,@116928 1 dia de entrega (de vie a lun) otra vez con 3 dias de retraso (de vie a jue!) Aprendan de @60033 y @60034,"CUSTOMER: @116928 1 dia de entrega (de vie a lun) otra vez con 3 dias de retraso (de vie a jue!) Aprendan de @60033 y @60034
+AmazonHelp: @432687 Hola, BR. ¿Podrías confirmarnos la fecha de entrega indicada en el correo electrónico de confirmación del pedido? ^CR
+CUSTOMER: @AmazonHelp Os vale la fecha de la amazon app? https://t.co/gD0QfHkMwA
+AmazonHelp: @432687 ¿Has entrado en contacto con la compañía de transporte para obtener más detalles? ^JQ",Other/Unclear/non-substantive,"Returns, refunds, and charges",
+human-train-0085,422919,422919,"@116618 why your tv apps so terrible? Its not even an MVP quality, gets frozen all the time and not the mention awful UX😢","CUSTOMER: @116618 why your tv apps so terrible? Its not even an MVP quality, gets frozen all the time and not the mention awful UX😢
+AmazonHelp: @215709 I'm sorry to hear this. Are you referring to a particular app? ^PK
+CUSTOMER: @AmazonHelp So? Hello? Any solutions?
+AmazonHelp: @215709 Hi - have you tried to clear the Data on the Video App ? ^TD
+CUSTOMER: @AmazonHelp Yes, also reset, back to factory settings again and again. These are temp. fixes, why does it happen with Amazon while doesnt with Netflix?
+AmazonHelp: @215709 Let us know if these steps help: https://t.co/fBZCBym89C We want to help in any way we can! ^KN
+CUSTOMER: @AmazonHelp Amazon Video app on Sony Bravia. Netflix was on for 10 hours, all good, im just trying to watch a single episode on Amazon, it is a sldeshow",Other/Unclear/non-substantive,"Product condition, item accuracy, and seller issues",
+human-train-0086,533198,533198,Amazonプライムの30日無料って勝手に継続されるわけじゃないよな？,"CUSTOMER: Amazonプライムの30日無料って勝手に継続されるわけじゃないよな？
+AmazonHelp: @243529 こんばんは、Amazonです。プライム無料体験申し込み時にもご案内しているように、設定をご変更されなければ、30日間期間終了後、自動的に本会員に移行します。更新をご希望でなければ、設定の変更をお願いいたします。https://t.co/JrKFIyt2XV RI
+CUSTOMER: @AmazonHelp どうも
+AmazonHelp: @243529 いきなりのリプライ失礼いたしました。ご不明な点がありましたら、どうぞお気軽に公式までお問い合わせください。 RI
+CUSTOMER: @AmazonHelp ありがとうございます。 またお世話になります。
+AmazonHelp: @243529 これからも末永くご愛顧賜りますよう…。 RI",Other/Unclear/non-substantive,"Product condition, item accuracy, and seller issues",
+human-train-0087,2230039,2230039,"Ohai @115850 your on-ground executives are lying to your faces and I have proof. 
+
+Get your shit together","CUSTOMER: Ohai @115850 your on-ground executives are lying to your faces and I have proof.   Get your shit together
+AmazonHelp: @650797 Looks like you had an unpleasant experience with us and I'm sorry about it. Please tell us more about the issue so we can assist accordingly. ^MP
+CUSTOMER: @AmazonHelp Sure.",Other/Unclear/non-substantive,"Product condition, item accuracy, and seller issues",
+human-train-0088,1247171,1247171,One of the leading cheating online shopping portal #AmazonGreatIndianFestival @AmazonHelp https://t.co/jsXLSdogpl,"CUSTOMER: One of the leading cheating online shopping portal #AmazonGreatIndianFestival @AmazonHelp https://t.co/jsXLSdogpl
+AmazonHelp: @366939 Sorry to know that, have you reported this to our support team here: https://t.co/R3EfhzgU8B? ^PS",Other/Unclear/non-substantive,"Returns, refunds, and charges",
+human-train-0089,2669271,2669271,Amazon のこの梱包クッソ笑うｗ https://t.co/ZzcWhC0ucC,"CUSTOMER: Amazon のこの梱包クッソ笑うｗ https://t.co/ZzcWhC0ucC
+AmazonHelp: @751800 Amazonでは今後のサービス改善のため、梱包についてのご意見を承っております。よろしければ、リンクのヘルプページをご参照の上、ご意見をお送りください。https://t.co/r80cIFs9f6 TN",Other/Unclear/non-substantive,"Digital products, devices, and apps",
+human-train-0090,73600,73600,#Amazon # Delivering Sadness# Received Fake Product # worst customer Experience in the world # Amazon #@132458 #@132459 #@132460 #No replacement # Amazon flooding fake product in India # Stop shopping at Amazon#Lets uninstall Amazon from India # https://t.co/XqGdV7rON1,"CUSTOMER: #Amazon # Delivering Sadness# Received Fake Product # worst customer Experience in the world # Amazon #@132458 #@132459 #@132460 #No replacement # Amazon flooding fake product in India # Stop shopping at Amazon#Lets uninstall Amazon from India # https://t.co/XqGdV7rON1
+AmazonHelp: @131812 I get your situation. We've responded to your concern here: https://t.co/80GCWwU5Qi. Request you to check and do the needful. ^HS
+CUSTOMER: @AmazonHelp Stop selling fake bose product in India
+CUSTOMER: @AmazonHelp Don't tell stories! I need original speakers at any cost!",Other/Unclear/non-substantive,Account access and security,
