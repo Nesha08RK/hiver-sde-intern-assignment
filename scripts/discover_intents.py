@@ -1,5 +1,6 @@
 import csv
 import random
+import sys
 from pathlib import Path
 
 
@@ -171,6 +172,8 @@ def sample_customer_messages(roots, tweets, children_map):
 
 
 def main():
+    sys.stdout.reconfigure(encoding="utf-8")
+
     print("=" * 80)
     print(f"INTENT DISCOVERY — {BRAND}")
     print("=" * 80)
