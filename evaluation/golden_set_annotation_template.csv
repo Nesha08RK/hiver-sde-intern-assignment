@@ -1,0 +1,804 @@
+example_id,tweet_id,conversation_root_id,customer_message,context,intent,expected_escalation,escalation_reason,label_source,annotation_status,reviewer_intent,reviewer_expected_escalation,reviewer_notes
+amz-0001,467382,467382,@116316 ach mit euch hab ich oft genug Probleme jetzt ist mein Problem dass ich mein gekauftes Album (JBG3) nicht über Amazon Music runterladen kann und das schon seit 00:00 obwohl heute release ist Danke!,"CUSTOMER: @116316 ach mit euch hab ich oft genug Probleme jetzt ist mein Problem dass ich mein gekauftes Album (JBG3) nicht über Amazon Music runterladen kann und das schon seit 00:00 obwohl heute release ist Danke!
+AmazonHelp: @226257 Erscheint es in deiner Musikbibiliothek? Grüße ^TG
+CUSTOMER: @AmazonHelp Nein ist es nicht
+AmazonHelp: @226257 Melde dich mal im Kundenservice. Die Kollegen finden heraus, was da nicht stimmt: https://t.co/5RHhEVutwe Viele Grüße ^UK
+CUSTOMER: @AmazonHelp Ok danke
+AmazonHelp: @226257 Hey, wir wollten kurz mal nachfragen, ob dir die Kollegen vom Kundenservice helfen konnten? ^MS
+CUSTOMER: @AmazonHelp Ja sie haben mir geholfen
+AmazonHelp: @226257 Ok super. Dann wünsch ich dir noch ein schönes Wochenende. ^MS",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0002,138268,138268,"@115850 worst service ever!
+Order not even delivered and changed the status to “Order Delivered”","CUSTOMER: @115850 worst service ever! Order not even delivered and changed the status to “Order Delivered”
+AmazonHelp: @147143 That's unusual, orders are delivered to the customer as per tracking update. I apologize for the incorrect tracking update on your order, kindly report this to our support team here: https://t.co/rS49hgaADF and we will get this sorted. ^VH
+CUSTOMER: @AmazonHelp No resolution has been done from your side.Already contacted via this link 2-3 times. Here is the Tracking # 184123617427
+AmazonHelp: @147143 Please don't provide your order details, we consider it to be personal information. Our page is visible to the public. ^GD
+AmazonHelp: @147143 I'm sorry that the product is not yet delivered. Kindly share your details here: https://t.co/GIJyeYqKE0 and we'll look into the issue for you. ^GD",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0003,1271842,1271842,"@115850 
+Need a revert urgently","CUSTOMER: @115850  Need a revert urgently
+AmazonHelp: @371732 I'm sorry but I'm unable to comprehend. Could you please elaborate your issue? ^PR
+CUSTOMER: @AmazonHelp I have directly send you all the details
+CUSTOMER: @AmazonHelp Please go thro the mail __email__ or registered 9544404488
+CUSTOMER: @AmazonHelp Can you please send me esclation  email id and also email id of amazon india incharge
+AmazonHelp: @371732 here: https://t.co/GIJyeYqKE0 &amp; necessary escalations will be done. 2/2 ^MJ
+AmazonHelp: @371732 Your account details on Twitter will not help us gain access to your account, write to us 1/2 ^MJ
+CUSTOMER: @AmazonHelp I just  need esclation  matrix and mail id of india incharge",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0004,1124879,1124879,"@AmazonHelp just setup a fire stick, when I say play Narcos it only shows search results and won’t open Netflix and play. Is this right?","CUSTOMER: @AmazonHelp just setup a fire stick, when I say play Narcos it only shows search results and won’t open Netflix and play. Is this right?
+AmazonHelp: @320581 I'm sorry to hear that!  I believe the best option would be for you to reach out to us so our specialist team can assist. https://t.co/JzP7hlA23B Thank you!  ^WB",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0005,1005118,1005118,I order from amazon so much that my neighbours know the delivery man on a first name basis,"CUSTOMER: I order from amazon so much that my neighbours know the delivery man on a first name basis
+AmazonHelp: @357896 Brilliant ☺️^KM",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0006,576468,576468,@AmazonHelp I talked to your Indian customer support representative and he said that he is not able to find contact number of seller. Do you really verify sellers before registering? I'm unable to claim my warranty for order of crossbeats headphone as it stopped workng in 5 mnths,"CUSTOMER: @AmazonHelp I talked to your Indian customer support representative and he said that he is not able to find contact number of seller. Do you really verify sellers before registering? I'm unable to claim my warranty for order of crossbeats headphone as it stopped workng in 5 mnths
+AmazonHelp: @255669 Sorry to know about the trouble you're facing in claiming the warranty. We'd like to have this checked, kindly drop in your details here: https://t.co/beaaDm0muc and we'll reach out to you at the earliest. ^EM
+CUSTOMER: @AmazonHelp done
+AmazonHelp: @255669 We have received your details. We are working on it and will get back to you soon. ^VH",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0007,436338,436338,@115850 I am purchase lot products from all On line sites But Never face Very Worst Delivery service From @115850.,"CUSTOMER: @115850 I am purchase lot products from all On line sites But Never face Very Worst Delivery service From @115850.
+AmazonHelp: @218635 Could you please tell us more about the issue for better understanding? ^HN
+CUSTOMER: @AmazonHelp Same think happen 2nd order id But reason is change.this time reason is Not done payment by customer fakely.i
+CUSTOMER: @AmazonHelp Not attempt delivery.Then evening close order status cant reach customer fakely.Then y @115850 place our order
+CUSTOMER: @AmazonHelp I order two products 7/10/2017. Order no- 407-1429305-3674761 Order no- 407-2054464-8216339
+AmazonHelp: @218635 Please don't provide your order details, we consider it personal information. Our Twitter page is visible to public. ^HA
+CUSTOMER: @AmazonHelp Orders id' s deleted
+AmazonHelp: @218635 Sorry about the order. We'd like to investigate this further, please share your details here: https://t.co/cQVomR1pWz. ^HA",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0008,2836956,2836956,Comprei meu Kindle na sexta. Chegou ontem. @117086 eu quero BEIJAR VOCÊS.,"CUSTOMER: Comprei meu Kindle na sexta. Chegou ontem. @117086 eu quero BEIJAR VOCÊS.
+AmazonHelp: @789604 Caroool, assim você nós deixa tímidos! ❤  Já sabe qual será o primer eBook que irá leer no Kindle? ^DA
+CUSTOMER: @AmazonHelp Já! Vou ler Sapiens, que já tinha começado a leitura 😍. Mas parabéns pela agilidade, foi impressionante!
+AmazonHelp: @789604 A sua leitura vai ficar mais lindona com o Kindle! ❤ Ownt, é tudo para ver você feliz! 🏃‍📦 ^DA
+CUSTOMER: @AmazonHelp Agora estou vendo se assino o Ilimitado. &lt;3 Obrigada!
+AmazonHelp: @789604 É demais, você iria gostar também. Se tiver alguma dúvida, só nós chamar! 😊 ^DA",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0009,381446,381446,何か最近Amazonの日時指定が適当で困る!! 指定日とは関係無しで届くんだけど!! でも時間は希望した時間内とか 何故?! お届け日時指定便を選択してるんだから守ろうヨォ💦明日指定なのに今日届いてるッポイ‼ 親が家に居て良かったし!!,"CUSTOMER: 何か最近Amazonの日時指定が適当で困る!! 指定日とは関係無しで届くんだけど!! でも時間は希望した時間内とか 何故?! お届け日時指定便を選択してるんだから守ろうヨォ💦明日指定なのに今日届いてるッポイ‼ 親が家に居て良かったし!!
+AmazonHelp: @206456 アマゾンです。ご指定いただいたのと異なる日時に届いたまたは、届かなかった場合は、カスタマーサービスにて確認させていただきます。お手数ですが、文末のリンクよりお問い合わせください。https://t.co/NtNAX37Sr4 ET",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0010,2276490,2276490,Not even fucking kidding on. TWICE NOW that those amazin fucks have sent me a 1060 instead of a 1080. I better be due some compensation here im £1240 down and STILL without what i ordered a week ago. TWICE ITS HAPPENED. My life's beyond a joke. FIX THIS @115821 https://t.co/rj24lbjmVx,"CUSTOMER: Not even fucking kidding on. TWICE NOW that those amazin fucks have sent me a 1060 instead of a 1080. I better be due some compensation here im £1240 down and STILL without what i ordered a week ago. TWICE ITS HAPPENED. My life's beyond a joke. FIX THIS @115821 https://t.co/rj24lbjmVx
+AmazonHelp: @636781 Hey Johnman, I am so sorry that we've sent your the wrong item twice! Please contact us at https://t.co/kIOkWi6PI5 so we can look into possible options with you and investigate the reason this has happened. ^PF
+CUSTOMER: @AmazonHelp I've already been on the phone talking to managers and all sorts and the best your multi billion dollar company could offer me in compensation for MISSING £1240 for 2 weeks was a £10 gift card? Can you believe it buddy?? I sure can't.",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0011,166518,166518,Después de 1 mes ! @115821 #fail #uddisculpejoven @116875 https://t.co/50pntyQOU8,"CUSTOMER: Después de 1 mes ! @115821 #fail #uddisculpejoven @116875 https://t.co/50pntyQOU8
+AmazonHelp: @154677 ¡Hola, Alex! ¿El producto es vendido y enviado por Amazon o por un vendedor externo que utiliza nuestra plataforma? ^LC
+CUSTOMER: @AmazonHelp por Amazon
+AmazonHelp: @154677 Comprendo, Alex. Te recomendamos que contactes a nuestro departamento de Servicio al Cliente en el siguiente enlace: https://t.co/eJXKURvpr8 para verificar con más detalles lo que sucedió con tu pedido. ^AA",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0012,158671,158671,@119625 when can I expect Kannada movies ?,"CUSTOMER: @119625 when can I expect Kannada movies ?
+AmazonHelp: @152476 We currently do not have a tentative date regarding this. Regional content is an integral part of our content in India. Please stay tuned as we expand our content selection. ^MP",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0013,404050,404050,I spend soo much $$ buying books for my Kindle and have now realized my Prime membership gives me thousands of free reads. 😭 ILY @115821!!!,"CUSTOMER: I spend soo much $$ buying books for my Kindle and have now realized my Prime membership gives me thousands of free reads. 😭 ILY @115821!!!
+AmazonHelp: @211637 Send an S.O.S. to your friends in case they don't hear from you for a few weeks! 😂",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0014,985059,985059,"@115850 ordered fish capsules. What i got is putrified remains &amp; stones. Cle
+arly there are no checks. #disgusting #TerribleQuality https://t.co/cSFDc6NBdg","CUSTOMER: @115850 ordered fish capsules. What i got is putrified remains &amp; stones. Cle arly there are no checks. #disgusting #TerribleQuality https://t.co/cSFDc6NBdg
+AmazonHelp: @353491 We apologize for the hassle. Allow our support team to investigate this. You can report this here: https://t.co/R3EfhzgU8B ^CB.
+CUSTOMER: @AmazonHelp My money is refunded. But the point is that there is no check before u send things. used to blindly trust your deliveries now i will check.
+AmazonHelp: @353491 I'm sorry about that. I'll surely pass on your feedback to the concerned team. ^GD",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0015,1062306,1062306,@AmazonHelp hi why is gt sport out on the 18th but sony say the 17th ?,"CUSTOMER: @AmazonHelp hi why is gt sport out on the 18th but sony say the 17th ?
+AmazonHelp: @139371 The October 17 release date is for the U.S., the UK release date is October 18. Official page: https://t.co/14nipUVodd ^JR",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0016,2652330,2652330,"Hey @115850 am i eligible for ₹99 cashback?? @AmazonHelp 
+
+@115823 
+
+Cc: @120602 https://t.co/VIvd5BSA8w","CUSTOMER: Hey @115850 am i eligible for ₹99 cashback?? @AmazonHelp   @115823   Cc: @120602 https://t.co/VIvd5BSA8w
+AmazonHelp: @132287 Please don’t provide your details as we consider them to be personal information. Our Twitter page is public. 2/2 ^SH
+AmazonHelp: @132287 Twitter is a social media platform we'll not be able to access any of your account/order details. If the terms and conditions mentioned here: https://t.co/lKDMpfSxEw are met, then you shall receive the cashback. 1/2 ^SH",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0017,142953,142953,@8388 security researchers already breaking amazon key. No need to steal from the porch when you can get in!  https://t.co/Pp0KPOHMjE,"CUSTOMER: @8388 security researchers already breaking amazon key. No need to steal from the porch when you can get in!  https://t.co/Pp0KPOHMjE
+AmazonHelp: @148270 Here is the information to rest you Echo device: https://t.co/8dfllRMOyC  Let us know if you need any other assistance! ^DJ",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0018,2893160,2893160,No singing smiley faces on our parcels...so our my own! @115830 https://t.co/caD9crjm6I,"CUSTOMER: No singing smiley faces on our parcels...so our my own! @115830 https://t.co/caD9crjm6I
+AmazonHelp: @801892 Sorry to disappoint! 😋 Way to be creative though! Have you made these smiling parcels sing yet?! ^AB
+CUSTOMER: @AmazonHelp Lol...no not yet. I think they are sulking!
+AmazonHelp: @801892 As long as they don't start singing Chumbawamba, all will be good in the world. 😂😂 ^AN",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0019,882506,882506,@AmazonHelp @115830 have been locked out of my account without being notified. Can't access customer service as I need to login.,"CUSTOMER: @AmazonHelp @115830 have been locked out of my account without being notified. Can't access customer service as I need to login.
+AmazonHelp: @329555 I'm sorry for the account trouble! Have you received any e-mails from our Account Specialists? Check spam/junk folders too. ^MB
+CUSTOMER: @AmazonHelp Nope, no emails or advance warnings.
+AmazonHelp: @329555 We'd like to look into this further with you! When you have a chance, please reach out to us here: https://t.co/zYVX1Qi29G ^HC
+CUSTOMER: @AmazonHelp Still no response or callback",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0020,2835599,2835599,@115850 what an innovative bookmark. Send more of these 🤗 🔖 https://t.co/1fyivis2ta,"CUSTOMER: @115850 what an innovative bookmark. Send more of these 🤗 🔖 https://t.co/1fyivis2ta
+AmazonHelp: @323895 Indeed, an innovative way to bookmark. :) I'll be sure to pass your feedback to the concerned team internally. ^SG",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0021,2263025,2263025,"@115830 Prime has failed me again. 3 orders now late. 
+
+What am I paying for? #maybenextday Looks like I won't be renewing next month. https://t.co/GLK9Tx9orc","CUSTOMER: @115830 Prime has failed me again. 3 orders now late.   What am I paying for? #maybenextday Looks like I won't be renewing next month. https://t.co/GLK9Tx9orc
+AmazonHelp: @658820 I'm sorry to hear of any delays occurring w/ your deliveries. Please elaborate w/o sharing private details since we have no account level access on Social Media. What has been done to report this for a proper review into a resolve? ^TM
+CUSTOMER: @AmazonHelp I was sent an apology for the 'late deliveries' im told to wait until thursday before I report.  One of the orders was from Friday.
+AmazonHelp: @658820 I'm sorry to hear we've let you down! What does the most recent tracking information show on your order? You can check here: https://t.co/aaDyEz1VgE. Is there a particular carrier this is happening with? ^BN",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0022,990374,990374,"@115830 Yet again, another failed deliver.  No attempt to even call my apartment to say they had arrived!!! Thanks for wasting my time! https://t.co/f9AbD7f0hM","CUSTOMER: @115830 Yet again, another failed deliver.  No attempt to even call my apartment to say they had arrived!!! Thanks for wasting my time! https://t.co/f9AbD7f0hM
+AmazonHelp: @195464 Oh no! Sorry for the troubles, Rob. Please contact us via phone or chat: https://t.co/JzP7hlA23B so we can look into this. ^AB",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0023,2378971,2378971,"I am very happy with @15959 but this is how @115821 delivers it!!! They don’t even bother to deliver to the door, just leave it at @25713 https://t.co/ivryzrayqt","CUSTOMER: I am very happy with @15959 but this is how @115821 delivers it!!! They don’t even bother to deliver to the door, just leave it at @25713 https://t.co/ivryzrayqt
+AmazonHelp: @349038 Oh no! I'm sorry about the delivery issue with your order. Please tell me who the shipper was. You can find that information here: https://t.co/hHJD0AR0Kg ^SE
+CUSTOMER: @AmazonHelp Dear @AmazonHelp i dont think you are sorry, carrier: AMZL US . I am using monthly subscription service and each month i am requesting “please dont deliver those bulky product to leasing office, deliver to my front door” this is 4th month and you delivered to leasing office again
+AmazonHelp: @349038 We'd like to look into this with you. Please send more details about this order here: https://t.co/NUmgjMf1rq ^CL
+CUSTOMER: @AmazonHelp So @AmazonHelp i provided more information, will you solve your shipment problems and start delivering to my door?",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0024,1288895,1288895,"@115821 why does the Kindle app force me to turn my device upside down to read, and why is there no orientation setting to fix this?","CUSTOMER: @115821 why does the Kindle app force me to turn my device upside down to read, and why is there no orientation setting to fix this?
+AmazonHelp: @378406 Hmm... With the book open, try rotating your device. See if a small padlock icon appears in the bottom right corner. ^MB
+CUSTOMER: @AmazonHelp That did it. Thank you.
+AmazonHelp: @378406 Happy to help! We'll be here if there's anything else you need. ^MB
+CUSTOMER: @AmazonHelp I'll check again, but so far no.",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0025,42558,42558,"@amazonhelp so frustrated with your customer service. Out for delivery/resched then told packing slip torn, then package damaged.No solution","CUSTOMER: @amazonhelp so frustrated with your customer service. Out for delivery/resched then told packing slip torn, then package damaged.No solution
+AmazonHelp: @125402 Just to clarify, was the package returned because it was damaged or did you receive a damaged order? ^VS
+CUSTOMER: @AmazonHelp I did not receive my order. I missed original delivery, cust service called me and I opted for later delivery.No delivery arrived.
+AmazonHelp: @125402 Did we replace the order? When you spoke with us regarding your order, what options did we provide? ^CO
+CUSTOMER: @AmazonHelp No options were provided, happy to email the chat transcripts.Just told different stories.I re-ordered won't receive until Friday too late.
+AmazonHelp: @125402 Did we mention that the package is being returned since it's damaged? ^WJ
+CUSTOMER: @AmazonHelp I don't think the package is damaged.Rather carrier communication issue. Why else the changing stories ?found out about return from email.
+AmazonHelp: @125402 Goodness, my apologies for the frustration! Please keep us posted on your new order. We want to help any way we can! ^KN",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0026,682590,682590,So I bought a new book for my holiday and now it’s not going to possibly be here? Why do I pay for prime? 🤔@AmazonHelp https://t.co/MnXPThi7Kc,"CUSTOMER: So I bought a new book for my holiday and now it’s not going to possibly be here? Why do I pay for prime? 🤔@AmazonHelp https://t.co/MnXPThi7Kc
+AmazonHelp: @282897 Sorry to hear about this delay Callum! If your book is too late, you can return it for a full refund when you get back. ^RL
+CUSTOMER: @AmazonHelp Your service is absolute dog shit! Now you’ve ruined my Amazon Prime Now order and given me a refund for £2 less than I paid!
+AmazonHelp: @282897 Sorry to see the delay. Can you contact us here: https://t.co/JzP7hlA23B? ^MC",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0027,2278359,2278359,@115850 please provide an tentative date when iphone x will be available again.,"CUSTOMER: @115850 please provide an tentative date when iphone x will be available again.
+AmazonHelp: @662460 I get the adrenaline rush, Umang. We haven't made any announcement on this yet. Please stay tuned. ^NK
+CUSTOMER: @AmazonHelp Ok
+CUSTOMER: @AmazonHelp Any update sir?
+AmazonHelp: @662460 I get your excitement, as we don't have an announcement on the timelines yet, you can subscribe yourself here: https://t.co/wqZ7A9eYwK for email notifications regarding the release and availability of iPhone X. ^SU",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0028,1595275,1595275,"@115850 I just received JBL c100si earphones, but I'm not sure whether product delivered is genuine JBL product.","CUSTOMER: @115850 I just received JBL c100si earphones, but I'm not sure whether product delivered is genuine JBL product.
+AmazonHelp: @336069 contact our team here: https://t.co/vlvfJr4nN9 and we'll have this checked. 2/2 ^GK
+AmazonHelp: @336069 All the products sold on Amazon are original and genuine. In case, you are in doubt about the item being genuine, kindly 1/2 ^GK",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0029,1286427,1286427,@115825 warum kosten die Staffeln von 24 jetzt das Doppelte von vor ein paar Wochen? Hab mir jetzt die BluRay geholt. Ist günstiger😏,"CUSTOMER: @115825 warum kosten die Staffeln von 24 jetzt das Doppelte von vor ein paar Wochen? Hab mir jetzt die BluRay geholt. Ist günstiger😏
+AmazonHelp: @420884 Wir bemühen uns immer um das beste Preis-Leistungs-Verhältnis, sind aber an Lizenzen gebunden. Dein Feedback nehme ich auf. ^SI",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0030,663820,663820,@AmazonHelp it is now 9 PM and my same day order does not show shipped-any update,"CUSTOMER: @AmazonHelp it is now 9 PM and my same day order does not show shipped-any update
+AmazonHelp: @277597 I am sorry, Larry. You can check the most recent tracking information here:  https://t.co/Y5jpI9gRhE ^LM
+CUSTOMER: @AmazonHelp All it says is that it should already be here....please research a bit rather than send form tweets.  I thought you were supposed to be help-do you think I dont know how to use your web page
+AmazonHelp: @277597 I'm sorry for any misunderstanding, our team is unable to access your account or orders via Twitter. For direct assistance, please reach us by choosing ""phone"" or ""chat"" using this link: https://t.co/hApLpMlfHN ^JR
+CUSTOMER: @AmazonHelp Now you just changed my delivery from today til Friday...why?  what time?
+CUSTOMER: @AmazonHelp as i wrote earlier I have done that three times.  They have as little info as you do.  Why do you call yourself help if you cant help?",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0031,972596,972596,"Amazonからこれ届いた人いる？
+なんかいたずららしいからなんか今日本社でこの連絡が多発してるみたいで。
+届いてる人いたらおしえてくれ:( ;´꒳`;):ﾌﾟﾙﾌﾟﾙ https://t.co/dXX7jHciQ6","CUSTOMER: Amazonからこれ届いた人いる？ なんかいたずららしいからなんか今日本社でこの連絡が多発してるみたいで。 届いてる人いたらおしえてくれ:( ;´꒳`;):ﾌﾟﾙﾌﾟﾙ https://t.co/dXX7jHciQ6
+AmazonHelp: @350702 アマゾンです。こちらは当サイトからのご連絡ではありません。企業を装い個人情報を取得しようとする詐欺が発生しておりますので、記載の番号にはご連絡なさいませんようお願いいたします。こちらもご参照ください。https://t.co/vZPQqiN3lM ET
+CUSTOMER: @AmazonHelp え、もう連絡してしまって、名前もいいましたけど
+AmazonHelp: @350702 リプライありがとうございます。以後の対処方法については、恐れ入りますが、警察など第三者機関にご相談くださいますようお願いいたします。TN",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0032,1573005,1573005,"@AmazonHelp I have two expected delivery dates, one saying arriving today by 8pm and the other saying between the 4th and the 7th of Nov","CUSTOMER: @AmazonHelp I have two expected delivery dates, one saying arriving today by 8pm and the other saying between the 4th and the 7th of Nov
+AmazonHelp: @484872 Hello there! We have responded to your DM. Please check there. ^AL",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0033,435151,435151,@116618 hey will mr robot S3 will also be available on Wednesday on prime videos India? Eagerly waiting for this.,"CUSTOMER: @116618 hey will mr robot S3 will also be available on Wednesday on prime videos India? Eagerly waiting for this.
+AmazonHelp: @218368 We haven't made any announcement yet. Please stay tuned! ^HN
+CUSTOMER: @AmazonHelp 😟",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0034,399147,399147,"Dear @119625, Please PLEASE upload #Brooklyn99 series. It's an extremely good show. Thanks.","CUSTOMER: Dear @119625, Please PLEASE upload #Brooklyn99 series. It's an extremely good show. Thanks.
+AmazonHelp: @210370 we highlight the latest movies and TV shows we have available. 2/2 ^SB
+AmazonHelp: @210370 We will continue to add new content. Keeping checking https://t.co/FYM9PIZOR8 where 1/2 ^SB",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0035,1844493,1844493,"@118706 @115821 Do you consider this a proper delivery? Walks on grass, drops package, leaves it in the rain, and does NOT knock! #service https://t.co/xHIzUpcInp","CUSTOMER: @118706 @115821 Do you consider this a proper delivery? Walks on grass, drops package, leaves it in the rain, and does NOT knock! #service https://t.co/xHIzUpcInp
+AmazonHelp: @552587 I'm sorry that this happened to you! Please call/chat us so we can look at this more closely: https://t.co/hApLpMlfHN ^RM
+CUSTOMER: @AmazonHelp Will do and thanks for your response!",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0036,420218,420218,@115850 pathetic service i am not happy with your service inspite i am prime user of Amazon service.,"CUSTOMER: @115850 pathetic service i am not happy with your service inspite i am prime user of Amazon service.
+AmazonHelp: @215174 Sorry to hear that, Ankit.  Could you please elaborate the issue so that we can help you? ^NK
+CUSTOMER: @AmazonHelp Seeking resn fr isues i fced:- 1 delivery time increased 2 empty pckg delivrd 3 didn't got rplacmnt on time __email__
+AmazonHelp: @215174 Please don't provide your order details, we consider it personal information. Our Twitter page is visible to public.(2/2)^GU
+CUSTOMER: @AmazonHelp Ohk Any update on this?
+AmazonHelp: @215174 Have you reported this to our support team using the link shared previously? ^HK
+CUSTOMER: @AmazonHelp I have spoken to your customer support multiple times, but no avail. Please help resolve it asap. Also, I can`t see any link mentioned above
+AmazonHelp: @215174 I'd like to help! Please share your details here: https://t.co/GIJyeYqKE0. ^AG",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0037,1700033,1700033,I placed an order on @115821 last night at 9PM. It is at my door already with a picture of my delivery in the app. I love them.,"CUSTOMER: I placed an order on @115821 last night at 9PM. It is at my door already with a picture of my delivery in the app. I love them.
+AmazonHelp: @515551 Nothing like a fast delivery to make your Monday! Enjoy your week! ^AF",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0038,1609079,1609079,What is the point of paying for @115830 prime next delivery to wait in all day until 8pm with no delivery or communication! #notrenewing,"CUSTOMER: What is the point of paying for @115830 prime next delivery to wait in all day until 8pm with no delivery or communication! #notrenewing
+AmazonHelp: @494041 Hey, sorry about the delay. What info can you see on the tracking here: https://t.co/aaDyEz1VgE ^RS
+CUSTOMER: @AmazonHelp Now expected 5 Nov - 8 Nov We're sorry your package is late. We're working to get your package back on track. Was expected Saturday, 4 Nov
+AmazonHelp: @494041 So sorry about the delay. We do aim to deliver by the delivery date given at the time the order was placed. ^KM
+CUSTOMER: @AmazonHelp That's fine but when I pay for prime next day delivery I would expect it. Item was a safety gate needed for the next day!
+AmazonHelp: @494041 My apologies Dan. If it's now arriving too late for your use, you can of course return it to us for a full refund. ^DC
+CUSTOMER: @AmazonHelp It's still needed but we have had to make additional arrangements for the time being. Just frustrating there was no communication.
+CUSTOMER: @AmazonHelp some form of communication would have helped. If it wasn't going to be delivered just let me know so I didn't have to wait in all day",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0039,1225700,1225700,@115821 if I use amazon cash what will it do to my current gift card balance,"CUSTOMER: @115821 if I use amazon cash what will it do to my current gift card balance
+AmazonHelp: @306989 Hi, Nick! Just to clarify, are you referring to Amazon Coins or your Amazon Allowance? Please let us know, we'd love to help!^KL
+CUSTOMER: @AmazonHelp No I have a current balance on my gift card. I’m talking about the taking in a barcode and a retailers scan s it you give them money
+AmazonHelp: @306989 Please clarify further on what you are trying to do. We'd love to help. ^LL
+CUSTOMER: @AmazonHelp I want add money to my account
+AmazonHelp: @306989 If you want to add another gift card to your balance, you can do so by claiming it here: https://t.co/tClN1mhWi1 ^AJ",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0040,226347,226347,Hey @115850 your customer service is getting worse. It’s been almost 3 weeks I haven’t received my order and nobody has contacted me yet.,"CUSTOMER: Hey @115850 your customer service is getting worse. It’s been almost 3 weeks I haven’t received my order and nobody has contacted me yet.
+AmazonHelp: @170032 Kindly drop in your details here:https://t.co/beaaDm0muc and I'll reach out to you at the earliest. 2/2^EM
+CUSTOMER: @AmazonHelp I’ve already dropped in my details once but for your convenience, of course I’ll do it again.
+AmazonHelp: @170032 Thank you for confirming. If you have shared your details, our team will get back to you soon. ^AG
+AmazonHelp: @170032 I'm sorry for the delay in the delivery, we certainly didn’t expect this would happen. I'd like to look into this. 1/2^EM",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0041,2422658,2422658,@AmazonHelp just had to make a complaint regarding wrong item sent to me. Have to say your customer service is fantastic!!,"CUSTOMER: @AmazonHelp just had to make a complaint regarding wrong item sent to me. Have to say your customer service is fantastic!!
+AmazonHelp: @695817 Sorry about the mix up, but glad to hear everything went smoothly! If you need anything else don't hesitate to ask! ^LS",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0042,2805111,2805111,Anyone know how to get a refund from @115821.com when your kid ordered something by mistake on the Firestick???,"CUSTOMER: Anyone know how to get a refund from @115821.com when your kid ordered something by mistake on the Firestick???
+AmazonHelp: @560358 Oh no! We'd love to help you out! You can find some helpful tips about accidental purchase here: https://t.co/g20Ys42L8R ^HM",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0043,520676,520676,Amazonで買ったiPod touch、まさかの不良品……ここ最近ほんとツイてないorz,"CUSTOMER: Amazonで買ったiPod touch、まさかの不良品……ここ最近ほんとツイてないorz
+AmazonHelp: @240196 なお、マーケットプレイスの出品者が発送する商品の場合には、出品者毎にポリシーを設けているため、恐れ入りますが、出品者に直接お問い合わせください。出品者へのお問い合わせ方法はリンクよりご確認ください。https://t.co/ZXCXcbvsuV TN
+AmazonHelp: @240196 ご迷惑をお掛けし申し訳ございません。お届けした商品に問題があった場合、Amazonが発送する商品は返品・交換（可能な商品のみ）にて対応させていただいております。誠に恐れ入りますが、リンクを参照の上お手続きください。https://t.co/TYbxdUlIYB TN",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0044,1828692,1828692,Colis @120533 en retard.. je regarde qui s'occupe de mon colis: ColisPrivé évidemment.... Jamais vu des incapables pareils,"CUSTOMER: Colis @120533 en retard.. je regarde qui s'occupe de mon colis: ColisPrivé évidemment.... Jamais vu des incapables pareils
+AmazonHelp: @548798 Bonjour, Je suis désolé pour ce retard, que dit le suivi de votre colis ? ^YL
+CUSTOMER: @AmazonHelp Normalement prévu aujourd'hui. Sachant que c'était un cadeau, j'aurai 1 jour de retard pour celui-ci..
+AmazonHelp: @548798 avez-vous signalé cela à notre service? ^YL
+CUSTOMER: @548798 @120533 hoooooo mais je n'ai pas tous ces égards de Amazon Help moi ! j'ai téléphoné deux fois sur une plateforme inutile qui ne parle pas français
+AmazonHelp: @598317 Bonsoir, je suis désolée pour cet incident, je vous informe que vous pouvez joindre notre SAV via: https://t.co/hgIrz98cdI",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0045,349994,349994,"@115850 
+Suggest to call out potential issues at checkout for third party sellers. This will help in minimising issues
+
+Best Regards","CUSTOMER: @115850  Suggest to call out potential issues at checkout for third party sellers. This will help in minimising issues  Best Regards
+AmazonHelp: @199254 We'll work on your experience for improvements, write to us using the link shared above &amp; we'll escalate this accordingly. ^MJ",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0046,2864680,2864680,"@AmazonHelp Hey, what happened to the instant pot cyber Monday deal?  It’s still Monday.","CUSTOMER: @AmazonHelp Hey, what happened to the instant pot cyber Monday deal?  It’s still Monday.
+AmazonHelp: @795682 Hey Fran! Did you see somewhere on our site a Cyber Monday Deal for the Instant Pot? If so, can you provide the link to us so we may research further for you? In the meantime, here is a link for the Cyber Monday Deals available on our site: https://t.co/nQZRGpnkmZ ^SY
+CUSTOMER: @AmazonHelp It was $75 at this link until an hour before I messaged you. https://t.co/ucgDfyfBeT Read the pdf manual, decided to go back to the link, and the price jumped before Monday was over.
+AmazonHelp: @795682 Thanks for the additional information, Fran! I am terribly sorry, but once a sale is over we do not have the ability to honor the sale price. These can end due to time limits, or inventory no longer being available. Please let us know if you need anything else. ^JD
+CUSTOMER: @AmazonHelp There was no indication of any limits, other than Monday.  Clear communications would have created less confusion and disappointment.
+CUSTOMER: @AmazonHelp Here’s a reference to the sale. Not my source, but documented. https://t.co/VlZW5sJnP0
+AmazonHelp: @795682 You can find it here: https://t.co/7bFDOM0CH6 You can also view other Instant Pots on sale: https://t.co/6M638KIUkv ^AF
+CUSTOMER: @AmazonHelp No, the Duo was at that price. Not this model.",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0047,1366232,1366232,@115830 what the hell has happened to next day deliveries?!? At 5am today the earliest delivery date for any item is Tuesday. Even though some of them items can be bought from Prime Now with 2hr delivery?!?,"CUSTOMER: @115830 what the hell has happened to next day deliveries?!? At 5am today the earliest delivery date for any item is Tuesday. Even though some of them items can be bought from Prime Now with 2hr delivery?!?
+AmazonHelp: @137093 I'm sorry about the delivery delays! We aim to deliver as quickly as possible during this busy time. For more information about our Black Friday Delivery dates, visit us here: https://t.co/zsNX5ufIbT ^TK",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0048,1715276,1715276,"@AmazonHelp 
+poorest response. awaiting pick up of return item since 23 Oct. Called thrice, false assurances. NO action till date. Shame https://t.co/svuy2Wdlv1","CUSTOMER: @AmazonHelp  poorest response. awaiting pick up of return item since 23 Oct. Called thrice, false assurances. NO action till date. Shame https://t.co/svuy2Wdlv1
+AmazonHelp: @519484 We've responded to your concern via DM. Kindly check. ^EM",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0049,2952192,2952192,@120533 pas cool de recevoir des colis déjà ouvert et mal emballé !,"CUSTOMER: @120533 pas cool de recevoir des colis déjà ouvert et mal emballé !
+AmazonHelp: @815177 Bonsoir, vraiment désolé pour cela. J'espère que le(s) article(s) sont intacts. Avez-vous signalé cet incident à notre SAV ? ^KD",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0050,842180,842180,This might be the first time in my life something I ordered from @115821 is late. Not great when you need it by Halloween parties tmrw...,"CUSTOMER: This might be the first time in my life something I ordered from @115821 is late. Not great when you need it by Halloween parties tmrw...
+AmazonHelp: @320321 I'm sorry your item hasn't arrived. Can you tell us more about what's going on? Have we missed your confirmed delivery date? ^RA
+CUSTOMER: @AmazonHelp Yes, my prime 2-day delivery date was yesterday, the 19th.
+AmazonHelp: @320321 I'm so sorry it's late! Have you received an updated delivery date? ^WJ
+CUSTOMER: @AmazonHelp A range 🤔 https://t.co/jcuxcRxgIC
+AmazonHelp: @320321 For clarification, who is the carrier for this order? You can find this information here: https://t.co/Y5jpI9gRhE ^KN
+CUSTOMER: @AmazonHelp AMZL US
+AmazonHelp: @320321 Is there any reason or notification given for the delay? Did you receive and email about it? ^PK",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0051,318581,318581,@115850 this is regarding my order# 171-5331733-1100309 which shows as delivered but in reality it's not delivered to me @1560,"CUSTOMER: @115850 this is regarding my order# 171-5331733-1100309 which shows as delivered but in reality it's not delivered to me @1560
+AmazonHelp: @192008 Please don't provide your order details, as we consider it to be personal information. Our Twitter page is public.(2/2)^AU
+AmazonHelp: @192008 I'm sorry for the trouble. Please fill this form: https://t.co/beaaDm0muc and I’ll contact you at the earliest.(1/2) ^AU
+CUSTOMER: @115850 @1560 Tried contacting delivery boy on +91800709912 who is either disconnecting or not answering my calls
+AmazonHelp: @192008 I'm sorry for that, please contact our customer service team here: https://t.co/vlvfJr4nN9 and we'll be glad to help you.^SI",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0052,232128,232128,@115821 debería replantearse usar correos express para algunos de sus envíos no cumplen en un 80% de los casos ....,"CUSTOMER: @115821 debería replantearse usar correos express para algunos de sus envíos no cumplen en un 80% de los casos ....
+AmazonHelp: @171262 Hola, Leticia, ¿Tienes un pedido pendiente de entrega?  ^AZ
+CUSTOMER: @AmazonHelp Si dos, pero es una constante con correo express llegan por sistema un día después de la fecha prevista. Lo quería dejar constar :)
+AmazonHelp: @171262 Entiendo, en ese caso, te recomiendo reportarnos este tipo de inconvenientes directamente con nuestro Soporte al Cliente. ^AZ",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0053,1035132,1035132,@115850 I have a brand new Samsung refrigerator waiting to be installed. 405-2344255-8252311 is my order number. 2 days and counting.,"CUSTOMER: @115850 I have a brand new Samsung refrigerator waiting to be installed. 405-2344255-8252311 is my order number. 2 days and counting.
+AmazonHelp: @364857 order details as we consider them to be personal information. Our Twitter page is visible to public. 3/3 ^SB
+AmazonHelp: @364857 team here: https://t.co/vlvfJr4nN9. We’ll sort this for you. Also, please don’t provide your 2/3 ^SB
+AmazonHelp: @364857 I’m sorry about the delay in installation. We will look into to it. Please connect with our support 1/3 ^SB",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0054,1344520,1344520,"Cheers, @115821 for not delivering the horse head. Now going to @1548 as BoJack.. Man?","CUSTOMER: Cheers, @115821 for not delivering the horse head. Now going to @1548 as BoJack.. Man?
+AmazonHelp: @433542 I'm sorry to hear it hasn't arrived. What's the delivery date and most recent tracking shown here: https://t.co/aaDyEz1VgE? ^LI",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0055,351649,351649,@116090 is there delivery on Monday October 9?,"CUSTOMER: @116090 is there delivery on Monday October 9?
+AmazonHelp: @199647 If your order has been scheduled for this date, then it should be delivered. ^MC",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0056,1063837,1063837,Hey @115821 you said my New Balance walking shoes were gonna be here yesterday and I still haven’t received shit. I’m shorting your stock.,"CUSTOMER: Hey @115821 you said my New Balance walking shoes were gonna be here yesterday and I still haven’t received shit. I’m shorting your stock.
+AmazonHelp: @371166 I'm sorry. Have you received a notification on a change in the delivery date? Were they sold by Amazon or a Third-Party Seller? ^DO
+CUSTOMER: @AmazonHelp Yeah you guys changed it to today but nothing yet. Sold by amazon.
+AmazonHelp: @371166 Can you tell us what the latest tracking scan was? Who's the carrier? If you're unsure, check here: https://t.co/Y5jpI9gRhE ^NM",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0057,431111,431111,@115850 such a hopeless competition. I've been giving all answers right since 2. Still no luck #apptreasurehunt #AIFWSS18 #AmazonIndia https://t.co/pZ54zd5cfP,"CUSTOMER: @115850 such a hopeless competition. I've been giving all answers right since 2. Still no luck #apptreasurehunt #AIFWSS18 #AmazonIndia https://t.co/pZ54zd5cfP
+AmazonHelp: @217512 Due to the overwhelming response, the prizes were claimed quickly. There's more to be won, let's get ready for the next clue. ^NS",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0058,1850506,1850506,Amazonに予約商品のキャンセル期限なんてあったっけ？,"CUSTOMER: Amazonに予約商品のキャンセル期限なんてあったっけ？
+AmazonHelp: @553976 予約商品には、キャンセルできる期限が設定されている場合がございます。詳しくは、以下のリンクのヘルプページの「予約商品のキャンセル期限について」の欄をご参照ください。https://t.co/cqtntYX8dn TN",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0059,1287031,1287031,@115830 Your delivery driver literally beat my door&amp;window this eve (x3) trying to deliver a parcel. It woke my baby. Never do this again,"CUSTOMER: @115830 Your delivery driver literally beat my door&amp;window this eve (x3) trying to deliver a parcel. It woke my baby. Never do this again
+AmazonHelp: @421029 I sincerely apologize, Sarah. We'd like to talk more about this in real time via phone or chat: https://t.co/JzP7hlA23B ^BL",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0060,2393464,2393464,@115851  cash load service  is worst https://t.co/qSZ1JgkExh,"CUSTOMER: @115851  cash load service  is worst https://t.co/qSZ1JgkExh
+AmazonHelp: @689140 We have responded to your concern here: https://t.co/72d12Y1y5S. Request you to check. ^MP",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0061,1727971,1727971,"Vs êtes vraiment des tâches @120533, incapables de livrer 1 colis dans paris intra en 4 js. #Amazon = terminé, service pourri.","CUSTOMER: Vs êtes vraiment des tâches @120533, incapables de livrer 1 colis dans paris intra en 4 js. #Amazon = terminé, service pourri.
+AmazonHelp: @522526 Bonjour, je suis sincèrement désolée pour cela. Rencontrez-vous un retard de livraison avec une commande encours ? Sara
+CUSTOMER: @AmazonHelp Simple: 2js de suite chez moi, adresse introuvable (Paris 8è la blague), puis tentative fictive de livraison. Je suis à mon domicile
+AmazonHelp: @522526 L'avez-vous signalé à notre SAV afin qu'un suivi puisse être fait auprès du transporteur?  ^ARC
+CUSTOMER: @AmazonHelp Tout a été fait, avec notification SMS, code d'accès etc. Inutile de me répondre d'avantage.
+CUSTOMER: @AmazonHelp Déjà soit disant impossibilité de livrer samedi. Fin de la comédie et fin d'#amazon. Avant de prétendre livrer par #drone, livrez tout court",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0062,699464,699464,So my Christmas present order from @115830 just arrived. I open my package to find the extremely damaged book for my mum below?! This is disgusting that someone thought this was okay to package and send out. #amazon #christmaspresent #damaged https://t.co/6Xd9XKmZWT,"CUSTOMER: So my Christmas present order from @115830 just arrived. I open my package to find the extremely damaged book for my mum below?! This is disgusting that someone thought this was okay to package and send out. #amazon #christmaspresent #damaged https://t.co/6Xd9XKmZWT
+AmazonHelp: @286854 Sorry to hear that. If you visit the following link: https://t.co/lWawt19grt You can check your refund or replacement options.^TI
+CUSTOMER: @AmazonHelp Thank you kindly for your help and quick response x",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0063,1752472,1752472,"@115850 You have conducted 'n' number of contests thru App, but no results yet, if you cant declare winners, y conduct contest","CUSTOMER: @115850 You have conducted 'n' number of contests thru App, but no results yet, if you cant declare winners, y conduct contest
+AmazonHelp: @527942 We'd like to help you. Could you please let us know which particular contest are you referring to? ^NR",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0064,1673720,1673720,"@115850 Hi , How come i get an sms that my order is delivered, whereas no 1 at home has received it yet ! Where's my order ?","CUSTOMER: @115850 Hi , How come i get an sms that my order is delivered, whereas no 1 at home has received it yet ! Where's my order ?
+AmazonHelp: @431434 Sorry to learn about the problem you've experienced with the delivery of your order. (1/2) ^AS
+AmazonHelp: @431434 Please report this to support team here : https://t.co/vlvfJr4nN9 and they'll sort this for you. 2/2 ^AS
+CUSTOMER: @115850 Guys, 2 days back to back. Status is Order delivered, only sms is Received..but Order ISN'T ! @115851  What's going on wid Amazon India?
+AmazonHelp: @431434 We would like to help you. Please share your details with us here: https://t.co/GIJyeYqKE0. We'll get in touch shortly. ^CB
+CUSTOMER: @AmazonHelp Details shared. Please expedite resolution ASAP or issue a full refund!
+AmazonHelp: @431434 Thank for the confirmation. We'll check and get back to you at the earliest possible. ^RI",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0065,939414,939414,Não dá pra não admitir que a @117086 @1141 é sensacional!!!,"CUSTOMER: Não dá pra não admitir que a @117086 @1141 é sensacional!!!
+AmazonHelp: @342684 Opa, Myriam 💖 Só amor, né? 😊 ^LG",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0066,1240430,1240430,@AmazonHelp need help,"CUSTOMER: @AmazonHelp need help
+AmazonHelp: @120934 Hey Rushikesh, please tell me how may I help you today? ^SF
+CUSTOMER: @AmazonHelp I return an order..your guy collected it today but didn't give any acknowledgement receipt..is it fine??
+AmazonHelp: @120934 Call us here: https://t.co/vlvfJr4nN9 &amp; we'll have this checked, did you check for messages about the return pick up? ^MJ
+CUSTOMER: @AmazonHelp Never mind. I received money Thanks
+AmazonHelp: @120934 Glad to know that the issue is resolved. Thank you for keeping us posted. ^SB",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0067,321987,321987,"My recent @115821 orders have had hilarious shipping glitches. Something I received yesterday hasn't shipped yet, according to them. :)","CUSTOMER: My recent @115821 orders have had hilarious shipping glitches. Something I received yesterday hasn't shipped yet, according to them. :)
+AmazonHelp: @192712 Oh no! If you haven't already contacted us to report this, we'd like to discuss it further here: https://t.co/hApLpMlfHN ^RA
+CUSTOMER: @AmazonHelp Eh. I suppose I should. I was kind of waiting to see how it all worked out, for the sake of the humor. :)
+AmazonHelp: @192712 Haha! The main thing is you've received the order. ☺️ ^PK",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0068,741521,741521,"@120533 Bonjour, le délais pour les code d'authentification est de combien de temps ? 5 ans ? J'en demande depuis 20 minutes et rien.","CUSTOMER: @120533 Bonjour, le délais pour les code d'authentification est de combien de temps ? 5 ans ? J'en demande depuis 20 minutes et rien.
+AmazonHelp: @297345 Bonjour, je suis désolé pour ce contretemps, nous rencontrons un souci technique sur l'envoi. Merci pour votre patience ^RA
+CUSTOMER: @AmazonHelp Ça fonctionne par SMS, mais pas par mail.
+AmazonHelp: @297345 je n'ai pas parlé d'envoi par mail ! vous pouvez également contacter le service pour vérifier. Merci ^RA
+CUSTOMER: @AmazonHelp Je vous le dit : aucun code reçu par mail pendant 20 minutes mais reçu par SMS.
+AmazonHelp: @297345 Le mieux serait de le signaler via ce lien  https://t.co/hgIrz98cdI ^SN",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0069,2795288,2795288,"@115821 it says two day shipping but won't arrive till Friday when today is Tuesday, how? https://t.co/oBQ3DtUBMw","CUSTOMER: @115821 it says two day shipping but won't arrive till Friday when today is Tuesday, how? https://t.co/oBQ3DtUBMw
+AmazonHelp: @364866 Prime Two-Day shipping refers to when the item ships, not two days from when the order is placed. Some items, even when in stock, take time to get fulfilled. Once the order is fulfilled, the item should arrive within two days of when it's shipped out. ^DG",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0070,1124098,1124098,Shout Out to @115821 was able to fix an order that was made by my autistic son at 2 Am yes I SPOKE TO A HUMAN thanks again Amazing @115821,"CUSTOMER: Shout Out to @115821 was able to fix an order that was made by my autistic son at 2 Am yes I SPOKE TO A HUMAN thanks again Amazing @115821
+AmazonHelp: @385067 Hi, thanks for the shout out! We're glad to have helped. Please get in touch anytime &amp; have a great day! 😊 ^TS",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0071,703825,703825,@120533 Hello ! Pas de #mCable Gaming Edition prévu un jour ? C'est un must have pour tous les joueurs TV de la #NintendoSwitch 🤪 https://t.co/pnwCrbaJN9,"CUSTOMER: @120533 Hello ! Pas de #mCable Gaming Edition prévu un jour ? C'est un must have pour tous les joueurs TV de la #NintendoSwitch 🤪 https://t.co/pnwCrbaJN9
+AmazonHelp: @288167 Hello :) Votre remarque est bien prise en compte et sera, sans faute, transmise au service en charge.  ^SA",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0072,2437286,2437286,Thanks @115830 for hiding my parcel in a really inconspicuous place https://t.co/zX7hqgdf7o,"CUSTOMER: Thanks @115830 for hiding my parcel in a really inconspicuous place https://t.co/zX7hqgdf7o
+AmazonHelp: @699169 Oh my! Sorry about that, Ben. Have you had a chance to set up a safe place: https://t.co/2256Y2fOka? ^AB",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0073,1842147,1842147,@115850 you are a cheat.,"CUSTOMER: @115850 you are a cheat.
+AmazonHelp: @552048 That's quite a comment. Could you elaborate on your concern? ^KA
+CUSTOMER: @AmazonHelp Received damaged phone. Not able to refund.customer care saying only replacement.
+AmazonHelp: @552048 details you may refer the link: https://t.co/oqd5UFlsja. 2/2 ^SB
+AmazonHelp: @552048 We only have a replacement policy for damaged or defective mobile phones. Further, 1/2 ^SB",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0074,1252990,1252990,"Amazon Alexa is truly disappointing. What do you mean, you can't set repeating alarms? @115833","CUSTOMER: Amazon Alexa is truly disappointing. What do you mean, you can't set repeating alarms? @115833
+AmazonHelp: @413928 Hi Michele, have you tried asking Alexa to repeat alarms? You can find more info here: https://t.co/ldE1gpof0f. ^JJ
+CUSTOMER: @AmazonHelp Omg thank you! We were having trouble",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0075,2881282,2881282,僕はAmazonなんて利用したことも無いしましてや有料サイトなぞ使用したこともありませんが、何故にこんなようなメールが来るのだろうか(?_?) https://t.co/2QrId44qZG,"CUSTOMER: 僕はAmazonなんて利用したことも無いしましてや有料サイトなぞ使用したこともありませんが、何故にこんなようなメールが来るのだろうか(?_?) https://t.co/2QrId44qZG
+AmazonHelp: @799499 リプライ失礼いたします、Amazon公式アカウントです。当サイトを装ったメールやSMSにてお客様の情報を不正に取得しようとする悪質な詐欺が発生しています。身に覚えのないメールやSMSに記載のあるリンクをクリックしたり、連絡先にご連絡いただかないようお願いいたします。HM
+CUSTOMER: @AmazonHelp わざわざありがとうございますm(_ _)m
+AmazonHelp: @799499 リプライいただきありがとうございます。どうぞよろしくお願いいたします🙇 HM
+CUSTOMER: @AmazonHelp わざわざすいませんでした(&gt;_&lt; )m(_ _)m",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0076,987817,987817,@115821 suddenly from nowhere Rs. 3192 deducted as Amazon Membership. Plz refund https://t.co/wtOZrFNLnU,"CUSTOMER: @115821 suddenly from nowhere Rs. 3192 deducted as Amazon Membership. Plz refund https://t.co/wtOZrFNLnU
+AmazonHelp: @354052 That's strange, Sayantan. Please report this to our support team here: https://t.co/vlvfJr4nN9 and we’ll assist you. ^NK
+CUSTOMER: @AmazonHelp Hi I had an https://t.co/GD2YYEdlxm student prime account and that got automatically renewed. Plz cancel that and refund my money! https://t.co/8HM0n9tXPo
+AmazonHelp: @354052 Sorry to see that. Please contact us here: https://t.co/hApLpMlfHN by chat so an agent can look into this for you. ^JJ
+CUSTOMER: @AmazonHelp Can't see the chat option..I have requested by dropping mail. Please help. Cancel the membership and refund the money deducted https://t.co/0vYSafjWEH
+AmazonHelp: @354052 You can cancel your membership here: https://t.co/cHzAHIDRJ0 If benefits haven't been used, you'll receive a refund. ^LB
+CUSTOMER: @AmazonHelp Thanks a lot..I have cancelled and it says the refund will be made",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0077,1507286,1507286,"Bhai sahab @115850 kya aap mera yeh order deliver karenge?? Agar nahi karenge to bata dijiye, mai ye paise doobat khate me daal deta hu. https://t.co/DGG3YahRAB","CUSTOMER: Bhai sahab @115850 kya aap mera yeh order deliver karenge?? Agar nahi karenge to bata dijiye, mai ye paise doobat khate me daal deta hu. https://t.co/DGG3YahRAB
+AmazonHelp: @469819 Please don't provide your order details, we consider it personal information. Our Twitter page is visible to public. ^VN (2/2)
+CUSTOMER: @AmazonHelp Sir kya kare aap log koi option hi nhi chodte. Diwali 2017 k liye order tha, 2018 me deilver karenge??
+CUSTOMER: @AmazonHelp Sir, will you take any concern for my order or not??? Pls tell. I dont have much time to waste, requesting you.
+AmazonHelp: @469819 Did you happen to share your details in the link provided earlier? ^JS
+CUSTOMER: @AmazonHelp Yes
+AmazonHelp: @469819 Thanks for confirming that you've shared your details, We'll get back to you at the earliest. ^VG
+CUSTOMER: @AmazonHelp Making good fool of your customers.",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0078,274053,274053,Amazonのコンビニ支払いの仕方がわからない,"CUSTOMER: Amazonのコンビニ支払いの仕方がわからない
+AmazonHelp: @181484 こんにちは、Amazonです。お支払いの仕方がわからないとのことですが、詳しくおしえていただけますか？SK
+CUSTOMER: @AmazonHelp あ！どうも！！番号入力の所で沢山番号があって注文番号入れればいいのですか？
+AmazonHelp: @181484 商品の出荷準備が開始された際にEメールでお送りしている、「お支払い番号」をご入力ください。出荷準備開始後もEメールが届いていない場合は、アカウントサービスのメッセージセンターをご確認ください。&gt; https://t.co/PAK8dGjdhO YM
+CUSTOMER: @AmazonHelp ありがとう！
+AmazonHelp: @181484 とんでもないです！今後ともどうぞよろしくお願いいたします！SK",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0079,1042320,1042320,"@115850  My Keyboard  cover ( ORDER # 405-9026240-1774718)  had been delivered on 28th Sept. 2017. Since the product was undersized, I sent online request for return on 3rd Oct. 2017. NO ACTION HAD BEEN TAKEN . While tracking I found that Return window closed on 09-Oct-2017 !!!","CUSTOMER: @115850  My Keyboard  cover ( ORDER # 405-9026240-1774718)  had been delivered on 28th Sept. 2017. Since the product was undersized, I sent online request for return on 3rd Oct. 2017. NO ACTION HAD BEEN TAKEN . While tracking I found that Return window closed on 09-Oct-2017 !!!
+AmazonHelp: @366442 Please don't provide your order details, as we consider it to be personal information. Our page is visible to the public. 3/3 ^PS
+AmazonHelp: @366442 Kindly reach out to our support team here: https://t.co/HQhpS2qeEd. We'll definitely look into it. 2/3 ^PS
+AmazonHelp: @366442 Sorry to know your item hasn't been picked up. We certainly did not expect this to happen. 1/3 ^PS",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0080,168024,168024,"@115850 ...your service sucks, i paid 30k for my phone and within 1 month - i have faced two big issues, and there is no help from your side.","CUSTOMER: @115850 ...your service sucks, i paid 30k for my phone and within 1 month - i have faced two big issues, and there is no help from your side.
+AmazonHelp: @155086 Apologies for all the trouble, Noopur. Have you checked with the phone manufacturer for the warranty? ^JC
+CUSTOMER: @AmazonHelp I have tried everything...also trying to reach your customer service and unable to do that as well
+AmazonHelp: @155086 I completely understand your concern, Noopur. Having said that, mobile phones have a return window of 10 days from the date of delivery. Post that, you must reach out to the manufacturer to claim warranty. ^JC
+CUSTOMER: @AmazonHelp And what to do in case they deny for replacement..
+AmazonHelp: @155086 I understand your concern. As the products come with warranty, the manufacturer should be able to help you. Do keep us posted if you're unable to get enough support from the manufacturer so that we can help you with it. ^AP
+CUSTOMER: @AmazonHelp I have visited one plus 5 service center couple of times for the issues . They just reformat the phone and  fix the it temporarily . Horrible experience
+AmazonHelp: @155086 are handled by the manufacturer. More info : https://t.co/5o0KQczPiL .Request you to get in touch with the support team of the manufacturer and escalate the details. They're the right ones to approach for assistance on the issue. (2/2) ^SD",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0081,1470773,1470773,Arriving by 8pm...then suddenly by the 4th...seriously?! @115821,"CUSTOMER: Arriving by 8pm...then suddenly by the 4th...seriously?! @115821
+AmazonHelp: @461384 So sorry about that delay, Natalie! Who's the carrier for this order? You can check here: https://t.co/Y5jpI9gRhE ^BL",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0082,2131825,2131825,Ordered groceries from @117795 for the first time! It was awesome! Never leaving the house again! #hermitlife,"CUSTOMER: Ordered groceries from @117795 for the first time! It was awesome! Never leaving the house again! #hermitlife
+AmazonHelp: @627381 Hi, glad to hear that you like the service! Thanks for the feedback! ^JJ",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0083,1244684,1244684,Amazed by @120533 gift wrapping ! #MerryChristmas ! https://t.co/EboDwhKHDR,"CUSTOMER: Amazed by @120533 gift wrapping ! #MerryChristmas ! https://t.co/EboDwhKHDR
+AmazonHelp: @411998 I really loved it too 😍 Preparing for Christmas 🎄 ? ^SM",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0084,308911,308911,"Yo @115821 I have a client expecting that package when you said it would be here.  As usual, the @118706 is dragging and its not here on time.","CUSTOMER: Yo @115821 I have a client expecting that package when you said it would be here.  As usual, the @118706 is dragging and its not here on time.
+AmazonHelp: @189759 I'm sorry your package hasn't arrived! Does the tracking information indicate any delays with the order? ^EZ
+CUSTOMER: @AmazonHelp No delays. It just didn't ship until today. I ordered it on 10/4 and it was supposed to be here today.
+AmazonHelp: @189759 Typically, late shipments arrive the next business day. Please let us know if not received by Monday: https://t.co/EKXRLsnxJu ^BV
+CUSTOMER: @AmazonHelp What exactly am I paying for with Prime?
+CUSTOMER: @AmazonHelp I promised my client it would be ready tomorrow. Monday is not good enough. You said it would be here today. https://t.co/xMXDo9dIoD",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0085,947689,947689,@AmazonHelp Why do I keep getting emails thanking me for reviewing products I have never bought or reviewed?,"CUSTOMER: @AmazonHelp Why do I keep getting emails thanking me for reviewing products I have never bought or reviewed?
+AmazonHelp: @344740 Are you currently sharing your Amazon account with another user (friend or family member)? If not, please let us know! ^WM
+CUSTOMER: @AmazonHelp No I'm not. And no unusual orders. But st least 2-3 reviews I did not make
+AmazonHelp: @344740 Strange! Let's look into this together. Please reach us via phone here: https://t.co/hApLpMlfHN ^AB",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0086,2917221,2917221,アマゾンプライムで戦車道！！ https://t.co/siRMba4bIP,"CUSTOMER: アマゾンプライムで戦車道！！ https://t.co/siRMba4bIP
+AmazonHelp: @807452 こころゆくまでお楽しみください😊✨SK",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0087,1466829,1466829,"#AmazonIndia, Got the fullpayment  Rs 15999 For Moto G5s Plus &amp; Not delivering Order  4__credit_card__ @115850 , @115851 , @AmazonHelp https://t.co/WXItoLeRpp","CUSTOMER: #AmazonIndia, Got the fullpayment  Rs 15999 For Moto G5s Plus &amp; Not delivering Order  4__credit_card__ @115850 , @115851 , @AmazonHelp https://t.co/WXItoLeRpp
+AmazonHelp: @460459 Please don’t provide your details as we consider them to be personal info. Our Twitter page is visible to public. (2/2)^YP
+AmazonHelp: @460459 Our apologies. We'd like to check this and assist. Please share the required details, here: https://t.co/GIJyeYqKE0. (1/2)
+CUSTOMER: @AmazonHelp @AmazonHelp, @118919 @115850 I think now I have to go to  consumer court and soon you will get legal notice.
+CUSTOMER: @AmazonHelp @115850 , @AmazonHelp  all your apologies are just to make fool me again. You emailed with a false commitment again and then disappeared.
+AmazonHelp: @460459 I get your disappointment. However, could you confirm if you've shared the details through the link provided earlier? ^KH
+CUSTOMER: @AmazonHelp dear @115851  with hard work for several years u achieved great respect but the emloye @115850 spoiling your image. Plz look into issue
+CUSTOMER: @AmazonHelp Yes I have filled the form and You please stop asking irrelevant questions and do please check the filled form &amp; ask ur team to work on this",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0088,960158,960158,"@115850 what's new in this diwali sale, actually less offer than 4 days before sale. Lol","CUSTOMER: @115850 what's new in this diwali sale, actually less offer than 4 days before sale. Lol
+AmazonHelp: @347829 We currently have deals going on our website. You could check for the same here https://t.co/Bs2LT8SGJ0. ^VM",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0089,2616337,2616337,"@115850 @AmazonHelp Just got ths msg from @149473: Dear customer, Your return pickup request from Amazon has been cancelled/can't be executed. For queries, please contact Amazon","CUSTOMER: @115850 @AmazonHelp Just got ths msg from @149473: Dear customer, Your return pickup request from Amazon has been cancelled/can't be executed. For queries, please contact Amazon
+AmazonHelp: @310805 That wasn't expected. Did you report this to our support team? If not, can report this here: https://t.co/R3EfhzgU8B. Keep us posted for further support. ^CB
+CUSTOMER: @AmazonHelp Have reported to your support team vide the link you had sent. Kindly refund my amount.
+AmazonHelp: @310805 Thank you for contacting our support team, you'll receive an update from us at the earliest. Do keep us posted for any concerns. ^SU",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0090,2094064,2094064,"A 3rd party vendor continues to send me harassing emails after a refund was issued by @115821 for an order not sent. How can I get them to stop contacting me? 
+The vendor is Dimart. Order# 112-6013723-4262650 Thanks!","CUSTOMER: A 3rd party vendor continues to send me harassing emails after a refund was issued by @115821 for an order not sent. How can I get them to stop contacting me?  The vendor is Dimart. Order# 112-6013723-4262650 Thanks!
+AmazonHelp: @618721 Sorry to hear this Claudette- Can you report this to us directly via: https://t.co/hApLpMlfHN we can take further action. ^NV",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0091,2419458,2419458,Amazonで返品したお金が帰ってきません:(,"CUSTOMER: Amazonで返品したお金が帰ってきません:(
+AmazonHelp: @488892 返金までに要する時間は、お支払方法によって異なります。詳しくはこちらのヘルプページをご参照下さい。 https://t.co/KTAID5adJp EK",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0092,592027,592027,holy shirt 5 packages ordered from @115821 this week 4 of 5 have been late,"CUSTOMER: holy shirt 5 packages ordered from @115821 this week 4 of 5 have been late
+AmazonHelp: @260109 We're sorry to hear this! Definitely not the level of service we strive to provide.  Have each of these orders missed the dates provided in the order confirmation e-mail? Let us know, we're here to help in any way we can! ^AZ",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0093,1227284,1227284,"#FalsePromises, yet to receive #refund after 3weeks @115850.
+Can see AMZN service level degrading
+Has @115821 stopped caring abt customers","CUSTOMER: #FalsePromises, yet to receive #refund after 3weeks @115850. Can see AMZN service level degrading Has @115821 stopped caring abt customers
+AmazonHelp: @407903 Sorry about the delay in refund. I'd like to help. Please write to us here: https://t.co/GIJyeYqKE0 &amp; I'll reach out to you. ^SQ
+CUSTOMER: @AmazonHelp Information provided; can you arrange for a callback from Large Appliances team on this ASaP
+AmazonHelp: @407903 Request you to reply to our email with the request so that we could assist you accordingly. ^GS
+CUSTOMER: @AmazonHelp I haven't received any new emails from @115821 after I shared my details on the twitter form
+AmazonHelp: @407903 find all the emails sent by us here: https://t.co/5DJ1e0hTXH and reply for further assistance. 2/2 ^AR
+CUSTOMER: @AmazonHelp Responded to that email as well
+AmazonHelp: @407903 Thank you for the response. We’ll work on it and get back with an update on it.  ^SB",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0094,576526,576526,I know we’re living in a knowledge economy @115821 but I don’t think that means you can send me empty packaging in the mail. https://t.co/DuygWb07PT,"CUSTOMER: I know we’re living in a knowledge economy @115821 but I don’t think that means you can send me empty packaging in the mail. https://t.co/DuygWb07PT
+AmazonHelp: @255681 Hi Caleb, I am sorry to see that this has happened! Have you been in touch with our customer service team? ^HS",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0095,1131347,1131347,Amazon bar めっちゃ行きたい,"CUSTOMER: Amazon bar めっちゃ行きたい
+AmazonHelp: @386610 ご来店をお待ちしております(*'▽') https://t.co/cLVoWaDHNU EK",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0096,2893225,2893225,Looks like I’ll be going home disappointed again. Amazon Logistics having a stinker this week. 😔,"CUSTOMER: Looks like I’ll be going home disappointed again. Amazon Logistics having a stinker this week. 😔
+AmazonHelp: @801906 Oh no! I'm sorry for the trouble. Without revealing personal or account information, can you tell us a bit more about what's going on? We'd love to help! ^TG
+CUSTOMER: @AmazonHelp Basically it’s a delivery going to a work address that already failed yesterday after being delivered after 5pm. It’s looking to be the same again today after the driver passed the street almost 3 hours ago. https://t.co/AkdBz2NZaB
+AmazonHelp: @801906 We'd like to look at available options with you. When you have the time, please contact us here: https://t.co/JzP7hlA23B ^KP
+CUSTOMER: @AmazonHelp I think it’s too late to have any effect today, but thanks anyway. I might as well let the delivery fail (if it does) and then contact them about it.
+AmazonHelp: @801906 Okay, please let us know if you need any further assistance with this issue, Dave. ^VF",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0097,2814527,2814527,Figuring out how to use @115821 S3 so that I can move my audio files over from Soundcloud. It's too bad that Soundcloud has such a small a storage cap.,"CUSTOMER: Figuring out how to use @115821 S3 so that I can move my audio files over from Soundcloud. It's too bad that Soundcloud has such a small a storage cap.
+AmazonHelp: @784683 Hi Crystal! Were you successful in your transfer of your audio files? ^SY
+CUSTOMER: @AmazonHelp Trying to wrap my head around the concept of 'buckets' - is it a bit like 'folders'?
+CUSTOMER: @AmazonHelp Any help for this?",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0098,1217534,1217534,When your copy of #SuperMarioOdyssey has dispatched from @115830 &amp;  hoping hard it arrives tomorrow instead of Friday #FirstWorldProblems,"CUSTOMER: When your copy of #SuperMarioOdyssey has dispatched from @115830 &amp;  hoping hard it arrives tomorrow instead of Friday #FirstWorldProblems
+AmazonHelp: @222171 We're glad you're excited! Please keep us posted on the arrival! 😁 ^KJ",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0099,2979655,2979655,Hey  @115821 When your PROMISE to deliver a pkg in 2 days it should arrive ON THAT DAY short of a natural disaster of which there were none.  So mad you let me down again... Do NOT PROMISE DELIVERY DATES YOU DO NOT HONOR!  Shame on you.... #BoycottAmazonForChristmas,"CUSTOMER: Hey  @115821 When your PROMISE to deliver a pkg in 2 days it should arrive ON THAT DAY short of a natural disaster of which there were none.  So mad you let me down again... Do NOT PROMISE DELIVERY DATES YOU DO NOT HONOR!  Shame on you.... #BoycottAmazonForChristmas
+AmazonHelp: @204408 So sorry for the trouble, Lynnie! We're here to help! Just to confirm, is there a current order your experiencing issues with? ^VB
+CUSTOMER: @AmazonHelp Yes it was to arrive today and you do NOT promise 2 day delivery if you cannot promise that. It's NOT even December YET!  If not here tomorrow I will be contacting you again.  Very disappointed!  Hire PEOPLE not Robots please
+AmazonHelp: @204408 I'm so sorry for the trouble you've had with your orders not arriving on time, Lynnie. Have you noticed a trend with a specific carrier or are they different carriers each time? You can find that here: https://t.co/Y5jpI9gRhE. We're here to help! ^HS",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0100,2291062,2291062,@115850  pathetic service from Amazon. After a week not get my return..😡,"CUSTOMER: @115850  pathetic service from Amazon. After a week not get my return..😡
+AmazonHelp: @665454 I'm sorry about the delay. Please reach out to us here: https://t.co/vlvfJr4nN9 we'd like to help. ^SG",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0101,2975728,2975728,@AmazonHelp こんにちは。Android版kindleをアップデート後、起動しなくなってしまいました。「問題が発生したため、Amazon Kindleを終了します」と出ます。端末再起動とアプリの再インストール以外に、こちらで試せる対処法がありましたらご教授ください。Android4.4.2、kindleアプリは8.0.0.78です。,"CUSTOMER: @AmazonHelp こんにちは。Android版kindleをアップデート後、起動しなくなってしまいました。「問題が発生したため、Amazon Kindleを終了します」と出ます。端末再起動とアプリの再インストール以外に、こちらで試せる対処法がありましたらご教授ください。Android4.4.2、kindleアプリは8.0.0.78です。
+AmazonHelp: @820683 ご案内が重なり恐縮ですが、タスク管理系アプリやブルーライト軽減フィルターなどの常駐アプリがある場合には一時的に停止して改めてお試しいただけますでしょうか。問題が解決しない場合は、以下リンクよりカスタマーサービスへお問い合わせください。　https://t.co/J6YEizo6qC ET",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0102,2122323,2122323,@115850 We ordered grocery from your pantry and my only concern is use of plastic for packaging. So much plastic? https://t.co/7TtmjM0su3,"CUSTOMER: @115850 We ordered grocery from your pantry and my only concern is use of plastic for packaging. So much plastic? https://t.co/7TtmjM0su3
+AmazonHelp: @625261 Thank you for bringing this to our notice. I have taken your feedback and forwarded it to the concerned team. ^VH",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0103,1716724,1716724,"Hey @116935 what's up with being able to download music, but not use it offline? Kinda annoying.","CUSTOMER: Hey @116935 what's up with being able to download music, but not use it offline? Kinda annoying.
+AmazonHelp: @519858 That's odd! We'd like to help! Have you had the chance to try these troubleshooting steps: https://t.co/HaTvp3ErY2 ^HM",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0104,987082,987082,@115850 My return pickup couldn’t be done from last 3 days. Agent didn’t come in the slot booked by me. Id: 171-4648536-8049931,"CUSTOMER: @115850 My return pickup couldn’t be done from last 3 days. Agent didn’t come in the slot booked by me. Id: 171-4648536-8049931
+AmazonHelp: @353904 Please don't provide your order details, as we consider it to be personal information. Our Twitter page is public.​ (2/2) SI
+AmazonHelp: @353904 I'm sorry for the ordeal you are facing with this order. Please fill this form right away: https://t.co/beaaDm0muc. (1/2) ^SI
+CUSTOMER: @AmazonHelp It was picked today. Thanku for the help.
+AmazonHelp: @353904 Great! Glad to hear the product is picked up. Keep us posted If you have any further queries. ^BS",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0105,573486,573486,一年半以上未開封だったKindleをようやく開封。これでFire TVに手を出したら完全にAmazon生活,"CUSTOMER: 一年半以上未開封だったKindleをようやく開封。これでFire TVに手を出したら完全にAmazon生活
+AmazonHelp: @254814 ご利用ありがとうございます！一年という時を経て、どうぞKindle生活をごゆっくりお楽しみくださいませ（* ◜◒◝人）♥　SM",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0106,2675996,2675996,"chegaram!!!! 💕💕💕💕
+obrigado pela entrega, @117086 https://t.co/GM8qh7tsJ4","CUSTOMER: chegaram!!!! 💕💕💕💕 obrigado pela entrega, @117086 https://t.co/GM8qh7tsJ4
+AmazonHelp: @753208 Opa 🙌 Você aproveitou dessas, Sobral. Já sabe qual livro vai ler primeiro? ^LG",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0107,2597088,2597088,Uhhh @117093 my order was supposed to come between 6pm and 8pm what the heck?!? Where ya at?!?!,"CUSTOMER: Uhhh @117093 my order was supposed to come between 6pm and 8pm what the heck?!? Where ya at?!?!
+AmazonHelp: @735319 I'm sorry your package hasn't arrived yet. What is the status of your order? You can check here: https://t.co/hApLpMlfHN ^AY
+CUSTOMER: @AmazonHelp This is all that is says https://t.co/5xFNroBXZh
+AmazonHelp: @735319 Thank you for that! Please reach out to us via phone or chat so we can take a look at this with you in real-time for assistance. https://t.co/hApLpMlfHN ^RM",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0108,391582,391582,@115821 4/4 packages shipped by# AmazonLogistics are late. Was told that I just had to wait for them to be delivered! What can be done?!,"CUSTOMER: @115821 4/4 packages shipped by# AmazonLogistics are late. Was told that I just had to wait for them to be delivered! What can be done?!
+AmazonHelp: @208721 Oh no! We'd like to take a personal look at this, Jim. Please give us further details here: https://t.co/2Mfmjh3UoM ^JD",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0109,234239,234239,Amazonプライム入ってよかった…✨✨✨✨,"CUSTOMER: Amazonプライム入ってよかった…✨✨✨✨
+AmazonHelp: @171766 |・∀・*)ﾉｼ　ご利用いただきありがとうございます～！ HM",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0110,461360,461360,When your @115821 stuff doesn’t come when it says it will 😢 #holidayseason,"CUSTOMER: When your @115821 stuff doesn’t come when it says it will 😢 #holidayseason
+AmazonHelp: @224618 I'm sorry for the wait! What's the current tracking status showing here: https://t.co/q4LAMZ3tbE? Also, which carrier was assigned to deliver your package? ^JS",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0111,649638,649638,@116316 hi! I'm trying to cancel an order even before being processed but nobody is answering me :(,"CUSTOMER: @116316 hi! I'm trying to cancel an order even before being processed but nobody is answering me :(
+AmazonHelp: @274427 Hi, you can also call our customer support via https://t.co/ohyvGrpvrY ^SK
+CUSTOMER: @AmazonHelp thanks! very quick answer, but I tried filling up the form (email) and calling but nothing happened. I just afraid if you send the package
+AmazonHelp: @274427 If you sent an email you should get a confirmation email and later on the reply from our colleagues. Regards ^AN",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0112,683788,683788,"@115833 my second gen echo will play music, keeps not playing radio. Understands the command and says it's playing. No sound","CUSTOMER: @115833 my second gen echo will play music, keeps not playing radio. Understands the command and says it's playing. No sound
+AmazonHelp: @283194 Have you tried to turn it on and off again? If this does not work perhaps a reset may work, see our help pages: https://t.co/ZFE0Ah7x2K ^BD
+CUSTOMER: @AmazonHelp Hi, he's i reboot and she works fine for an few hours. I'll Dona reset tonight, see if that works. Have read the help pages.   Not much there on this specific problem. I have three dots, they have been working fine for yonks
+AmazonHelp: @283194 Got it! If the reset doesn't fix this issue, the next step would be to contact us via phone/chat here: https://t.co/JzP7hlA23B for real-time troubleshooting. ^TK
+CUSTOMER: @AmazonHelp Ok doke, thanks
+AmazonHelp: @283194 Glad to help! Please reach out to us if you need assistance again. ^HS
+CUSTOMER: @AmazonHelp Hi, the new unit went off twice over the weekend whilst playing a radio channel. It makes this garbled/strangled computer noise (as though it's not getting a signal) then she goes quiet. U ask her to play the radio again and she can't, reboot and fine again.
+AmazonHelp: @283194 Hey Tony, please contact us here: https://t.co/JzP7hlA23B so we can check that for you.^MA",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0113,2276818,2276818,"Bonsoir @AmazonHelp, hormis une facture un document peut faire office de preuve d'achat ? Si oui lequel ?","CUSTOMER: Bonsoir @AmazonHelp, hormis une facture un document peut faire office de preuve d'achat ? Si oui lequel ?
+AmazonHelp: @653660 À part la facture, vous avez la possibilité d'imprimer un récapitulatif de commande. Pour ce faire, vous accéder à commande désirée, vous cliquez sur le lien ""Facture"" et l'option va apparaître. ^MD",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0114,294863,294863,"@115830 - my Hermes return pick up hasn't turned up, it should have been 2 days ago. Can't you advise? Thanks","CUSTOMER: @115830 - my Hermes return pick up hasn't turned up, it should have been 2 days ago. Can't you advise? Thanks
+AmazonHelp: @186221 I'm sorry to hear this, Robbie! Have you tried to contact Hermes about your pick up? ^HC
+CUSTOMER: @AmazonHelp Hi! I've not, I wasn't sure if to contact Amazon or Hermes. I'll email them and ask, cheers!
+AmazonHelp: @186221 Thanks for the update! If you need anything else, please let us know! ^AL
+CUSTOMER: @AmazonHelp Hi! Hermes website advises that I contact you re the matter. Would you be able to organise a new pick up date?
+AmazonHelp: @186221 We'd be happy to help! Please reach us by phone or chat for direct assistance: https://t.co/JzP7hlA23B ^MV",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0115,1905531,1905531,"@115850 Charging money for so called ""prime"" service and not delivering it on time.This is how you raise funds?","CUSTOMER: @115850 Charging money for so called ""prime"" service and not delivering it on time.This is how you raise funds?
+AmazonHelp: @567813 That's quite a remark, Abid. Did we happen to miss the order estimates?  ^NK
+CUSTOMER: @AmazonHelp Can you actually spend some time to help me out rather than asking me estimates?
+AmazonHelp: @567813 I understand your concern, please contact us here: https://t.co/rS49hgaADF so that we can assist you accordingly. ^BA
+CUSTOMER: @AmazonHelp Thats where exactly i tried to CONTACT you and it was not helpful.And why do your helpline numbers even exist? https://t.co/c3vi0WeLMI
+AmazonHelp: @567813 Abid, we'd like a closer look, please drop in the details here: https://t.co/9mwpIdOzZn and we'll reach out to you. ^MS",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0116,1871748,1871748,@115850 If you can't keep your words why promise? 3 customer support guys assured return pickup. Never happened. Worst service ever!,"CUSTOMER: @115850 If you can't keep your words why promise? 3 customer support guys assured return pickup. Never happened. Worst service ever!
+AmazonHelp: @558956 I'd like to take a closer look into it. Please fill in this form: https://t.co/GIJyeYqKE0 and I'll revert shortly. ^AB",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0117,2465668,2465668,"New @117634 update on iPad is complete piece of shit. Lost downloaded samples, it’s glitchy, lost my place in books. #fixit @115851 https://t.co/makYEYdcOP","CUSTOMER: New @117634 update on iPad is complete piece of shit. Lost downloaded samples, it’s glitchy, lost my place in books. #fixit @115851 https://t.co/makYEYdcOP
+AmazonHelp: @705589 I'm sorry for the frustration! We'd like to assist you with this directly, please reach us here: https://t.co/hApLpMlfHN ^DW",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0118,2771681,2771681,"Por que eu demorei TANTO pra baixar o App da @117086?! Gente, melhor App pra fazer compras, rastreamento com detalhes e etc 👏🏻👏🏻👏🏻","CUSTOMER: Por que eu demorei TANTO pra baixar o App da @117086?! Gente, melhor App pra fazer compras, rastreamento com detalhes e etc 👏🏻👏🏻👏🏻
+AmazonHelp: @774759 Olá Luciana, é amor demais nosso app! Esperamos que curta muito! ❤ ^DA",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0119,1156747,1156747,@115821 ça se passe comment les livraisons à l'a peu près avec les livreurs qui balancent les colis devant la porte ou chez des voisins...,"CUSTOMER: @115821 ça se passe comment les livraisons à l'a peu près avec les livreurs qui balancent les colis devant la porte ou chez des voisins...
+AmazonHelp: @392110 Bonjour, rencontrez-vous un problème avec une commande en cours s'il vous plaît ? ^BR",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0120,2868423,2868423,@116439 My fire stick recently started turning itself on and changing the input from cable to fire stick. It’s possessed. Please help!,"CUSTOMER: @116439 My fire stick recently started turning itself on and changing the input from cable to fire stick. It’s possessed. Please help!
+AmazonHelp: @796600 Oh no, that's no good! Please contact us here: https://t.co/hApLpMlfHN. We'd like to help any way we can. ^CC",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0121,74774,74774,魔法使いの嫁もメイドインアビスもAmazon prime会員で追加料金なしにサクサク見れる…やばい…,"CUSTOMER: 魔法使いの嫁もメイドインアビスもAmazon prime会員で追加料金なしにサクサク見れる…やばい…
+AmazonHelp: @132736 こんばんは、Amazonです。プライム・ビデオ、お楽しみいただけたら幸いです😊✨ サクサク見ちゃってくださいね～🎵 RI",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0122,477846,477846,@115821 not living up to expectations.  Over a week for delivery (on PRIME) - lost two laptops in the depot (have Hermes stolen them??) and you refuse to match my order offering me smaller screens or agree to cover the cost of more expensive laptops.  #badcustomerservice,"CUSTOMER: @115821 not living up to expectations.  Over a week for delivery (on PRIME) - lost two laptops in the depot (have Hermes stolen them??) and you refuse to match my order offering me smaller screens or agree to cover the cost of more expensive laptops.  #badcustomerservice
+AmazonHelp: @228511 I'm sorry for the trouble! We strive to give the best customer service that we can. Were you trying to return an item? You can check returns here: https://t.co/aaDyEz1VgE ^MO",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0123,2807512,2807512,@128308 Product with beta software. Facing subtitle issue 4 last 15 days. Tech team unaware of soln.,"CUSTOMER: @128308 Product with beta software. Facing subtitle issue 4 last 15 days. Tech team unaware of soln.
+AmazonHelp: @782986 May I know if the issue is with a particular title or with all the titles? ^SH
+CUSTOMER: @AmazonHelp It's with all the titles. Raised the issue on 1st nov and then 4-5 times. Email: __email__
+AmazonHelp: @782986 Are you facing the issue just with Amazon Fire TV stick or any other devices? ^GK
+CUSTOMER: @AmazonHelp Subtitle issue is with FireTV Stick only. Web is working properly. Already informed those points. Pls check my account.
+AmazonHelp: @782986 This being a social platform we'll not be able to access your Amazon account details. However, as you have already raised your concern with our technical team, I request you to please wait and our team will get back to you soon with an update. ^SF",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0124,1239733,1239733,"Dear @115850
+This is no complain in any way but just to bring something to your attention. Room for improvement dear friends😊👍🏻 https://t.co/6Voinybvn4","CUSTOMER: Dear @115850 This is no complain in any way but just to bring something to your attention. Room for improvement dear friends😊👍🏻 https://t.co/6Voinybvn4
+AmazonHelp: @124791 I understand your concern. All the packages are dispatched so that it meets the estimate dates. However, I'll be sure to pass this as a feedback to our team internally. ^MO
+CUSTOMER: @AmazonHelp That'll be great 👍🏻 Just wanted to help (where I could) 😊
+AmazonHelp: @124791 Thank you for your feedback, Jainendra. It's your feedback which helps us improvise and get you the best always. ^KS
+CUSTOMER: @AmazonHelp A rarity with @115821 but still disappointing. More so as it has arrived in my town (destination). Will be glad if I receive it before my flight in evening. https://t.co/HhD7XlIAKH
+AmazonHelp: @124791 I'm sorry for the delay of your order. Kindly report it to our support team here: https://t.co/2t6DQoUmNZ we'll look into it and reach out to you soon. Please don't provide your tracking details, as we consider it to be personal information. ^AP
+CUSTOMER: @AmazonHelp Sure. What should I tell/report them? Thanks for tracking id info. Will remember. Should I delete my last tweet as I can't remove pic alone?
+AmazonHelp: @124791 Looks like you have got the required support &amp; moving forward, share your concerns without mentioning order/account details. ^MJ",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0125,1594680,1594680,Hoje foi dia de comprar It por apenas 43 e pouco na @117086. Amém pessoas que ficam de olho naa promoções,"CUSTOMER: Hoje foi dia de comprar It por apenas 43 e pouco na @117086. Amém pessoas que ficam de olho naa promoções
+AmazonHelp: @490016 Ebaa! Que ótimo saber que conseguiu aproveitar a promoção 😊 Assim que receber o livro envie uma fotinho para nós. ^LG",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0126,468192,468192,Amazon logistics is probably going to be the end of @115821. Love the marketplace but delivery is no longer reliable in our area. Only 1 out of 3 orders actually showed up! Not so 'Prime' service,"CUSTOMER: Amazon logistics is probably going to be the end of @115821. Love the marketplace but delivery is no longer reliable in our area. Only 1 out of 3 orders actually showed up! Not so 'Prime' service
+AmazonHelp: @226478 Thank you for being a Prime member. I'm sorry to hear that only 1 of your orders arrived on time. What is the status of the other 2 at this time? You can confirm here: https://t.co/Y5jpI9gRhE. ^SY
+CUSTOMER: @AmazonHelp Tracking stated that they were delivered but they were not. Requested a call back and got a refund on them but still very sad as I needed them at the time. This is happening too often with AMZL deeming the service unreliable.
+AmazonHelp: @226478 We'd like to escalate these issues to Amazon Logistics for their investigation. When you have a moment, would you send us more detail? You can do so here: https://t.co/kOThwD7GXM ^AM
+CUSTOMER: @AmazonHelp Thank you, I was already told it was escalated and I was forwarded to Amazon Logistics who were very very unprofessional on the call (twice). Not a good experience at all!
+AmazonHelp: @226478 I am sorry to hear this. Please click on the link provided  by my colleague on the previous post so my team can personally investigate this for you.^GA",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0127,1366980,1366980,@115850 my three out of 4 items have not been delivered but it was marked as delivered. Really unhappy with it for a long time customer,"CUSTOMER: @115850 my three out of 4 items have not been delivered but it was marked as delivered. Really unhappy with it for a long time customer
+AmazonHelp: @438218 Sorry to knwo you're facing issues with our logistics. Please reach us from here: https://t.co/rS49hgaADF we'll assist. ^SV
+CUSTOMER: @AmazonHelp Thanks!. Yes I did.They are ready to refund it, but not for a replacement.I got the deal price through Amazon Diwali sale, price differs now
+AmazonHelp: @438218 Sorry to hear that. I'll surely forward your comments to our teams so that we work on this and improve our services. ^VM
+CUSTOMER: @AmazonHelp Thanks. My order Id is 407-4728496-9637941
+AmazonHelp: @438218 Please don't provide your order details, we consider it to be personal information. Our page is visible to the public. (2/2) ^SY
+AmazonHelp: @438218 I understand your concern. I’d like to help you, please fill this form: https://t.co/beaaDm0muc &amp; I’ll contact you soon.(1/2)^SY
+CUSTOMER: @AmazonHelp Thanks! Yes I filled the above form! Hope it will be sorted out within 12 hours.",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0128,2308644,2308644,暇すぎるからAmazonプライム動画みまくる,"CUSTOMER: 暇すぎるからAmazonプライム動画みまくる
+AmazonHelp: @669642 |ω・) ごゆっくり、お楽しみくださいね～(^^♪TY",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0129,676124,676124,Does @115821 really need a box this big for 5 watch batteries? Help the environment! https://t.co/vPnU9WA1P2,"CUSTOMER: Does @115821 really need a box this big for 5 watch batteries? Help the environment! https://t.co/vPnU9WA1P2
+AmazonHelp: @281283 Hi, Matt! I'm sorry that we packed your batteries into the wrong size box. While we strive to get it right, we don't always hit the mark. Please take a moment to add your input about the packaging here: https://t.co/zddYxEyAMb  ^SP
+CUSTOMER: @AmazonHelp Wow was not expecting a reply let alone so quick. Thank you for that 😀
+AmazonHelp: @281283 No problem, Matt! If you have any other concerns or questions please reach out. We're always here to help! ^TH",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0130,2394479,2394479,ok @120533 - delivery was returned to you on 17 october ... how can I contact you re my refund?,"CUSTOMER: ok @120533 - delivery was returned to you on 17 october ... how can I contact you re my refund?
+AmazonHelp: @689336 You can contact our CS using the follonwing link https://t.co/hgIrz98cdI and they will help you. ^AR",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0131,22476,22476,"@115821 après un chat direct avec vous au sujet d'une commande ne venant pas de moi, vous avez tout de même débité mon compte de 110,94€. ??","CUSTOMER: @115821 après un chat direct avec vous au sujet d'une commande ne venant pas de moi, vous avez tout de même débité mon compte de 110,94€. ??
+AmazonHelp: @120912 Bonjour, quelle était la réponse du service client à ce sujet lors du chat ? ^KD
+CUSTOMER: @AmazonHelp que mon dossier devait être examiné, puis que je serais recontactée sous un délais de 48h. Je n'ai jamais été recontactée
+AmazonHelp: @120912 Merci de remplir ce formulaire afin que je puisse vérifier votre dossier SVP: https://t.co/HtUowfLjin ^BR
+CUSTOMER: @AmazonHelp Bonjour, mon problème n'a toujours pas été réglé après remplissage du formulaire
+AmazonHelp: @120912 Bonjour, désolée pour cela, quelle a été la réponse fourni par notre SAV concernant ce souci je vous prie ? ^KE
+CUSTOMER: @AmazonHelp La réponse a été que je devais voir avec ma banque. Pourtant à l'origine il y a bien eu un problème sur Amazon.fr
+AmazonHelp: @120912 Avez-vous contacté votre banque? Quand avez-vous rempli le formulaire?  ^ARC",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0132,1220955,1220955,James with @115821 customer service is a true miracle worker! https://t.co/Ug25Y2IbZJ,"CUSTOMER: James with @115821 customer service is a true miracle worker! https://t.co/Ug25Y2IbZJ
+AmazonHelp: @406480 Go James! 🎉 Survey responses from the follow-up e-mail go directly to the agent's supervisor. 😁 Thanks for sharing! ^LB",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0133,2622525,2622525,C'est serieux d'envoyer les colis sans protection avec l'étiquette à même la boîte les mecs ? 😡 @120533 https://t.co/ePLzL5M4Qb,"CUSTOMER: C'est serieux d'envoyer les colis sans protection avec l'étiquette à même la boîte les mecs ? 😡 @120533 https://t.co/ePLzL5M4Qb
+AmazonHelp: @740911 Bonjour, navrée d'apprendre cela. Pourriez-vous nous indiquer le lien vers l'article en question  s'il vous plaît? ^SA
+CUSTOMER: @AmazonHelp Hasbro - C03761010 - Fantastic Gymnastics https://t.co/FZWgetkdif
+AmazonHelp: @740911 Dans certains cas, les articles expédiés par Amazon sont expédiés dans l'emballage d'origine du fabricant. Vous pouvez consulter notre page d'aide pour avoir plus de détails : https://t.co/NX3m4XZSTO. ^ASZ https://t.co/PBPngwBLK6",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0134,782322,782322,おいコラアマゾン https://t.co/jAxRvtFcwT,"CUSTOMER: おいコラアマゾン https://t.co/jAxRvtFcwT
+AmazonHelp: @306743 Amazonビデオのタイトルに誤りがあり、ご迷惑をおかけしております。担当部署に報告いたします。正しい情報の反映までお時間を頂きますが、どうぞよろしくお願いいたします。 EK",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0135,2668749,2668749,ワイ父、amazon fire TVをGETしプライムビデオ無双中,"CUSTOMER: ワイ父、amazon fire TVをGETしプライムビデオ無双中
+AmazonHelp: @751694 Fire TV Stickをお買い求めいただき、ありがとうございます！（とお父様にお伝えくださいませ。）皆様でお楽しみいただけたら幸いです♪ RI",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0136,448702,448702,"Oh @115830 good old @126705  letting your customers down!!! Next Day Delivery, pfft, yeah right!!!! #RoyalFail #Useless","CUSTOMER: Oh @115830 good old @126705  letting your customers down!!! Next Day Delivery, pfft, yeah right!!!! #RoyalFail #Useless
+AmazonHelp: @221310 Oh no! What is the latest update on the tracking? ^BA
+CUSTOMER: @AmazonHelp @126705 - Will it come today? Is there some kind of issue at Manchester Mail Centre?? https://t.co/M888QGG6fD
+AmazonHelp: @221310 We expect your parcel to arrive on time, Andrew. Please let us know if there are any issues with the delivery.^CN
+CUSTOMER: @AmazonHelp On time would’ve been yesterday though.....
+AmazonHelp: @221310 Let's look into this in real time. Please call or chat with us here: https://t.co/IscLcxEkFS ^BA
+CUSTOMER: @AmazonHelp Hoping they deliver tomorrow. I’m moving and need these cables! Otherwise I’ll have to buy somewhere else and then return these to you.
+AmazonHelp: @221310 Keep us posted on the delivery! We want to be sure you receive it. ^MT",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0137,1386442,1386442,Was due a delivery from @115821 today what the fuck happened did your driver decide to go trick or treating,"CUSTOMER: Was due a delivery from @115821 today what the fuck happened did your driver decide to go trick or treating
+AmazonHelp: @442616 I apologize for the wait! Was a reason provided for the delay or a new delivery date given? ^CS
+CUSTOMER: @AmazonHelp They said the next 2 days, I thought the idea of Amazon prime was to deliver the next day
+AmazonHelp: @442616 Please contact us here so we can look into this with you: https://t.co/JzP7hlA23B ^SH",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0138,2668740,2668740,"Amazonプライム登録してマイノリティリポート見てる
+いちいち返しにいく手間がなくて非常に便利","CUSTOMER: Amazonプライム登録してマイノリティリポート見てる いちいち返しにいく手間がなくて非常に便利
+AmazonHelp: @751692 リプライ失礼いたします、Amazon公式です( ･ᴗ･ )　プライム登録、ありがとうございます！ビデオ以外にも様々な特典がございますで、よろしければご活用くださいませ🙇 プライム特典一覧 : https://t.co/JVlaJGORZx HM
+CUSTOMER: @AmazonHelp わざわざありがとうございます〜 活用させていただきます！
+AmazonHelp: @751692 とんでもないです♪ ぜひ～♪ヽ(ˊᗜˋ*)ﾉ TN",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0139,882990,882990,Hey @115830 @AmazonHelp  Another scam https://t.co/uLmg0m92vx,"CUSTOMER: Hey @115830 @AmazonHelp  Another scam https://t.co/uLmg0m92vx
+AmazonHelp: @329681 Thank you for letting us know about this! Please report the e-mail you received here: https://t.co/W2152vqtX5 ^AC",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0140,649634,649634,@AmazonHelp when you order one day shipping and they charge you for it but it’s not delivered In one day smh,"CUSTOMER: @AmazonHelp when you order one day shipping and they charge you for it but it’s not delivered In one day smh
+AmazonHelp: @274426 So sorry for any trouble! Is your order going to miss the delivery date in your confirmation e-mail? Let us know- we'd like to help. ^BL
+CUSTOMER: @AmazonHelp  https://t.co/LlgMzNierS
+AmazonHelp: @274426 One-Day shipping refers to the transit time, after an order has been shipped. You can learn more here: https://t.co/hTheKi4zvN. We aim to deliver by the delivery date provide via checkout/e-mail. Please let us know if this date is ever missed! ^WJ",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0141,1772985,1772985,"Hey @115821 @117093, the whole point of “Unattended Delivery” is so that nobody HAS to be there to receive a delivery. So what gives with this? https://t.co/uh7vMSvtJh","CUSTOMER: Hey @115821 @117093, the whole point of “Unattended Delivery” is so that nobody HAS to be there to receive a delivery. So what gives with this? https://t.co/uh7vMSvtJh
+AmazonHelp: @238090 That's odd! Let take a look at this in real-time! When you get the chance, reach out to us here: https://t.co/hApLpMlfHN ^HM",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0142,691142,691142,@AmazonHelp My amazon account had the email address connected to it changed without my knowledge and now i can't access it. Help!,"CUSTOMER: @AmazonHelp My amazon account had the email address connected to it changed without my knowledge and now i can't access it. Help!
+AmazonHelp: @285153 I'm sorry to hear about your account! Please reach out to us here: https://t.co/jzvkhdlrK5 for more assistance with this. ^TK",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0143,2816374,2816374,Bummer :( Anything you guys can do? @AmazonHelp https://t.co/BKzz9ZeOLc,"CUSTOMER: Bummer :( Anything you guys can do? @AmazonHelp https://t.co/BKzz9ZeOLc
+AmazonHelp: @785126 Have we sent any notification of a possible delay? Also, will you tell us the carrier assigned to your order? We'd be happy to assist in any way possible. ^SK
+CUSTOMER: @AmazonHelp Just noticed that message. That's unfortunate considering I'm a prime member https://t.co/5EtwAFyBrD
+AmazonHelp: @785126 Typically, late packages arrive the next business day. If it's not received tomorrow, please give us a call or chat to look into options: https://t.co/hApLpMlfHN ^KB",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0144,2777373,2777373,@115821 I am having trouble downloading an auto rip of a cd I recently purchased can you help?,"CUSTOMER: @115821 I am having trouble downloading an auto rip of a cd I recently purchased can you help?
+AmazonHelp: @775971 Hi, we're here to help if we can! Are you getting any error messages or codes? For best assistance, we'd also like to know what type of device you're trying to download the mp3 to. ^CS
+CUSTOMER: @AmazonHelp it says selection unavailable when i clicked on the go to your album in my email and i am trying to download it to my laptop and my andriod phone
+AmazonHelp: @775971 Just to clarify, is the AutoRip logo on the detail page of the CD you purchased? Please learn more here: https://t.co/jpecbJbPgG. ^WJ
+CUSTOMER: @AmazonHelp yes it is
+AmazonHelp: @775971 When you go here: https://t.co/KRGRFPqOuy are you able to under the ""My Music"" section play the music? From here is this where you're getting an error when trying to download? ^TM
+CUSTOMER: @AmazonHelp No I'm not able to play it and yes that is where i am getting the error
+AmazonHelp: @775971 In this case, can you reach out to us here via phone or chat for live troubleshooting?  https://t.co/hApLpMlfHN ^GS",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0145,5298,5298,Que hueva tendré que veré vaselina por Amazon prime video. Obvio me pasan una lana por promocionar prime video @116928,"CUSTOMER: Que hueva tendré que veré vaselina por Amazon prime video. Obvio me pasan una lana por promocionar prime video @116928
+AmazonHelp: @116927 Hola Val Damon. Puedes hacer una prueba gratuita de Prime Video si nunca lo has usado. Accesa este enlace:  https://t.co/Ce2tgqK8PV   ^JJ",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0146,1506901,1506901,"LOL @115821, my dog wants you to explain the meaning of a 40” long box delivered for a 16” long product. Save some cardboard at least 🐶😂 https://t.co/lEbKK8uOSC","CUSTOMER: LOL @115821, my dog wants you to explain the meaning of a 40” long box delivered for a 16” long product. Save some cardboard at least 🐶😂 https://t.co/lEbKK8uOSC
+AmazonHelp: @469738 We're always looking to improve! You can help us out by submiting your packaging feedback here: https://t.co/dQOCdRfsM6 ^AJ",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0147,2567010,2567010,"Hey @115825, ich möchte mir nicht zwischen jeder einzelnen Folge einer Serie die Vorschau für eine andere anschauen. Und erst recht nicht immer wieder für die Selbe! Es nervt.","CUSTOMER: Hey @115825, ich möchte mir nicht zwischen jeder einzelnen Folge einer Serie die Vorschau für eine andere anschauen. Und erst recht nicht immer wieder für die Selbe! Es nervt.
+AmazonHelp: @728175 Hi, danke für deine offenen Worte zu unseren Einspielern. Dein Feedback leite ich gerne an die zuständigen Kollegen weiter. Lieber Gruß ^SI",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0148,117915,117915,@6841 @115830 when you say an attempt was made to deliver an item &amp; we've  been home all day what do you call such a statement?,"CUSTOMER: @6841 @115830 when you say an attempt was made to deliver an item &amp; we've  been home all day what do you call such a statement?
+AmazonHelp: @142147 I'm sorry to hear this. Have you had a chance to contact the courier for this parcel directly regarding the issue? You can find their contact information here: https://t.co/tYkxOOlykX ^GR
+CUSTOMER: @AmazonHelp I am talking to your customer service team who initially kept repeating what was on their computer screen without adding value
+AmazonHelp: @142147 Can you advise on what the associate said? ^HS
+CUSTOMER: @AmazonHelp Kept repeating that delivery had been attempted and that Amazon would investigate I had to push to speak to a supervisor who is now helping
+AmazonHelp: @142147 I am glad you are getting help! Let us know if you need anything! ^DJ
+CUSTOMER: @AmazonHelp I will let you know. I had to escalate to get resolution which should have been offered by your first line.
+CUSTOMER: @AmazonHelp @115830 well, having been assured by your customer service team my parcel would be delivered this evening it's almost 22:00 and nothing!",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0149,468858,468858,"Al fin me animé a pedirlo por @116875 prime y me acaba de llegar!
+Estoy realmente emocionada 😍
+@21574 https://t.co/QDcwq4ahCR","CUSTOMER: Al fin me animé a pedirlo por @116875 prime y me acaba de llegar! Estoy realmente emocionada 😍 @21574 https://t.co/QDcwq4ahCR
+AmazonHelp: @226634 Hola, Rebeca, por favor, cuéntanos, ¿qué es lo que más te gusta del trabajo de  Aixa De López, y qué fue lo que más te motivó a comprar el libro? ^VM https://t.co/6JvTjr14ha",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0150,1721610,1721610,"Amazon charged me 16 dollars for some kindle shit bitch everything I accepted said ""30 days free"" wtf","CUSTOMER: Amazon charged me 16 dollars for some kindle shit bitch everything I accepted said ""30 days free"" wtf
+AmazonHelp: @520985 We're sorry for the unexpected charge! Learn more about Kindle Unlimited and the membership fee here: https://t.co/fNa4tKlFZO ^ZW",,,Sensitive payment dispute,weak_rule_generated,needs_manual_review,,,
+amz-0151,1429449,1429449,@115850 once again a blunder. Your flash sale #sucks. Have the product in cart but can’t proceed to payment.  @452010 https://t.co/FclCZqCzJn,"CUSTOMER: @115850 once again a blunder. Your flash sale #sucks. Have the product in cart but can’t proceed to payment.  @452010 https://t.co/FclCZqCzJn
+AmazonHelp: @452009 Stay tuned for the next sale. (2/2) ^KA
+CUSTOMER: @AmazonHelp I need a call back on my registered number for this issue. This is a repeated instance at @115850.
+AmazonHelp: @452009 Sorry for the disappointment. Due to the overwhelming response and limited stock, the phone was claimed quickly.(1/2) ^KA
+CUSTOMER: @AmazonHelp Don’t try to fool every customer with the same reply @115851 this is sheer cheating @115850
+CUSTOMER: @AmazonHelp @115851 @115850 This needs to go to consumer forum for fraud and misleading advertisement. @119351 @120781
+AmazonHelp: @452009 Please stay tuned for the next sale to purchase your product. I'll be sure to pass on your feedback internally.(2/2)^AU
+AmazonHelp: @452009 The limited stock of products would be claimed at a faster rate when it is a lightening deal. (1/2)^AU",,,Sensitive payment dispute,weak_rule_generated,needs_manual_review,,,
+amz-0152,1100964,1100964,@115850 Trying to order a mobile in the app. But the item is not deliverable to pincode 586203. Emailed your team and not satisfied.,"CUSTOMER: @115850 Trying to order a mobile in the app. But the item is not deliverable to pincode 586203. Emailed your team and not satisfied.
+AmazonHelp: @379755 Sorry for any disappointment, could you tell me what was the update shared with you ? ^HT
+CUSTOMER: @AmazonHelp Here you go https://t.co/jH1jOWeSx1
+AmazonHelp: @379755 address (family and friends). I'll be sure to forward your feedback to the concerned team internally. 3/3^AP
+CUSTOMER: @AmazonHelp I have ordered some products and have received in the past. Only problem is with electronics item. Anyway Thank you. Indeed I'm disappointed
+AmazonHelp: @379755 I get your disappointment. We'll be sure to work on your feedback. ^SG
+AmazonHelp: @379755 some products to certain pin-codes. I'd request you to try placing the order to a different 2/3^AP
+AmazonHelp: @379755 I understand your disappointment with the situation. While we're expanding our services, we aren't able to ship 1/3^AP",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0153,279516,279516,"Qu'une chose à dire ! BRAVO @120533 pour votre service client, vous êtes loins devant les autres ! @14147","CUSTOMER: Qu'une chose à dire ! BRAVO @120533 pour votre service client, vous êtes loins devant les autres ! @14147
+AmazonHelp: @182624 Bonjour Morgan, je suis ravi d'apprendre que notre SAV est à la hauteur de vos attentes 🙂 ^ARC",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0154,1107316,1107316,@115850 what's the use of purchasing prime if delivery is still not on time?,"CUSTOMER: @115850 what's the use of purchasing prime if delivery is still not on time?
+AmazonHelp: @381339 I'm sorry for the disappointment with Prime delivery, call us here: https://t.co/GIJyeYqKE0 &amp; we'll get this sorted. ^MJ
+CUSTOMER: @AmazonHelp Recd it just now. But there could have been way better communication about delivery.
+AmazonHelp: @381339 Good to know, thanks for updating. We'll make sure you have a better experience next time. ^HT",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0155,2918625,2918625,せっかく休みなのにアマゾンからの請求のメールで起こされて腹が立つよ。しかも何が1番腹立つってアマゾン使ったことどころか登録してないことだよ。架空請求だよ。電話番号調べたら詐欺でヒットしたよ。これどこに通報したらいいの？(寝起きは機嫌が悪いから攻撃的),"CUSTOMER: せっかく休みなのにアマゾンからの請求のメールで起こされて腹が立つよ。しかも何が1番腹立つってアマゾン使ったことどころか登録してないことだよ。架空請求だよ。電話番号調べたら詐欺でヒットしたよ。これどこに通報したらいいの？(寝起きは機嫌が悪いから攻撃的)
+AmazonHelp: @807834 Amazon公式です。ご承知のとおり、残念ながら悪質な詐欺が増加しているようですのでお気を付けください。 https://t.co/st4oU5QbhP を装った詐欺と思われる連絡を受け取った際はこちらをご覧ください。→ https://t.co/mL5OYhtAmQ SK",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0156,349906,349906,"@115850  in two installments however still waiting for refund of courier charges...
+
+Best Regards","CUSTOMER: @115850  in two installments however still waiting for refund of courier charges...  Best Regards
+AmazonHelp: @199254 I'd like to assist you with this, please share your details on the link here: https://t.co/GIJyeYqKE0. 2/2 ^PS
+CUSTOMER: @AmazonHelp Have shared details in brief, let me know if you want more details
+AmazonHelp: @199254 Sorry to know you're having trouble receiving the refund, we certainly did not expect this to happen. 1/2 ^PS",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0157,378966,378966,"I undrstnd u do remrktng whn smone dsn't buy ur product, but why do u remrkt thse ppl who hv alrdy bught the prodct, its frstrtng @115850","CUSTOMER: I undrstnd u do remrktng whn smone dsn't buy ur product, but why do u remrkt thse ppl who hv alrdy bught the prodct, its frstrtng @115850
+AmazonHelp: @205936 I'm sorry I wasn't able to comprehend your concern. Could you please tell us more about it? ^AP",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0158,2551374,2551374,"@116090 your customer service is top-notch. Your people are kind, friendly and efficient. Thank you!","CUSTOMER: @116090 your customer service is top-notch. Your people are kind, friendly and efficient. Thank you!
+AmazonHelp: @724809 Thank you so much! I'm glad we were able to help you out 😄 ^DD",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0159,318094,318094,Why @AmazonHelp have you resorted to lying to try and placate me about a non delivery of Prime items??,"CUSTOMER: Why @AmazonHelp have you resorted to lying to try and placate me about a non delivery of Prime items??
+AmazonHelp: @191901 Sorry to hear this. Without sharing personal/account info, can you please advise what happened ? ^TD
+CUSTOMER: @AmazonHelp Still waiting on my orders 026-1188582-3067513  205-5647747-5889146
+AmazonHelp: @191901 What's the update on the tracking?^CD
+CUSTOMER: @AmazonHelp LOL!!! Yesterday they said they  left a card..they didn’t, they lied telling me they attempted delivery, they didn’t, goods are Prime ???
+AmazonHelp: @191901 What time yesterday was that delivery scan made?  ^AT
+CUSTOMER: @AmazonHelp That’s another issue, text message said 7:50, on line said 9:15. Total mess. Supposedly trying again today.
+AmazonHelp: @191901 Please keep us posted.^CD",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0160,2789121,2789121,@AmazonHelp necesito ayuda con un pedido que no fue entregado y ahora no se si será reprogramado,"CUSTOMER: @AmazonHelp necesito ayuda con un pedido que no fue entregado y ahora no se si será reprogramado
+AmazonHelp: @778538 ¡Hola, Hem! ¿ El pedido es vendido y gestionado por Amazon o fue vendido por vendedor externo? ¿Cuál es la fecha de entrega estimada indicada en el correo de confirmacion del pedido? ^DS
+CUSTOMER: @AmazonHelp Es gestionado por Amazon Envíos y vendido por ustedes, la fecha estimada era ayer, pero nadie lo recibió. Quiero saber cuando se enviará de nuevo.
+AmazonHelp: @778538 Lamento saber de este inconveniente Hem. Por favor contacta nuestro Servicio al Cliente en este enlace: https://t.co/beR78zMMYB ^JJ",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0161,523444,523444,"#AmazonEcho  has a long way to go but a decent start. Few things has become a routine now : Playing music, Business/Tech news, Weather updates, Reminders, Booking Uber etc. #Amazon #AI #Technology #gadgets #Uber #saavn #ET https://t.co/oezNoUrXFo","CUSTOMER: #AmazonEcho  has a long way to go but a decent start. Few things has become a routine now : Playing music, Business/Tech news, Weather updates, Reminders, Booking Uber etc. #Amazon #AI #Technology #gadgets #Uber #saavn #ET https://t.co/oezNoUrXFo
+AmazonHelp: @240952 Well that's true! By the way if I could know, what's your favorite skill? ^AP
+CUSTOMER: @AmazonHelp It has to be flash briefing. Covers news from #TOI, Business updates from #ET and #Bloomberg , Tech news #gadgets360 , Cricket from #espncrickinfo - I get all the updates before I wrap up my breakfast :)
+AmazonHelp: @240952 We will consider this as feedback and ensure to pass it on internally for improvements. ^RW",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0162,530783,530783,@AmazonHelp ... still yet to receive it? https://t.co/KSK6ITP4cD,"CUSTOMER: @AmazonHelp ... still yet to receive it? https://t.co/KSK6ITP4cD
+AmazonHelp: @242935 Have you checked with your neighbours and around your property to see if there is any sign of it?^BZ
+CUSTOMER: @AmazonHelp They’re saying they don’t have it and if it was left with someone why wasn’t there something posted through my door to inform me?
+AmazonHelp: @242935 Sorry to hear that, Lily. Please get in touch here: https://t.co/JzP7hlRCV9 we'll take a look in to this for you.^TI",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0163,2503613,2503613,"@AmazonHelp I preordered this, but when I go to check the item it gives me an error. What does this mean? https://t.co/XJGux1yTHy","CUSTOMER: @AmazonHelp I preordered this, but when I go to check the item it gives me an error. What does this mean? https://t.co/XJGux1yTHy
+AmazonHelp: @714031 Oh no! I'm so sorry you are not able to view any delivery updates on your order! We'd like to look further into this for you. Reach out to us via chat or phone here, https://t.co/hApLpMlfHN so we can take a closer look. ^AV",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0164,2855125,2855125,The service from @122232 is again frankly ridiculous. Yet another @AmazonHelp delivery delayed because they 'couldn't find us'. Prime subscription worthless.,"CUSTOMER: The service from @122232 is again frankly ridiculous. Yet another @AmazonHelp delivery delayed because they 'couldn't find us'. Prime subscription worthless.
+AmazonHelp: @441887 I am so sorry for the delay in delivery! Can you provide us with the latest tracking information? You can find that here: https://t.co/aaDyEz1VgE ^LS
+CUSTOMER: @AmazonHelp Due to be delivered tomorrow, but @122232 keep using this as an excuse. We are in a rural area and probably inconvenient to deliver to. But little point in buying from Amazon if delivery unreliable.
+AmazonHelp: @441887 Thank you for that information! We still expect your package to be delivered tomorrow. If you do not receive it by 8PM tomorrow, please let us know! ^AR
+CUSTOMER: @AmazonHelp Thank you, but to be honest, @122232 are making us reconsider our Prime subscription because of their poor reliability and service.  This is 5th or 6th time that this has happened in last year. We're not hard to find! What can be done about this?
+AmazonHelp: @441887 No matter the courier please contact us here: https://t.co/J5cVftJLZO so that we may file the proper feedback and also at the same time review any and all options to help. ^TM",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0165,712475,712475,"Terrible experience with @117093 tonight. Half my stuff gone, half that was delivered, not cool, much less cold. It is really unusual.","CUSTOMER: Terrible experience with @117093 tonight. Half my stuff gone, half that was delivered, not cool, much less cold. It is really unusual.
+AmazonHelp: @290387 Thanks for letting us know, Jason! Have you had a chance to reach out to us regarding refund or replacement options? ^SA
+CUSTOMER: @AmazonHelp I’m disappointed. Fresh isn’t about the money so much as the convenience for me. So a refund is fine but I still have to go to store now.",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0166,1228695,1228695,It’s past 9pm and my amazon Prime deliver still says ‘out for delivery’ 😐 @AmazonHelp,"CUSTOMER: It’s past 9pm and my amazon Prime deliver still says ‘out for delivery’ 😐 @AmazonHelp
+AmazonHelp: @408251 Oh no! Let's try reaching out to the courier to see if we can get some additional information: https://t.co/DpUCugrcGJ ^FD",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0167,2766402,2766402,@AmazonHelp you can check my recent purchase history and please unblock my account,"CUSTOMER: @AmazonHelp you can check my recent purchase history and please unblock my account
+AmazonHelp: @686228 Apologies for your account being blocked. You might have received an email from our Account Specialist team. Kindly check the same and respond and we'll look into it. ^PB
+CUSTOMER: @AmazonHelp I HAVE RESPONDED PLEASE HELP ME OUT BY GETTING MY ACCOUNT UNBLOCKED
+AmazonHelp: @686228 If you've replied to the email correspondence, you will receive an update from our account specialist team. Request you to wait. Appreciate your patience. ^HS",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0168,2279429,2279429,"अमेज़न  ने गरीब परिवार का सपना तोड़ा ,
+डिलीवरी लड़का ( 9992928484) गरीबों को कूरियर देने के लिए मना कर देता है ,
+Order Id:  405-0382924-3340323
+@115850 @2517 @120320 @131283 @734 @135789 @115851    @1145 
+shame on #amazonindia","CUSTOMER: अमेज़न  ने गरीब परिवार का सपना तोड़ा , डिलीवरी लड़का ( 9992928484) गरीबों को कूरियर देने के लिए मना कर देता है , Order Id:  405-0382924-3340323 @115850 @2517 @120320 @131283 @734 @135789 @115851    @1145  shame on #amazonindia
+AmazonHelp: @662709 It was never our intention to hurt your sentiments, Amar. I'll be passing on your experience as a feedback internally to the concerned team so that it is not repeated for your future orders. ^NK
+CUSTOMER: @662709 @115850 @2517 @120320 @131283 @734 @135789 @115851 @1145 भाई खरीदना भी मत कुछ #Amazon चोर कंपनी है कस्टमर केअर को ही नही पता होती है प्रोडक्ट की जानकारी नियम व शर्ते बाद में भुगतना हमे पड़ता है मेरे 2000 रुपये खा गए साले चोर https://t.co/btxXlduuU4
+AmazonHelp: @116925 Apologies for the delay. A correspondence from our team has been sent to you here:  https://t.co/8DAc10S7ww kindly check and reply.  ^MN
+CUSTOMER: @AmazonHelp ये भेजा है और आज 17 तारीख ही है मेरे पास एक रुपया भी नही आया https://t.co/lFVTp324rF
+CUSTOMER: @662709 @115850 @2517 @120320 @131283 @734 @135789 @115851 @1145 ये भेजा है और आज 17 तारीख ही है अभी तक एक रुपया भी नही आया है https://t.co/hakAuOGXCI
+AmazonHelp: @116925 We've emailed to the registered email ID. Request you to check the correspondence and reply to it for further assistance.   Please don't provide your order details, we consider it to be personal information. Our page is visible to the public. ^PR
+CUSTOMER: @662709 @115850 @2517 @120320 @131283 @734 @135789 @115851 @1145 @115850 @AmazonHelp ये देखिये कैसे अपनी ही कही बातो से बदल रहे है चोर https://t.co/jCGJNxecmC",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0169,954299,954299,Shoutout to @AmazonHelp for the fast and awesome support. They made it right as always. Great job @115821,"CUSTOMER: Shoutout to @AmazonHelp for the fast and awesome support. They made it right as always. Great job @115821
+AmazonHelp: @341932 Thanks for sharing your experience! I'm glad we were able to help out! 😁❤️ ^JM
+CUSTOMER: @AmazonHelp @341932 Amazing, no wonder your stock is near all-time highs",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0170,2816337,2816337,"@AmazonHelp I had an order that was supposed to arrive yesterday 11/24, them was rescheduled for 11/27. But then got a notification it was left on my apartment porch. Problem is I'm 215 miles from home until tomorrow. What if it gets stolen?","CUSTOMER: @AmazonHelp I had an order that was supposed to arrive yesterday 11/24, them was rescheduled for 11/27. But then got a notification it was left on my apartment porch. Problem is I'm 215 miles from home until tomorrow. What if it gets stolen?
+AmazonHelp: @233664 I'm sorry about the discrepancy with the tracking and delivery information on your order! If anything is damaged, defective, or missing from your shipment when you return home, please reach us directly to go over available options: https://t.co/EKXRLsnxJu ^BV
+CUSTOMER: @AmazonHelp I'll find out when I get back to Kansas City
+AmazonHelp: @233664 That's fine. We're available 24/7, 7 days a week. ^MG
+CUSTOMER: @AmazonHelp Surprisingly they were still on my porch. Wish Amazon would have their own reliable delivery service. USPS is a horrible entity. Thank you for your prompt response
+AmazonHelp: @233664 Thank you for the update, Randy! We're always here to help in any way that we can.",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0171,897664,897664,"@115850
+Order id- 407-7924332-0818729
+I ordered an mixer n delivery date is 17 oct N still not delivered I'm not getting any help from you","CUSTOMER: @115850 Order id- 407-7924332-0818729 I ordered an mixer n delivery date is 17 oct N still not delivered I'm not getting any help from you
+AmazonHelp: @333179 Please don’t provide your order details, we consider them as personal info. Our Twitter page is visible to public. ^VM
+AmazonHelp: @333179 https://t.co/eoXEztMYEe so that we can get in touch with you. (2/2)^VM
+AmazonHelp: @333179 That's an unpleasant experience you've had with the delivery.  Let us help you out. Please drop your details here (1/2) ^VM",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0172,1449117,1449117,Now that's a box. Thx @456256 @115821 #leonblack https://t.co/XfUGPHqxfu,"CUSTOMER: Now that's a box. Thx @456256 @115821 #leonblack https://t.co/XfUGPHqxfu
+AmazonHelp: @456255 We're always looking for ways to improve. Please send us your packaging feedback here: https://t.co/TH7UAFZey5 ^CO",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0173,2118893,2118893,@1315 I know you stop your postal service on 31st October but been waiting over a week for next DVD 🤔,"CUSTOMER: @1315 I know you stop your postal service on 31st October but been waiting over a week for next DVD 🤔
+AmazonHelp: @624441 Sorry to hear Daryl. Have you been in touch? If not, please reach out -  https://t.co/JzP7hlA23B we'll be happy to help ^TP",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0174,1771751,1771751,@115830 you’re a joke. Amazon prime ordered Thursday now due delivery between 11-14 November. I needed the package yesterday,"CUSTOMER: @115830 you’re a joke. Amazon prime ordered Thursday now due delivery between 11-14 November. I needed the package yesterday
+AmazonHelp: @532551 Apologies for the delay Ben. Were you advised as to why your order was delayed? ^TP",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0175,2318282,2318282,Hey @115850 why can't I find #TheBigBangTheory in my  @119625 library. Didn't you add it? If not. Why?,"CUSTOMER: Hey @115850 why can't I find #TheBigBangTheory in my  @119625 library. Didn't you add it? If not. Why?
+AmazonHelp: @672049 TheBigBangTheory is currently not available on Prime Video. We will continue to add new content. Keep checking https://t.co/FYM9PIZOR8 where we highlight the latest movies and TV shows we have available. ^MP
+CUSTOMER: @AmazonHelp Thanks for the reply though",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0176,2719989,2719989,"Amazon: Black Friday week starts today! 
+
+My bank account: 🤷‍♀️👅","CUSTOMER: Amazon: Black Friday week starts today!   My bank account: 🤷‍♀️👅
+AmazonHelp: @763257 Have you got your eye on anything in particular? 😊 ^ES
+CUSTOMER: @AmazonHelp Sadly, everything 😂 but for now I just need a new notebook 13"" or 14"" because mine is dying
+AmazonHelp: @763257 We have a wide verity of notebooks available at the moment and I have added a link below with some you might be looking for: https://t.co/bbEJqaLcVl. ^GA
+CUSTOMER: @AmazonHelp Thanks🖖❤ Always the top!
+AmazonHelp: @763257 You're very welcome:) You have a lovely week ahead:) ^GA",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0177,2386097,2386097,@115830 just had a delivery arrive opened it up and missing bits😡 who do I need to contact?,"CUSTOMER: @115830 just had a delivery arrive opened it up and missing bits😡 who do I need to contact?
+AmazonHelp: @609845 Very sorry to hear this. You can use the link provided to report the issue with this order.  https://t.co/JzP7hlA23B ^CR",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0178,503537,503537,I can’t believe that @115830 would ask for all my card details as a way of ensuring it’s my account I’m speaking to them about. This is really dodgy. Is this even a genuine account? #fraud @118374 https://t.co/FS71Go74A2,"CUSTOMER: I can’t believe that @115830 would ask for all my card details as a way of ensuring it’s my account I’m speaking to them about. This is really dodgy. Is this even a genuine account? #fraud @118374 https://t.co/FS71Go74A2
+AmazonHelp: @227674 I'm sorry for the concern, Emily. We will never ask for your personal information! This is not a genuine account. Rest assured, we have this account reported. ^AB",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0179,1137370,1137370,@115850 @AmazonHelp i did not get my one plus 5 cash yet. Its been a long delay. I bought it from amazon and from SBI debit. Pls look into,"CUSTOMER: @115850 @AmazonHelp i did not get my one plus 5 cash yet. Its been a long delay. I bought it from amazon and from SBI debit. Pls look into
+AmazonHelp: @387911 I'm sorry about the delay with cash back. Could you please let us know when the order was placed?  ^SB
+CUSTOMER: @AmazonHelp It was on the very first day of its launch.
+AmazonHelp: @387911 Do you mean the order was placed on June 24, 2017? ^AP
+CUSTOMER: @AmazonHelp No. The date of launch was 22nd june. So i ordered on 22nd june. Please check of you have initiated the cashback into my account.
+AmazonHelp: @387911 Please get in touch our support team here: https://t.co/vlvfJr4nN9 for assistance with the cashback. ^HA
+CUSTOMER: @AmazonHelp Got the cashback. Thankyou.
+AmazonHelp: @387911 You are most welcome. Ciao! ^HA",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0180,1015567,1015567,"@AmazonHelp Hi I'm wondering about this article https://t.co/3Y25abIUEp … I pre-ordered this, were you really selling this or it's fake?","CUSTOMER: @AmazonHelp Hi I'm wondering about this article https://t.co/3Y25abIUEp … I pre-ordered this, were you really selling this or it's fake?
+AmazonHelp: @360288 2/2 Feel free to cancel the original order and place a new one using the updated page. We don't charge until it ships. ^BH
+CUSTOMER: @AmazonHelp So you'll not sell the signed edition? 😢
+AmazonHelp: @360288 You said you pre-ordered the book. Has your order been canceled: https://t.co/Y5jpI9gRhE? ^JF
+CUSTOMER: @AmazonHelp No I have not cancelled it, I saw that also in Amazon UK is the same article (The ISBN). My doubt is if I will receive the book signed?
+AmazonHelp: @360288 We'd like to take a look into this with you. Please contact us here when you have the chance: https://t.co/qy3J24VGxb ^GG
+AmazonHelp: @360288 1/2 I'm sorry for the concern. The product page has been updated here: https://t.co/XrUZukv3Zo",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0181,296775,296775,"In France, if you order something on a Saturday morning using Amazon Prime Now, could it be said that you’ll get #Samedi delivery?","CUSTOMER: In France, if you order something on a Saturday morning using Amazon Prime Now, could it be said that you’ll get #Samedi delivery?
+AmazonHelp: @186696 You'll find on this page all information about Prime NOW : https://t.co/g2ayZ9F75W ^BR
+AmazonHelp: @186696 Generally Yes , you should get your #Samedi_délivery 😉 . 1/2",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0182,1581309,1581309,@115821 's logistics delivery is horrible! I've had items never arrived but tracking showed they did &amp; today I got 2 diff addresses packages,"CUSTOMER: @115821 's logistics delivery is horrible! I've had items never arrived but tracking showed they did &amp; today I got 2 diff addresses packages
+AmazonHelp: @162761 We'd like to look into this. Please send us your information and any additional details here: https://t.co/TLWebwJJEh ^LI",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0183,124790,124790,"Uhull! Comprei um Kindle!! Lá se vão vários dinheiros, mas pelo menos vou poder ler sem matar meus olhos kk
+@115821 https://t.co/uZGfTCG06e","CUSTOMER: Uhull! Comprei um Kindle!! Lá se vão vários dinheiros, mas pelo menos vou poder ler sem matar meus olhos kk @115821 https://t.co/uZGfTCG06e
+AmazonHelp: @143954 Olá, João! Fico contente em saber que você conseguiu aproveitar as nossa promoções. Me diga, quando você receberá seu Kindle? :D ^CR
+CUSTOMER: @AmazonHelp Até 1° de dezembro, se tudo der certo. :3
+AmazonHelp: @143954 Manda uma foto para a gente quando seu pedido chegar na sua casa João! Ficamos no aguardo amigo! 😍📚👏 ^JJ",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0184,2871546,2871546,@115821 what do I do when a gift comes in with a hole in it? https://t.co/cKJ4ktzR9z,"CUSTOMER: @115821 what do I do when a gift comes in with a hole in it? https://t.co/cKJ4ktzR9z
+AmazonHelp: @797318 I'm sorry your package arrived damaged, please contact us directly here:  https://t.co/hApLpMlfHN So we can help get this matter resolved for you. ^BT",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0185,1047185,1047185,@AmazonHelp  my order no 4__credit_card__ not received yesterday i am available today pls deliver again,"CUSTOMER: @AmazonHelp  my order no 4__credit_card__ not received yesterday i am available today pls deliver again
+AmazonHelp: @367519 it to be personal information. Our Twitter page is visible to the public. 3/3 ^AP
+CUSTOMER: @AmazonHelp Share me mail address
+AmazonHelp: @367519 You may connect with us via email using the link shared earlier. ^SB
+AmazonHelp: @367519 look into it and get back to you soon. Please don't provide your order details, as we consider 2/3 ^AP
+AmazonHelp: @367519 I'm sorry you've not received your order. Kindly report this to our support team here: https://t.co/2t6DQoUmNZ, we'll 1/3 ^AP",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0186,989770,989770,"@AmazonHelp hello, I am trying to cancel an order but the page is refusing to load. I’ve tried several browsers but still no luck","CUSTOMER: @AmazonHelp hello, I am trying to cancel an order but the page is refusing to load. I’ve tried several browsers but still no luck
+AmazonHelp: @354466 Hmm, that is rather odd! Have you tried canceling the order via the Amazon app? ^KI
+CUSTOMER: @AmazonHelp I have indeed; the page just stays white. I’ve emailed customer services asking them to cancel it for me
+AmazonHelp: @354466 Hi Rob, the order may be too far into the shipping stage to cancel at this point but we don't have access to your orders over Twitter to check this. I'd ask that you call us and we will be happy to look into this for you.  https://t.co/JzP7hlA23B ^KK
+CUSTOMER: @AmazonHelp I literally placed the order about half hour ago; it’s not even marked as dispatched yet
+AmazonHelp: @354466 Have you contacted us directly using the link provided by my colleague ^KK? If so what were you advised? ^BZ
+CUSTOMER: @AmazonHelp I have used the link; it advised me to send an email via the site which is what I did. I then had a response to say they aim to have it sorted in 6-12 hours
+AmazonHelp: @354466 Rob, after selecting your reason for contacting us, there should have been an option to call as well. That's odd that it wasn't an option for you. If you're able to call us, you can reach us at 866-216-1072. I hope this helps! ^SM",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0187,47871,47871,Any account specialist @115821.ca willing to help??? #callingforhelp #amazoncanada #9yroldgift #davidsmithfromamazon???,"CUSTOMER: Any account specialist @115821.ca willing to help??? #callingforhelp #amazoncanada #9yroldgift #davidsmithfromamazon???
+AmazonHelp: @126706 Thank you for reaching out to us here on social media! Without giving account info, will you let us know what's going on? ^TG
+CUSTOMER: @AmazonHelp at least u r trying to help",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0188,321134,321134,@7198 merci @120533 #SNESClassicMini reçu :) hâte de brancher et de tester ça !!! https://t.co/JjYrjZMBRl,"CUSTOMER: @7198 merci @120533 #SNESClassicMini reçu :) hâte de brancher et de tester ça !!! https://t.co/JjYrjZMBRl
+AmazonHelp: @192510 Bonjour, Par quel jeu allez vous commencer ? 🎮 ^ME
+CUSTOMER: @AmazonHelp Je ne sais pas encore peut être mario pour me rappeller de bons vieux souvenir et je vais tenter de streamer tout ça, des conseils ?
+AmazonHelp: @192510 Super Mario, un classique, y a Street Fighter Turbo 2 et Star fox aussi, vous avez l'embarras du choix ^ME",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0189,280979,280979,Amazonのシステムエラーの所為で予約してたミニスーファミ入手できんくなったんやが？？？？？,"CUSTOMER: Amazonのシステムエラーの所為で予約してたミニスーファミ入手できんくなったんやが？？？？？
+AmazonHelp: @182952 このたびは、ご迷惑をおかけし申し訳ございません。 本件についてご注文いただいたお客様に後日https://t.co/st4oU5QbhPよりご連絡を行わせていただきますため、そのご連絡をお待ちいただきますようお願いいたします。　SM",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0190,1041828,1041828,"I hope, when Jeff Bezos is in charge of everything, that adding new devices (to replace lost ones) is less frustrating than now… This @117634 is refusing to take my password, after about 25 attempts! https://t.co/JResYVlRAI","CUSTOMER: I hope, when Jeff Bezos is in charge of everything, that adding new devices (to replace lost ones) is less frustrating than now… This @117634 is refusing to take my password, after about 25 attempts! https://t.co/JResYVlRAI
+AmazonHelp: @366381 Uh oh! We'd love to help if we can! Have you restarted the device and checked to see if you get an error when you try to log into the website as well? Keep us posted! ^AJ
+CUSTOMER: @AmazonHelp Wait! That’s freaky… It worked literally when you tweeted… Must just have needed the same password 30 times! All sorted now, I think!
+AmazonHelp: @366381 Glad to hear it's working! Please let us know if we may be of further assistance, we're here to help where we can! ^KL
+AmazonHelp: @366381 That's certainly strange! We'd like to help in any way we can. To confirm, are you having issues accessing your Amazon account from other devices? Please let us know! ^FD",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0191,313678,313678,Wine and @115821 are a dangerous combination,"CUSTOMER: Wine and @115821 are a dangerous combination
+AmazonHelp: @190901 😊",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0192,164942,164942,@115830 I hope you pay your drivers well! This guy must’ve had a hell of a day and still made it to me before the 8pm deadline. Thanks for making my weekend better ☺️ https://t.co/MaFbCRv2VK,"CUSTOMER: @115830 I hope you pay your drivers well! This guy must’ve had a hell of a day and still made it to me before the 8pm deadline. Thanks for making my weekend better ☺️ https://t.co/MaFbCRv2VK
+AmazonHelp: @154231 I'm so happy to hear you received your delivery on time, Charmaine! We're always here for you! ❤️ ^SD",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0193,1546352,1546352,"@115850 Refund not processed,refund request placed before 3 months.i need to talk wiith amazon executive but my mobile number blocked.","CUSTOMER: @115850 Refund not processed,refund request placed before 3 months.i need to talk wiith amazon executive but my mobile number blocked.
+AmazonHelp: @478851 Sorry to know you haven't received your refund yet, you can chat or email us here: https://t.co/TdDksLo6Mf. ^PS
+CUSTOMER: @AmazonHelp No one can respond me
+AmazonHelp: @478851 Sorry about that! I'd like to help. Could you share your details through this link : https://t.co/cllwXc2HeK?
+CUSTOMER: @AmazonHelp U call us me on 7405512338
+AmazonHelp: @478851 Twitter being a social media platform, we wouldn't be able to access your account. Please drop the details in the link shared earlier so that we can contact you at the earliest. ^BV
+CUSTOMER: @AmazonHelp U contact on 7405512338 otherwise I do something against you
+AmazonHelp: @478851 Please don't provide your phone details, as we consider it to be personal information. Our Twitter page is visible to the public. 2/2 ^PS",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0194,320829,320829,Beyond disappointing @117093 Over three weeks and these bags are still on our door step. My… https://t.co/ruIQ0vtll7,"CUSTOMER: Beyond disappointing @117093 Over three weeks and these bags are still on our door step. My… https://t.co/ruIQ0vtll7
+AmazonHelp: @192437 Sorry to hear about this. Have you tried contacting us about this? If not, you can do so here: https://t.co/hApLpMlfHN ^PK
+CUSTOMER: @AmazonHelp We contacted 4 times and no resolve - hence the social media post!
+CUSTOMER: @AmazonHelp We contacted Amazon three times!
+CUSTOMER: @AmazonHelp I think I lost count
+AmazonHelp: @192437 Sorry to have let you down! Please, use this link to request a tote pick-up: https://t.co/K4Yzs1gOuA ^JE",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0195,2698961,2698961,@AmazonHelp I've provided you my contact no-8076228626. What else do you want? First of all call me. Stop making lame excuses.,"CUSTOMER: @AmazonHelp I've provided you my contact no-8076228626. What else do you want? First of all call me. Stop making lame excuses.
+AmazonHelp: @521251 Considering your Amazon account security we'll not be able to access your details on Twitter. Kindly share your details via the above link and we'll check this for you. Also, please don’t provide your details as we consider them to be personal info. ^SG",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0196,1095906,1095906,"@115850 please contact me referring
+Pickup Tracking ID: 
+69451351885
+Need some help","CUSTOMER: @115850 please contact me referring Pickup Tracking ID:  69451351885 Need some help
+AmazonHelp: @378614 Please don't provide your order details, we consider it to be personal information. Our page is visible to the public. (2/2)^MN
+CUSTOMER: @AmazonHelp Ok..what is meant by ""printing lable"" in case of returns...??
+AmazonHelp: @378614 You have to take a print out of the label if you are shipping the product to seller. It will have the destination address. ^MJ
+CUSTOMER: @AmazonHelp But i cannot find the lable...i have the address of the seller on the invoice that came with the product
+AmazonHelp: @378614 Please use the link earlier provided by my colleague 'MN' for further assistance with this. We'll get back to you soon.^RS
+AmazonHelp: @378614 Will certainly help you, please contact us here: https://t.co/rS49hgaADF so that we can assist you accordingly. (1/2)^MN",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0197,1290423,1290423,@115821 I'm a big fan but not of your recent customer service! Account was hacked last night. Wife has called 3 times and gotten run around!,"CUSTOMER: @115821 I'm a big fan but not of your recent customer service! Account was hacked last night. Wife has called 3 times and gotten run around!
+AmazonHelp: @421773 I'm sorry to hear about this! Have you received any e-mail correspondence from one of our Account Specialists? ^JS",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0198,2549009,2549009,"@AmazonHelp I pre ordered the Xbox one x Scorpio edition, will I get it on launch day November 7th ?","CUSTOMER: @AmazonHelp I pre ordered the Xbox one x Scorpio edition, will I get it on launch day November 7th ?
+AmazonHelp: @724276 The item will arrive on the delivery date listed in your order confirmation. If pending, we'll send you an e-mail update. ^RA",,,Security or insufficient-information risk,weak_rule_generated,needs_manual_review,,,
+amz-0199,969322,969322,"@115850 customer service is shit. They cuts the call snd also don't register complaints, i got an earphone instead of a pendrive delivered","CUSTOMER: @115850 customer service is shit. They cuts the call snd also don't register complaints, i got an earphone instead of a pendrive delivered
+AmazonHelp: @308531 here: https://t.co/hEaKcuFFx4 and we'll have this checked. 2/2 ^GK
+AmazonHelp: @308531 I'm sorry for the experience you had with our support team. Kindly share your details in the link mentioned 1/2 ^GK",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
+amz-0200,2816303,2816303,@AmazonHelp Got my order in and the packaging is the worst ever. I can't wrap this as a Christmas gift? Please help! @115821 https://t.co/VF1HbyQfzk,"CUSTOMER: @AmazonHelp Got my order in and the packaging is the worst ever. I can't wrap this as a Christmas gift? Please help! @115821 https://t.co/VF1HbyQfzk
+AmazonHelp: @364413 I'm sorry for the damaged item. We're unable to access your account via Twitter. However, at your convenience, give us a shout here: https://t.co/Q7Ftz6nj80 We'd be happy to look into options with you in real-time. ^SK",,,Concrete intent with sufficient information,weak_rule_generated,needs_manual_review,,,
