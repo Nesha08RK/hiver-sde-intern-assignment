@@ -3,7 +3,7 @@ import csv
 import pytest
 
 from src.agent import SupportAgent
-from src.classifier import RuleClassifier
+from src.classifier import HybridClassifier, RuleClassifier, TfidfLogisticClassifier
 from src.retriever import TfidfRetriever
 
 
@@ -67,7 +67,8 @@ def test_project_agent_uses_fitted_tfidf_classifier(tmp_path):
 
     agent = SupportAgent.from_project_files(retrieval_path, training_path)
 
-    assert agent.classifier.name == "tfidf_logistic_regression"
+    assert agent.classifier.name == "hybrid_tfidf_with_delivery_override"
+    assert agent.classifier.model.name == "tfidf_logistic_regression"
     assert agent.predict("where is my package")['intent'] == "Delivery and order fulfillment"
 
 
@@ -119,3 +120,35 @@ def test_human_training_requires_complete_labels_and_uses_context(tmp_path):
     assert SupportAgent.human_training_ready(human_path)
     agent = SupportAgent.from_project_files(retrieval_path, weak_training_path, human_path)
     assert agent.classification_text("message", "prior context") == "message\n\nCONVERSATION CONTEXT:\nprior context"
+
+
+def make_hybrid_agent():
+    model = TfidfLogisticClassifier().fit(
+        ["refund my order", "my account was hacked", "fire tv app crashes"],
+        [
+            "Returns, refunds, and charges",
+            "Account access and security",
+            "Digital products, devices, and apps",
+        ],
+    )
+    return SupportAgent(make_agent().retriever, HybridClassifier(model))
+
+
+@pytest.mark.parametrize("text", [
+    "Where is my order?",
+    "My package hasn't arrived",
+    "Can I get a tracking update?",
+])
+def test_hybrid_classifier_overrides_obvious_delivery_queries(text):
+    result = make_hybrid_agent().predict(text)
+
+    assert result["intent"] == "Delivery and order fulfillment"
+
+
+def test_hybrid_classifier_keeps_ambiguous_non_delivery_query_on_tfidf():
+    agent = make_hybrid_agent()
+    model_prediction = agent.classifier.model.predict_one("refund my order")
+
+    result = agent.predict("I need a refund")
+
+    assert result["intent"] == model_prediction.intent

@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+import re
 
 from .taxonomy import classify_weak
 
@@ -65,3 +66,38 @@ class TfidfLogisticClassifier:
             for row in probabilities
             for index in [row.argmax()]
         ]
+
+
+class HybridClassifier:
+    """Use TF-IDF by default, with a narrow override for obvious delivery queries."""
+
+    name = "hybrid_tfidf_with_delivery_override"
+
+    def __init__(self, model: TfidfLogisticClassifier, rules: RuleClassifier | None = None) -> None:
+        self.model = model
+        self.rules = rules or RuleClassifier()
+
+    @staticmethod
+    def _message_only(text: str) -> str:
+        return text.split("\n\nCONVERSATION CONTEXT:", 1)[0]
+
+    @classmethod
+    def _is_obvious_delivery(cls, text: str, prediction: Prediction) -> bool:
+        if prediction.intent != "Delivery and order fulfillment" or prediction.confidence < 0.60:
+            return False
+        message = cls._message_only(text).lower()
+        return bool(re.search(
+            r"\b(where\s+is|tracking?\s+update|track\s+my|hasn't\s+arrived|has\s+not\s+arrived|"
+            r"not\s+arrived|package|parcel|order\s+status)\b",
+            message,
+        ))
+
+    def predict_one(self, text: str) -> Prediction:
+        model_prediction = self.model.predict_one(text)
+        rule_prediction = self.rules.predict_one(self._message_only(text))
+        if self._is_obvious_delivery(text, rule_prediction):
+            return rule_prediction
+        return model_prediction
+
+    def predict(self, texts: list[str]) -> list[Prediction]:
+        return [self.predict_one(text) for text in texts]

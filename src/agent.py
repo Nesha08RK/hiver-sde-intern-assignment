@@ -5,7 +5,7 @@ from __future__ import annotations
 import csv
 from pathlib import Path
 
-from .classifier import Prediction, RuleClassifier, TfidfLogisticClassifier
+from .classifier import HybridClassifier, Prediction, RuleClassifier, TfidfLogisticClassifier
 from .escalation import decide
 from .generator import generate_reply
 from .retriever import Evidence, TfidfRetriever
@@ -33,11 +33,11 @@ class SupportAgent:
                 raise ValueError("Human training requires reviewer_intent for every candidate")
             training_rows = human_rows
             labels = [row["reviewer_intent"] for row in human_rows]
-        classifier = TfidfLogisticClassifier().fit(
+        model = TfidfLogisticClassifier().fit(
             [cls.classification_text(row["customer_message"], row.get("context", "")) for row in training_rows],
             labels,
         )
-        return cls(TfidfRetriever.from_csv(retrieval_path), classifier)
+        return cls(TfidfRetriever.from_csv(retrieval_path), HybridClassifier(model))
 
     @staticmethod
     def classification_text(text: str, context: str = "") -> str:
